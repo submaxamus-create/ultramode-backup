@@ -1,0 +1,24 @@
+===============================================================================
+ULTRAMODE MASTER LOG FILE
+===============================================================================
+TITLE:         Master Log Index
+PATH:          /userdata/system/ultramode/um_master_logs/index/master_log_index.txt
+STATUS:        ACTIVE STARTER FILE
+RULE:          APPEND-ONLY. NEVER DELETE HISTORY. ONLY APPEND.
+CREATED_BY:    um_master_logs_bootstrap_v1.py
+CREATED_AT:    2026-03-22 12:24:06 PM
+===============================================================================
+PURPOSE:
+  - Directory map for master log authorities.
+  - Quick index for where major project knowledge lives.
+===============================================================================
+
+[INDEX]
+- rules/global_ai_rules.txt -> canonical global AI rules
+- help/master_logs_help.txt -> architecture usage help
+- notation/master_notation.txt -> project-wide thinktank
+- runtime/runtime_readme.txt -> runtime log guidance
+- reports/reports_readme.txt -> report storage guidance
+- archive/archive_readme.txt -> archive guidance
+- modules/modules_index.txt -> future module summary map
+
