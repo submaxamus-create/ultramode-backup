@@ -1,0 +1,1093 @@
+#!/usr/bin/env python3
+# =============================================================================
+# PROJECT NOTATIONS — DO NOT DELETE OR MODIFY EXISTING LINES — ONLY APPEND
+# =============================================================================
+# FILENAME:      um.py
+# FOLDER PATH:   /userdata/system/ultramode/
+# DESTINATION:   /userdata/system/ultramode/um.py
+# Version:       v9.2
+# Revision:      r1
+#
+# PURPOSE:
+#   - Ultramode main root menu launcher.
+#   - Keeps um.py as the canonical root while reducing duplicated GUI logic.
+#   - Reinvents xclip handling so it is no longer a main-menu item.
+#   - Shows xclip state in a bottom status/action pane with red/green logic.
+#   - Adds top-bar date/time, smaller title, cleaner spacing, and side toggles.
+#   - Logs AI handover / learning snapshots to ultramode.log.
+#   - Adds compatibility input fallback so D-pad / buttons work even if the
+#     active gamepad shim only exposes mouse-like stick behavior.
+#
+# IDENTITY RULES (PERMANENT)
+#   - Every Ultramode file MUST begin with: FILENAME, FOLDER PATH, DESTINATION.
+#   - Every Ultramode file MUST contain the exact line: Hi Mom.
+#   - Every Ultramode file MUST contain a permanent notation block.
+#   - No AI or human may delete, shorten, rewrite, or reorder any existing line.
+#   - All additions MUST be appended at the bottom of this block or file.
+#
+# SECURITY / AI BEHAVIOR RULES (PERMANENT)
+#   - No AI or human may delete or modify existing notation lines.
+#   - All changes MUST be append-only.
+#   - All AIs must preserve indentation, spacing, markers, and formatting.
+#   - All AIs must preserve protected markers:
+#         ### ULTRAMODE PROTECTED START
+#         ### ULTRAMODE PROTECTED END
+#   - All AIs must preserve permanent markers:
+#         Hi Mom.
+#         ###EOL###
+#   - All AIs must log every change with timestamp + version + author.
+#   - All AIs must obey master_rules.log, master_help.log, master_notation.log.
+#   - All AIs MUST append ideas/suggestions into AI_IDEAS.log or notation.
+#
+# APPEND-ONLY CHANGE DEFINITION RULES (PERMANENT)
+#   - All AIs and humans MUST append every change, edit, fix, improvement, or
+#     update.
+#   - No existing change entry may ever be modified, rewritten, or deleted.
+#   - Every appended change MUST follow this exact format:
+#         YYYY-MM-DD HH:MM | AUTHOR | VERSION | REVISION | short description
+#   - Description MUST be brief (1 line), clear, and specific.
+#   - Version MUST increment for any behavioral or structural change.
+#   - Revision MUST increment for each emitted working revision.
+#   - Timestamp MUST reflect real date and time of the change.
+#   - All appended changes MUST appear in the CHANGE LOG section of the file.
+#   - AIs MUST NOT combine or collapse multiple changes into one entry.
+#   - AIs MUST append even minor or non-code changes.
+#
+# MODULE RULES (PERMANENT)
+#   - All Ultramode scripts MUST import um_gamepad for controller input.
+#   - No script may implement its own raw joystick mapping unless used only as a
+#     last-resort compatibility fallback when the shared shim fails to provide
+#     navigation events.
+#   - All navigation SHOULD use UMGamepad.up()/down()/left()/right().
+#   - All confirm/cancel actions SHOULD use UMGamepad.accept()/back().
+#   - Mouse-like movement SHOULD use UMGamepad.mouse_delta().
+#   - Mouse-like clicks SHOULD use UMGamepad.mouse_left()/mouse_right().
+#
+# VERSIONING RULES (PERMANENT)
+#   - Version starts at v6.0 for Ultramode Python modules.
+#   - Every behavioral change increments version.
+#   - Every change MUST be logged in the CHANGE LOG section:
+#         YYYY-MM-DD HH:MM | AUTHOR | VERSION | REVISION | NOTE
+#
+# AI COMMUNICATION RULE (PERMANENT)
+#   - When talking to the user, AI should stay concise and avoid dumping long
+#     explanations unless explicitly asked.
+#   - AI should send one script at a time unless the user asks otherwise.
+#   - Ideas, goals, and future plans should be preserved in notation/logs.
+#
+# GLOBAL TOP BAR RULE (PERMANENT)
+#   - All modules should display current date/time in a top bar.
+#   - Target placement: top-right unless constrained by layout.
+#
+# SHARED GUI CORE RULE / GOAL (APPEND-ONLY)
+#   - All modules may benefit from a shared GUI module just as um_gamepad
+#     centralizes input.
+#   - Proposed canonical helper: um_gui.py or um_ui.py in modules/mandatory/.
+#   - Shared GUI core should eventually handle window creation, theme colors,
+#     font scaling, menu rendering, help bar, top-bar date/time, and layout
+#     safety.
+#
+# MAIN MENU REINVENTION RULE (APPEND-ONLY)
+#   - XCLIP is no longer a top-level menu item in this version.
+#   - XCLIP now lives in a bottom status/action pane.
+#   - Pane shows green/red installed state and exposes conditional actions.
+#   - Focus can move between root menu and pane without overlapping text.
+#
+# AUTO-MODULE TREE / DISCOVERY IDEA (APPEND-ONLY)
+#   - Future modules should be discoverable from notation metadata.
+#   - A future scanner should detect modules, help, ideas, and logs and append
+#     them into menus safely.
+#   - New modules should eventually define menu title, category, help, and log
+#     file in a notation header that um.py can read.
+#
+# LOGGER TOOLS RULE (APPEND-ONLY)
+#   - Root menu should expose safe helpers for reading and summarizing logs.
+#   - Logger tools must not ruin the root layout.
+#   - Root logger tools should be callable from Tools and future module UIs.
+#
+# =============================================================================
+# CHANGE LOG (APPEND-ONLY)
+# YYYY-MM-DD HH:MM | AUTHOR | VERSION | REVISION | NOTE
+# 2026-03-10 00:38 | Paul      | v7.2 | r1 | Original ultramode.py layout and visuals.
+# 2026-03-10 03:20 | Paul      | v7.3 | r1 | Replace inline joystick with um_gamepad; preserve menu look; fix flicker by redrawing only on state change.
+# 2026-03-10 03:55 | Paul      | v7.4 | r1 | Very dark blue background; attempt to auto-enable xclip when missing; update versioning and logs.
+# 2026-03-10 04:25 | Paul      | v7.5 | r1 | Add explicit XCLIP menu item, bottom xclip checker with green/red status, installer action explains buffer/patcher mechanism; preserve visuals.
+# 2026-03-10 05:10 | Paul      | v7.6 | r1 | Integrate xclip_installer module; stronger offline package install flow; UI feedback for Fix xclip and Installer.
+# 2026-03-10 00:00 | Paul      | v8.0 | r1 | Fix module paths and xclip_offline path; update caption/logger; ensure um_gamepad loads correctly.
+# 2026-03-10 06:00 | Assistant | v8.1 | r1 | Polished UI: fixed text overlap, compressed menu spacing, added fancy scanner status box with red/green indicators.
+# 2026-03-13 05:10 | Assistant | v8.2 | r1 | Logged consolidated learning snapshot to ultramode.log, added shared GUI-core notation, and added top-bar date/time support.
+# 2026-03-13 06:05 | Assistant | v8.9 | r1 | Rebuilt main menu around bottom xclip pane, side toggles, top bar clock/date, safer layout, and startup learning log entries.
+# 2026-03-13 11:20 | ChatGPT   | v9.0 | r5 | Preserved v8.9 layout, added stable gamepad compatibility fallback, and added root logger tools helpers.
+# 2026-03-15 21:00 | ChatGPT   | v9.1 | r1 | Added um_notation sidecar module for notation/log helpers and routed root tooling through it.
+# =============================================================================
+# 2026-03-15 21:25 | ChatGPT   | v9.2 | r1 | Restyled um.py toward umpatcher visual language with boxed title/path bars, stronger panels, grid toggles, and footer bubbles while preserving root behavior.
+# =============================================================================
+#
+# Hi Mom.
+#
+# =============================================================================
+# MODULE STRUCTURE NOTATION (APPEND-ONLY)
+# =============================================================================
+#   - SECTION: IMPORTS
+#       Purpose: import pygame, um_gamepad, xclip helpers, and standard libs.
+#
+#   - SECTION: CONFIG
+#       Purpose: file-level constants, colors, menu definitions, and fonts.
+#
+#   - SECTION: LOGGING
+#       Purpose: write runtime state and AI handover snapshots to ultramode.log.
+#
+#   - SECTION: LOGGER TOOLS
+#       Purpose: summarize and read root logs from root menu actions.
+#
+#   - SECTION: XCLIP PANE
+#       Purpose: show xclip state in a lower pane with conditional actions.
+#
+#   - SECTION: DRAWING
+#       Purpose: TV-visible root menu with no overlap and fixed safe layout.
+#
+#   - SECTION: INPUT
+#       Purpose: poll UMGamepad for navigation while keeping keyboard fallback.
+#       Compatibility fallback may also consume D-pad / hat / button events if
+#       the active shared shim only exposes stick-as-mouse behavior.
+#
+#   - SECTION: ACTIONS
+#       Purpose: launch patcher/tools/installer/reboot/exit and xclip actions.
+#
+#   - SECTION: FUTURE GUI CORE
+#       Purpose: mark rendering helpers that should eventually migrate into a
+#         shared um_gui.py module.
+#
+# =============================================================================
+# ### ULTRAMODE PROTECTED START
+# (Main Ultramode launcher implementation; protected block.)
+# =============================================================================
+
+import logging
+import os
+import shutil
+import subprocess
+import sys
+import threading
+import time
+from datetime import datetime
+from pathlib import Path as _Path
+
+import pygame
+
+try:
+    from um_gamepad import UMGamepad
+except ImportError:
+    from um_gamepad_shim import UMGamepad
+
+
+# -----------------------------------------------------------------------------
+# PATH SETUP / IMPORT SHIMS
+# -----------------------------------------------------------------------------
+MODULES_PATH = "/userdata/system/ultramode/modules"
+if MODULES_PATH not in sys.path:
+    sys.path.append(MODULES_PATH)
+MANDATORY_MODULES_PATH = "/userdata/system/ultramode/modules/mandatory"
+if MANDATORY_MODULES_PATH not in sys.path:
+    sys.path.append(MANDATORY_MODULES_PATH)
+
+try:
+    from um_gamepad_shim import UMGamepad  # preferred Ultramode shim
+except Exception:
+    class UMGamepad:
+        def __init__(self):
+            self._pressed = set()
+
+        def update(self, events=None):
+            self._pressed.clear()
+            if not events:
+                return
+            for event in events:
+                if event.type == pygame.KEYDOWN:
+                    self._pressed.add(event.key)
+
+        def up(self):
+            return pygame.K_UP in self._pressed or pygame.K_w in self._pressed
+
+        def down(self):
+            return pygame.K_DOWN in self._pressed or pygame.K_s in self._pressed
+
+        def left(self):
+            return pygame.K_LEFT in self._pressed or pygame.K_a in self._pressed
+
+        def right(self):
+            return pygame.K_RIGHT in self._pressed or pygame.K_d in self._pressed
+
+        def accept(self):
+            return pygame.K_RETURN in self._pressed or pygame.K_KP_ENTER in self._pressed
+
+        def back(self):
+            return pygame.K_ESCAPE in self._pressed or pygame.K_BACKSPACE in self._pressed
+
+        def mouse_delta(self):
+            return (0, 0)
+
+        def mouse_left(self):
+            return False
+
+        def mouse_right(self):
+            return False
+
+XCLIP_PATH = "/userdata/system/ultramode/modules/xclip_offline"
+if XCLIP_PATH not in sys.path:
+    sys.path.append(XCLIP_PATH)
+
+try:
+    import install_xclip as x_fix
+except Exception:
+    x_fix = None
+
+try:
+    from xclip_installer import install_xclip, is_installed as xclip_is_installed, uninstall_xclip
+    XCLIP_MODULE_AVAILABLE = True
+except Exception:
+    XCLIP_MODULE_AVAILABLE = False
+
+    def xclip_is_installed():
+        return shutil.which("xclip") is not None
+
+    def install_xclip(pkg_path=None):
+        if x_fix and hasattr(x_fix, "install_xclip"):
+            try:
+                return x_fix.install_xclip(pkg_path)
+            except Exception as exc:
+                return False, str(exc)
+        return False, "xclip installer module missing"
+
+    def uninstall_xclip():
+        if x_fix and hasattr(x_fix, "uninstall_xclip"):
+            try:
+                return x_fix.uninstall_xclip()
+            except Exception as exc:
+                return False, str(exc)
+        return False, "xclip uninstall module missing"
+
+try:
+    from um_notation import (
+        read_log_tail as notation_read_log_tail,
+        summarize_log as notation_summarize_log,
+        append_runtime_note,
+        get_sidecar_status,
+    )
+    NOTATION_SIDECAR_AVAILABLE = True
+except Exception as exc:
+    NOTATION_SIDECAR_AVAILABLE = False
+    _notation_import_error = str(exc)
+
+    def notation_read_log_tail(path, lines=10):
+        try:
+            with open(path, "r", errors="ignore") as fh:
+                data = fh.readlines()
+            return [line.rstrip("\n") for line in data[-lines:]]
+        except Exception as inner_exc:
+            return [f"log read failed: {inner_exc}"]
+
+    def notation_summarize_log(path):
+        if not os.path.exists(path):
+            return "log missing"
+        lines = 0
+        warnings = 0
+        errors = 0
+        try:
+            with open(path, "r", errors="ignore") as fh:
+                for line in fh:
+                    lines += 1
+                    if "WARNING" in line:
+                        warnings += 1
+                    if "ERROR" in line:
+                        errors += 1
+            return f"log lines={lines} warnings={warnings} errors={errors}"
+        except Exception as inner_exc:
+            return f"log summary failed: {inner_exc}"
+
+    def append_runtime_note(message, category="RUNTIME"):
+        return False
+
+    def get_sidecar_status():
+        return f"sidecar import failed: {_notation_import_error}"
+
+# -----------------------------------------------------------------------------
+# LOGGING
+# -----------------------------------------------------------------------------
+LOG_DIR = _Path("/userdata/system/ultramode/logs")
+LOG_DIR.mkdir(parents=True, exist_ok=True)
+ULTRAMODE_LOG = LOG_DIR / "ultramode.log"
+logging.basicConfig(
+    filename=str(ULTRAMODE_LOG),
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+)
+logger = logging.getLogger("ultramode")
+logger.info("ultramode starting (v9.1 r1)")
+logger.info(
+    "learning snapshot | root=um.py | append_only=yes | xclip_pane=reimagined | shared_gui_goal=yes | top_bar=yes | logger_tools=yes | gamepad_compat=yes"
+)
+append_runtime_note("um.py startup | version=v9.1 | revision=r1 | notation_sidecar=active" if NOTATION_SIDECAR_AVAILABLE else "um.py startup | version=v9.1 | revision=r1 | notation_sidecar=fallback", category="STARTUP")
+
+# -----------------------------------------------------------------------------
+# LOGGER TOOLS / NOTATION SIDECAR
+# -----------------------------------------------------------------------------
+def read_log_tail(path, lines=10):
+    return notation_read_log_tail(path, lines)
+
+
+def summarize_log(path):
+    return notation_summarize_log(path)
+
+
+# -----------------------------------------------------------------------------
+# PYGAME / WINDOW
+# -----------------------------------------------------------------------------
+pygame.init()
+pygame.joystick.init()
+
+WIDTH, HEIGHT = 1024, 600
+SAFE_MARGIN_X = 26
+SAFE_MARGIN_Y = 18
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
+pygame.display.set_caption("ULTRAMODE MAIN MENU v9.1 r1")
+clock = pygame.time.Clock()
+pad = UMGamepad()
+
+# -----------------------------------------------------------------------------
+# UI CONFIG
+# -----------------------------------------------------------------------------
+FONT_MODES = ["small", "medium", "large"]
+FONT_SIZES = {
+    "small": {"title": 22, "menu": 26, "small": 18, "tiny": 15},
+    "medium": {"title": 24, "menu": 29, "small": 20, "tiny": 16},
+    "large": {"title": 27, "menu": 32, "small": 22, "tiny": 18},
+}
+font_mode_index = 1
+font_mode = FONT_MODES[font_mode_index]
+
+MENU = [
+    "UltraMode Patcher",
+    "Tools",
+    "System Info",
+    "Automatic Installer",
+    "Reboot",
+    "Exit",
+]
+
+selected_menu = 0
+selected_pane = 0
+focus_zone = "menu"  # menu / pane / toggles
+selected_toggle = 0
+pane_scroll = 0
+running = True
+status_message = "Ready."
+INPUT_DELAY = 0.18
+last_nav_time = 0.0
+XCLIP_EVENT = pygame.USEREVENT + 1
+
+DARK_MODE = False
+DEV_MODE = False
+
+font_title = None
+font_menu = None
+font_small = None
+font_tiny = None
+
+
+def apply_font_mode(mode_name):
+    global font_mode, font_title, font_menu, font_small, font_tiny
+    font_mode = mode_name
+    sizes = FONT_SIZES[font_mode]
+    font_title = pygame.font.SysFont("monospace", sizes["title"], bold=True)
+    font_menu = pygame.font.SysFont("monospace", sizes["menu"], bold=True)
+    font_small = pygame.font.SysFont("monospace", sizes["small"])
+    font_tiny = pygame.font.SysFont("monospace", sizes["tiny"])
+
+
+apply_font_mode(font_mode)
+
+# -----------------------------------------------------------------------------
+# HELP / STATUS TEXT
+# -----------------------------------------------------------------------------
+HELP_TEXT = {
+    "UltraMode Patcher": "Launch the main patcher workflow.",
+    "Tools": "Show logger tools summary and last log line.",
+    "System Info": "Show runtime information and diagnostics.",
+    "Automatic Installer": "Run installer flow and try to enable missing support.",
+    "Reboot": "Reboot the Batocera system.",
+    "Exit": "Exit back out of Ultramode.",
+    "xclip_install": "Install xclip if it is missing so clipboard buffer tools work.",
+    "xclip_uninstall": "Future cleanup action for xclip if needed.",
+    "xclip_status": "Bottom pane tracks xclip install state and quick actions.",
+}
+
+# -----------------------------------------------------------------------------
+# RUNTIME HELPERS
+# -----------------------------------------------------------------------------
+def colors():
+    if DARK_MODE:
+        return {
+            "bg_top": (0, 0, 0),
+            "bg_bottom": (2, 10, 2),
+            "bg": (0, 0, 0),
+            "panel": (10, 16, 10),
+            "panel2": (8, 12, 8),
+            "panel_alt": (15, 24, 15),
+            "line": (55, 140, 55),
+            "border": (70, 180, 70),
+            "border_hot": (110, 220, 110),
+            "text": (90, 255, 90),
+            "muted": (120, 170, 120),
+            "warn": (255, 110, 110),
+            "good": (90, 255, 90),
+            "accent": (170, 255, 170),
+            "title": (90, 255, 90),
+            "toggle": (18, 30, 18),
+            "toggle_active": (38, 70, 38),
+            "help": (12, 20, 12),
+            "shadow": (0, 0, 0),
+            "select_fill": (28, 44, 28),
+        }
+    return {
+        "bg_top": (5, 10, 28),
+        "bg_bottom": (12, 18, 52),
+        "bg": (4, 10, 34),
+        "panel": (11, 18, 54),
+        "panel2": (9, 14, 42),
+        "panel_alt": (16, 24, 68),
+        "line": (90, 110, 170),
+        "border": (175, 80, 55),
+        "border_hot": (255, 220, 0),
+        "text": (220, 220, 220),
+        "muted": (170, 185, 215),
+        "warn": (255, 90, 90),
+        "good": (80, 255, 100),
+        "accent": (0, 255, 255),
+        "title": (255, 220, 0),
+        "toggle": (18, 30, 76),
+        "toggle_active": (36, 58, 130),
+        "help": (12, 20, 56),
+        "shadow": (0, 0, 0),
+        "select_fill": (26, 40, 100),
+    }
+
+
+def draw_vertical_gradient(surface, top_color, bottom_color):
+    for y in range(surface.get_height()):
+        blend = y / max(1, surface.get_height() - 1)
+        r = int(top_color[0] + (bottom_color[0] - top_color[0]) * blend)
+        g = int(top_color[1] + (bottom_color[1] - top_color[1]) * blend)
+        b = int(top_color[2] + (bottom_color[2] - top_color[2]) * blend)
+        pygame.draw.line(surface, (r, g, b), (0, y), (surface.get_width(), y))
+
+
+def fit_text(font, text, max_width):
+    text = str(text)
+    if font.size(text)[0] <= max_width:
+        return text
+    ellipsis = '...'
+    while text and font.size(text + ellipsis)[0] > max_width:
+        text = text[:-1]
+    return (text + ellipsis) if text else ellipsis
+
+
+def draw_panel(surface, palette, rect, fill=None, border=None, title=None, title_font=None, title_color=None, radius=12, shadow=True, border_width=2):
+    fill = fill or palette['panel']
+    border = border or palette['border']
+    title_color = title_color or palette['accent']
+    if shadow:
+        shadow_rect = pygame.Rect(rect.x + 4, rect.y + 5, rect.w, rect.h)
+        pygame.draw.rect(surface, palette['shadow'], shadow_rect, border_radius=radius)
+    pygame.draw.rect(surface, fill, rect, border_radius=radius)
+    pygame.draw.rect(surface, border, rect, border_width, border_radius=radius)
+    if title and title_font:
+        label = title_font.render(title, True, title_color)
+        surface.blit(label, (rect.x + 12, rect.y + 8))
+
+
+def draw_inline_bubble(surface, palette, rect, lead, body, font, lead_color=None, body_color=None, fill=None, border=None):
+    draw_panel(surface, palette, rect, fill=fill or palette['panel2'], border=border or palette['border'], radius=10, shadow=False)
+    lead_color = lead_color or palette['title']
+    body_color = body_color or palette['text']
+    lead_surface = font.render(lead, True, lead_color)
+    body_x = rect.x + 12 + lead_surface.get_width() + 8
+    body_w = max(20, (rect.x + rect.w - 10) - body_x)
+    baseline_y = rect.y + (rect.h - font.get_height()) // 2
+    surface.blit(lead_surface, (rect.x + 12, baseline_y))
+    body_surface = font.render(fit_text(font, body, body_w), True, body_color)
+    surface.blit(body_surface, (body_x, baseline_y))
+
+
+def _run_in_thread(target, *args, **kwargs):
+    t = threading.Thread(target=target, args=args, kwargs=kwargs, daemon=True)
+    t.start()
+    return t
+
+
+def _post_xclip_event(ok, msg):
+    try:
+        pygame.event.post(pygame.event.Event(XCLIP_EVENT, {"ok": bool(ok), "msg": str(msg)}))
+    except Exception as exc:
+        logger.exception("failed posting xclip event: %s", exc)
+
+
+def check_xclip_raw():
+    try:
+        return bool(xclip_is_installed())
+    except Exception:
+        return False
+
+
+def background_install_xclip(pkg_path=None):
+    try:
+        ok, msg = install_xclip(pkg_path)
+        logger.info("xclip install result | ok=%s | msg=%s", ok, msg)
+        _post_xclip_event(ok, msg)
+    except Exception as exc:
+        logger.exception("xclip install exception: %s", exc)
+        _post_xclip_event(False, str(exc))
+
+
+def background_uninstall_xclip():
+    try:
+        ok, msg = uninstall_xclip()
+        logger.info("xclip uninstall result | ok=%s | msg=%s", ok, msg)
+        _post_xclip_event(ok, msg)
+    except Exception as exc:
+        logger.exception("xclip uninstall exception: %s", exc)
+        _post_xclip_event(False, str(exc))
+
+
+def build_xclip_actions():
+    actions = []
+    x_ok = check_xclip_raw()
+    if x_ok:
+        actions.append(("xclip: INSTALLED", "state"))
+        actions.append(("Uninstall xclip (future / optional)", "uninstall"))
+    else:
+        actions.append(("xclip: NOT INSTALLED", "state"))
+        actions.append(("Install xclip", "install"))
+    actions.append(("View buffer / patcher note", "info"))
+    actions.append(("Future: xclip cleanup / diagnostics", "future"))
+    return actions
+
+
+def cycle_font_mode():
+    global font_mode_index, status_message
+    font_mode_index = (font_mode_index + 1) % len(FONT_MODES)
+    apply_font_mode(FONT_MODES[font_mode_index])
+    status_message = f"Font mode: {font_mode}."
+    logger.info("font mode changed to %s", font_mode)
+
+
+def toggle_dark_mode():
+    global DARK_MODE, status_message
+    DARK_MODE = not DARK_MODE
+    status_message = f"Dark mode: {'ON' if DARK_MODE else 'OFF'}."
+    logger.info("dark mode toggled -> %s", DARK_MODE)
+
+
+def toggle_dev_mode():
+    global DEV_MODE, status_message
+    DEV_MODE = not DEV_MODE
+    status_message = f"Developer mode: {'ON' if DEV_MODE else 'OFF'}."
+    logger.info("developer mode toggled -> %s", DEV_MODE)
+
+
+def activate_toggle(index):
+    if index == 0:
+        cycle_font_mode()
+    elif index == 1:
+        toggle_dark_mode()
+    elif index == 2:
+        toggle_dev_mode()
+
+
+def launch_patcher():
+    patcher = "/userdata/system/ultramode/umpatcher.py"
+    if not os.path.exists(patcher):
+        logger.error("patcher missing: %s", patcher)
+        return "Patcher not found."
+    try:
+        pygame.quit()
+    except Exception:
+        pass
+    try:
+        subprocess.run([sys.executable or "python3", patcher], check=False)
+    except Exception as exc:
+        logger.exception("failed to launch patcher: %s", exc)
+        return f"Patcher failed: {exc}"
+    sys.exit(0)
+
+
+def launch_tools():
+    tail = read_log_tail(str(ULTRAMODE_LOG), 1)
+    last_line = tail[-1] if tail else "no tail"
+    summary = summarize_log(str(ULTRAMODE_LOG))
+    sidecar = get_sidecar_status()
+    logger.info("logger tools summary requested")
+    return f"{summary} | {sidecar[:34]} | last={last_line[:38]}"
+
+
+def system_info():
+    return (
+        f"python={sys.version_info.major}.{sys.version_info.minor}.{sys.version_info.micro} "
+        f"xclip={'yes' if check_xclip_raw() else 'no'} "
+        f"dev={'on' if DEV_MODE else 'off'} "
+        f"sidecar={'yes' if NOTATION_SIDECAR_AVAILABLE else 'fallback'}"
+    )
+
+
+def launch_installer():
+    logger.info("installer selected from main menu")
+    if check_xclip_raw():
+        return "Installer ready; xclip already installed."
+    _run_in_thread(background_install_xclip, None)
+    return "Installer started: trying to install xclip."
+
+
+def do_reboot():
+    logger.warning("reboot requested")
+    try:
+        pygame.quit()
+    except Exception:
+        pass
+    os.system("reboot")
+    sys.exit(0)
+
+
+def handle_menu_select(index):
+    if index == 0:
+        return launch_patcher()
+    if index == 1:
+        return launch_tools()
+    if index == 2:
+        return system_info()
+    if index == 3:
+        return launch_installer()
+    if index == 4:
+        do_reboot()
+        return "Rebooting."
+    if index == 5:
+        pygame.quit()
+        sys.exit(0)
+    return "No action."
+
+
+def handle_pane_select(index):
+    actions = build_xclip_actions()
+    if not actions:
+        return "No pane actions."
+    _, action = actions[index]
+    if action == "state":
+        return "xclip is installed." if check_xclip_raw() else "xclip is missing."
+    if action == "install":
+        _run_in_thread(background_install_xclip, None)
+        return "Installing xclip in background..."
+    if action == "uninstall":
+        _run_in_thread(background_uninstall_xclip)
+        return "Uninstalling xclip in background..."
+    if action == "info":
+        return "xclip powers clipboard-based patch/buffer workflows."
+    return "Future xclip diagnostics slot."
+
+
+def draw_top_bar(palette):
+    title_bar = pygame.Rect(SAFE_MARGIN_X, SAFE_MARGIN_Y, WIDTH - (SAFE_MARGIN_X * 2), 30)
+    path_bar = pygame.Rect(SAFE_MARGIN_X, SAFE_MARGIN_Y + 36, WIDTH - (SAFE_MARGIN_X * 2), 28)
+    draw_panel(screen, palette, title_bar, fill=palette['panel_alt'], border=palette['border_hot'], radius=10, shadow=False)
+    draw_panel(screen, palette, path_bar, fill=palette['panel2'], border=palette['border'], radius=10, shadow=False)
+
+    title = font_small.render('ULTRAMODE ROOT', True, palette['title'])
+    path_text = fit_text(font_tiny, '/userdata/system/ultramode/um.py', path_bar.w - 22)
+    path_surf = font_tiny.render(path_text, True, palette['muted'])
+    now_text = datetime.now().strftime('[ %Y-%m-%d  %H:%M ]')
+    dt = font_tiny.render(now_text, True, palette['text'])
+
+    screen.blit(title, (title_bar.x + 12, title_bar.y + 5))
+    screen.blit(dt, (title_bar.right - dt.get_width() - 12, title_bar.y + 7))
+    screen.blit(path_surf, (path_bar.x + 12, path_bar.y + 6))
+
+
+def draw_toggles(palette):
+    panel_rect = pygame.Rect(WIDTH - 262, 92, 236, 126)
+    draw_panel(screen, palette, panel_rect, fill=palette['panel'], border=palette['border'], title='QUICK TOGGLES', title_font=font_tiny, title_color=palette['accent'], radius=12)
+
+    labels = [
+        f'FONT  {font_mode.upper()}',
+        f'DARK  {'ON' if DARK_MODE else 'OFF'}',
+        f'DEV   {'ON' if DEV_MODE else 'OFF'}',
+    ]
+    for i, label in enumerate(labels):
+        rect = pygame.Rect(panel_rect.x + 12, panel_rect.y + 30 + i * 28, panel_rect.w - 24, 22)
+        active = focus_zone == 'toggles' and selected_toggle == i
+        fill = palette['toggle_active'] if active else palette['toggle']
+        border = palette['border_hot'] if active else palette['border']
+        draw_panel(screen, palette, rect, fill=fill, border=border, radius=8, shadow=False, border_width=2)
+        surf = font_tiny.render(label, True, palette['text'])
+        screen.blit(surf, (rect.x + 8, rect.y + 3))
+
+
+def draw_menu(palette):
+    menu_rect = pygame.Rect(SAFE_MARGIN_X, 92, 700, 286)
+    draw_panel(screen, palette, menu_rect, fill=palette['panel'], border=palette['border_hot'], title='MAIN MENU', title_font=font_small, title_color=palette['title'], radius=14)
+
+    title = font_title.render('UltraMode', True, palette['title'])
+    screen.blit(title, (menu_rect.x + 18, menu_rect.y + 34))
+    subtitle = font_tiny.render('um.py root menu', True, palette['muted'])
+    screen.blit(subtitle, (menu_rect.x + 20, menu_rect.y + 66))
+
+    list_y = menu_rect.y + 94
+    for i, item in enumerate(MENU):
+        row_rect = pygame.Rect(menu_rect.x + 16, list_y + i * 30, menu_rect.w - 32, 24)
+        is_selected = focus_zone == 'menu' and i == selected_menu
+        if is_selected:
+            draw_panel(screen, palette, row_rect, fill=palette['select_fill'], border=palette['border_hot'], radius=8, shadow=False)
+        color = palette['accent'] if is_selected else palette['text']
+        prefix = '► ' if is_selected else '  '
+        surf = font_menu.render(prefix + item, True, color)
+        screen.blit(surf, (row_rect.x + 8, row_rect.y - 1))
+
+
+def draw_xclip_pane(palette):
+    global pane_scroll
+    pane_rect = pygame.Rect(SAFE_MARGIN_X, 390, WIDTH - 2 * SAFE_MARGIN_X, 124)
+    draw_panel(screen, palette, pane_rect, fill=palette['panel2'], border=palette['border'], title='XCLIP / BUFFER SUPPORT', title_font=font_small, title_color=palette['accent'], radius=14)
+
+    x_ok = check_xclip_raw()
+    status_color = palette['good'] if x_ok else palette['warn']
+    status_label = 'INSTALLED' if x_ok else 'NOT INSTALLED'
+
+    top_y = pane_rect.y + 36
+    left_w = (pane_rect.w // 2) - 10
+    state_rect = pygame.Rect(pane_rect.x + 12, top_y, left_w, 24)
+    desc_rect = pygame.Rect(state_rect.right + 8, top_y, pane_rect.right - state_rect.right - 20, 24)
+    draw_inline_bubble(screen, palette, state_rect, 'STATE', status_label, font_tiny, lead_color=palette['title'], body_color=status_color, border=palette['border_hot'])
+    draw_inline_bubble(screen, palette, desc_rect, 'ROLE', 'Clipboard and patch buffer support lives here now.', font_tiny, lead_color=palette['accent'], body_color=palette['muted'])
+
+    actions = build_xclip_actions()
+    visible_rows = 2
+    if selected_pane < pane_scroll:
+        pane_scroll = selected_pane
+    if selected_pane >= pane_scroll + visible_rows:
+        pane_scroll = selected_pane - visible_rows + 1
+
+    start_y = pane_rect.y + 72
+    for visible_index, action_index in enumerate(range(pane_scroll, min(len(actions), pane_scroll + visible_rows))):
+        label, kind = actions[action_index]
+        row_rect = pygame.Rect(pane_rect.x + 12, start_y + visible_index * 22, pane_rect.w - 24, 18)
+        is_selected = focus_zone == 'pane' and action_index == selected_pane
+        if is_selected:
+            draw_panel(screen, palette, row_rect, fill=palette['select_fill'], border=palette['border_hot'], radius=7, shadow=False)
+        row_color = palette['text']
+        if kind == 'install':
+            row_color = palette['good']
+        elif kind == 'uninstall':
+            row_color = palette['warn']
+        elif kind == 'state':
+            row_color = status_color
+        prefix = '► ' if is_selected else '  '
+        surf = font_tiny.render(fit_text(font_tiny, prefix + label, row_rect.w - 10), True, row_color)
+        screen.blit(surf, (row_rect.x + 5, row_rect.y + 1))
+
+
+def draw_help_bar(palette):
+    if focus_zone == 'menu':
+        help_text = HELP_TEXT.get(MENU[selected_menu], '')
+    elif focus_zone == 'pane':
+        actions = build_xclip_actions()
+        action = actions[selected_pane][1] if actions else 'xclip_status'
+        help_text = HELP_TEXT.get(f'xclip_{action}', HELP_TEXT['xclip_status'])
+    else:
+        help_text = 'Toggle font size, dark mode, or developer mode.'
+
+    controls = 'UP/DOWN move • ENTER/A select • TAB zone • F font • D dark • V dev • ESC/B exit'
+    help_rect = pygame.Rect(SAFE_MARGIN_X, HEIGHT - 42, 560, 26)
+    ctrl_rect = pygame.Rect(help_rect.right + 10, HEIGHT - 42, 428, 26)
+    draw_inline_bubble(screen, palette, help_rect, 'HELP', help_text, font_tiny, lead_color=palette['title'], body_color=palette['text'], fill=palette['help'], border=palette['border'])
+    draw_inline_bubble(screen, palette, ctrl_rect, 'CTRL', controls, font_tiny, lead_color=palette['accent'], body_color=palette['muted'], fill=palette['help'], border=palette['border'])
+
+
+def draw_status_line(palette):
+    status_rect = pygame.Rect(SAFE_MARGIN_X, 522, 640, 26)
+    ticker_rect = pygame.Rect(status_rect.right + 10, 522, WIDTH - SAFE_MARGIN_X - (status_rect.right + 10), 26)
+    msg_color = palette['warn'] if 'failed' in status_message.lower() else palette['muted']
+    draw_inline_bubble(screen, palette, status_rect, 'STATUS', status_message[:140], font_tiny, lead_color=palette['title'], body_color=msg_color, border=palette['border'])
+    zone_label = f'focus={focus_zone} menu={selected_menu} pane={selected_pane}' if DEV_MODE else 'UltraMode root launcher ready'
+    draw_inline_bubble(screen, palette, ticker_rect, 'TICKER', zone_label, font_tiny, lead_color=palette['accent'], body_color=palette['text'], border=palette['border'])
+    if DEV_MODE:
+        debug = f'DEV font={font_mode} dark={DARK_MODE}'
+        dbg = font_tiny.render(debug, True, palette['accent'])
+        screen.blit(dbg, (SAFE_MARGIN_X + 8, 98))
+
+
+def draw_screen():
+    palette = colors()
+    draw_vertical_gradient(screen, palette['bg_top'], palette['bg_bottom'])
+    draw_top_bar(palette)
+    draw_toggles(palette)
+    draw_menu(palette)
+    draw_xclip_pane(palette)
+    draw_status_line(palette)
+    draw_help_bar(palette)
+    pygame.display.flip()
+
+# -----------------------------------------------------------------------------
+# INPUT COMPATIBILITY
+# -----------------------------------------------------------------------------
+def get_compat_actions(events):
+    """
+    Last-resort compatibility path:
+    - D-pad / hat
+    - common A / B buttons
+    - axis threshold for menu movement only if hat/buttons do not arrive
+    This is only used to supplement the shared shim, not replace it.
+    """
+    actions = {
+        "up": False,
+        "down": False,
+        "left": False,
+        "right": False,
+        "accept": False,
+        "back": False,
+    }
+
+    for event in events:
+        if event.type == pygame.KEYDOWN:
+            if event.key in (pygame.K_UP, pygame.K_w):
+                actions["up"] = True
+            elif event.key in (pygame.K_DOWN, pygame.K_s):
+                actions["down"] = True
+            elif event.key in (pygame.K_LEFT, pygame.K_a):
+                actions["left"] = True
+            elif event.key in (pygame.K_RIGHT, pygame.K_d):
+                actions["right"] = True
+            elif event.key in (pygame.K_RETURN, pygame.K_KP_ENTER, pygame.K_SPACE):
+                actions["accept"] = True
+            elif event.key in (pygame.K_ESCAPE, pygame.K_BACKSPACE):
+                actions["back"] = True
+
+        elif event.type == pygame.JOYHATMOTION:
+            if event.value[1] == 1:
+                actions["up"] = True
+            elif event.value[1] == -1:
+                actions["down"] = True
+            if event.value[0] == -1:
+                actions["left"] = True
+            elif event.value[0] == 1:
+                actions["right"] = True
+
+        elif event.type == pygame.JOYBUTTONDOWN:
+            # Common south / east mapping
+            if event.button in (0,):
+                actions["accept"] = True
+            elif event.button in (1, 6, 7):
+                actions["back"] = True
+
+        elif event.type == pygame.JOYAXISMOTION:
+            # left stick vertical / horizontal threshold
+            if event.axis == 1:
+                if event.value <= -0.75:
+                    actions["up"] = True
+                elif event.value >= 0.75:
+                    actions["down"] = True
+            elif event.axis == 0:
+                if event.value <= -0.75:
+                    actions["left"] = True
+                elif event.value >= 0.75:
+                    actions["right"] = True
+
+    return actions
+
+
+def merged_actions(events):
+    """
+    Merge shared shim actions with compatibility fallback actions.
+    """
+    pad.update(events)
+    compat = get_compat_actions(events)
+
+    return {
+        "up": bool(pad.up() or compat["up"]),
+        "down": bool(pad.down() or compat["down"]),
+        "left": bool(pad.left() or compat["left"]),
+        "right": bool(pad.right() or compat["right"]),
+        "accept": bool(pad.accept() or compat["accept"]),
+        "back": bool(pad.back() or compat["back"]),
+    }
+
+
+def move_zone_down():
+    global focus_zone, selected_pane
+    if focus_zone == "toggles":
+        focus_zone = "menu"
+    elif focus_zone == "menu":
+        focus_zone = "pane"
+        selected_pane = min(selected_pane, len(build_xclip_actions()) - 1)
+
+
+def move_zone_up():
+    global focus_zone
+    if focus_zone == "pane":
+        focus_zone = "menu"
+    elif focus_zone == "menu":
+        focus_zone = "toggles"
+
+
+def on_nav(now, fn):
+    global last_nav_time
+    if now - last_nav_time > INPUT_DELAY:
+        fn()
+        last_nav_time = now
+
+
+def process_navigation(events):
+    global running, selected_menu, selected_pane, selected_toggle, status_message, focus_zone
+
+    actions = merged_actions(events)
+    now = time.time()
+
+    for event in events:
+        if event.type == pygame.QUIT:
+            running = False
+        elif event.type == XCLIP_EVENT:
+            ok = getattr(event, "ok", False)
+            msg = getattr(event, "msg", "")
+            status_message = f"xclip action complete: {msg}" if ok else f"xclip action failed: {msg}"
+        elif event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_TAB:
+                if focus_zone == "toggles":
+                    focus_zone = "menu"
+                elif focus_zone == "menu":
+                    focus_zone = "pane"
+                else:
+                    focus_zone = "toggles"
+            elif event.key == pygame.K_f:
+                cycle_font_mode()
+            elif event.key == pygame.K_d:
+                toggle_dark_mode()
+            elif event.key == pygame.K_v:
+                toggle_dev_mode()
+
+    if actions["up"]:
+        def _up():
+            global selected_menu, selected_pane, selected_toggle
+            if focus_zone == "menu":
+                if selected_menu == 0:
+                    move_zone_up()
+                else:
+                    selected_menu = (selected_menu - 1) % len(MENU)
+            elif focus_zone == "pane":
+                if selected_pane == 0:
+                    move_zone_up()
+                else:
+                    selected_pane = max(0, selected_pane - 1)
+            else:
+                selected_toggle = (selected_toggle - 1) % 3
+        on_nav(now, _up)
+
+    elif actions["down"]:
+        def _down():
+            global selected_menu, selected_pane, selected_toggle
+            if focus_zone == "menu":
+                if selected_menu == len(MENU) - 1:
+                    move_zone_down()
+                else:
+                    selected_menu = (selected_menu + 1) % len(MENU)
+            elif focus_zone == "pane":
+                action_list = build_xclip_actions()
+                if selected_pane >= len(action_list) - 1:
+                    selected_pane = len(action_list) - 1
+                else:
+                    selected_pane += 1
+            else:
+                selected_toggle = (selected_toggle + 1) % 3
+        on_nav(now, _down)
+
+    elif actions["left"]:
+        def _left():
+            global focus_zone, selected_toggle
+            if focus_zone == "pane":
+                focus_zone = "menu"
+            elif focus_zone == "menu":
+                focus_zone = "toggles"
+            elif focus_zone == "toggles":
+                selected_toggle = (selected_toggle - 1) % 3
+        on_nav(now, _left)
+
+    elif actions["right"]:
+        def _right():
+            global focus_zone, selected_toggle
+            if focus_zone == "toggles":
+                selected_toggle = (selected_toggle + 1) % 3
+            elif focus_zone == "menu":
+                focus_zone = "pane"
+            elif focus_zone == "pane":
+                focus_zone = "menu"
+        on_nav(now, _right)
+
+    if actions["accept"]:
+        if focus_zone == "menu":
+            status_message = handle_menu_select(selected_menu)
+        elif focus_zone == "pane":
+            status_message = handle_pane_select(selected_pane)
+        else:
+            activate_toggle(selected_toggle)
+
+    if actions["back"]:
+        if focus_zone in ("pane", "toggles"):
+            focus_zone = "menu"
+        else:
+            running = False
+
+
+def main_loop():
+    global running
+    draw_screen()
+    while running:
+        try:
+            events = pygame.event.get()
+            process_navigation(events)
+            draw_screen()
+            clock.tick(30)
+        except Exception as exc:
+            logger.exception("main loop crash prevented: %s", exc)
+            time.sleep(0.05)
+
+
+if __name__ == "__main__":
+    try:
+        main_loop()
+    finally:
+        pygame.quit()
+        sys.exit()
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: NOTATION_SIDECAR_MIGRATION
+# TYPE: ACTIVE_ARCHITECTURE_RULE
+# SOURCE: USER_REQUEST
+# STATUS: ACTIVE
+# DESCRIPTION:
+#   - um.py should stay focused on GUI/runtime responsibilities.
+#   - Heavy notation/log helper behavior should move into a sidecar module.
+#   - Current canonical helper: /userdata/system/ultramode/modules/mandatory/um_notation.py
+#   - If the sidecar is missing, um.py may fall back to minimal local helpers.
+# =============================================================================
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: UMPATCHER_STYLE_TRANSFER_DIRECTION
+# TYPE: ACTIVE_UI_RULE
+# SOURCE: USER_REQUEST
+# STATUS: ACTIVE
+# DESCRIPTION:
+#   - um.py should continue moving toward the tighter boxed panel language used by umpatcher.
+#   - Sidecar migration should reduce clutter in the main file so GUI cleanup is easier next.
+# =============================================================================
+#
+# =============================================================================
+# ### ULTRAMODE PROTECTED END
+# =============================================================================
+#
+# ###EOL###
