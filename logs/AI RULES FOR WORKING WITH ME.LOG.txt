@@ -1,0 +1,8 @@
+# RUN COMMAND RULE (PERMANENT — APPEND‑ONLY)
+# - Every time a runnable script is provided, the assistant MUST also provide
+#   the exact run command on a single line, copy‑paste‑ready.
+# - Run command MUST appear immediately after the script block.
+# - Run command MUST follow this format:
+#       python3 /userdata/system/ultramode/<filename>.py
+# - No commentary, no explanation, no filler — only the command.
+# - This rule applies to all runnable modules, including um.py.
