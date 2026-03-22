@@ -1,0 +1,72 @@
+# =============================================================================
+# ULTRAMODE AI IDEAS LOG  (APPEND‑ONLY — DO NOT MODIFY EXISTING LINES)
+# =============================================================================
+# FILENAME:      AI_IDEAS.log
+# FOLDER PATH:   /userdata/system/ultramode/
+# DESTINATION:   /userdata/system/ultramode/AI_IDEAS.log
+#
+# PURPOSE:
+#   - Centralized log of ALL ideas, suggestions, improvements, and future
+#     features proposed by ANY AI (ChatGPT, Grok, Claude, Copilot, etc.).
+#   - Ensures every idea is preserved, never overwritten, never deleted.
+#   - Allows user to browse ideas from a dedicated Ultramode submenu.
+#
+# IDENTITY RULES (PERMANENT)
+# - Every Ultramode file MUST begin with: FILENAME, FOLDER PATH, DESTINATION.
+# - Every Ultramode file MUST contain the exact line: Hi Mom.
+# - Every Ultramode file MUST contain a permanent notation block.
+# - No AI or human may delete, shorten, rewrite, or reorder any existing line.
+# - All additions MUST be appended at the bottom of this file.
+#
+# AI IDEA / SUGGESTION RULES (PERMANENT)
+# - All AIs MUST append new ideas, suggestions, improvements, or future‑feature
+#   notes into this file or the appropriate notation category.
+# - AIs MUST NOT overwrite, replace, or delete any existing idea.
+# - AIs MUST append even small or cosmetic ideas (icons, wallpapers, themes).
+# - AIs MUST tag each idea with timestamp + AI name.
+# - AIs MUST NOT filter, suppress, or judge ideas; all ideas are allowed.
+# - AIs MUST follow Ultramode formatting: 80‑column awareness, no overlap.
+# - AIs MUST obey master_rules.log and master_help.log when adding ideas.
+#
+# SUBMENU ACCESS RULES (PERMANENT)
+# - Ultramode MUST include a submenu entry called “AI Ideas Log”.
+# - Selecting this entry MUST open a scrollable viewer for this file.
+# - Viewer MUST support:
+#       • UP/DOWN scrolling
+#       • PAGE UP / PAGE DOWN (future)
+#       • color‑coded timestamps and AI names
+#       • bottom help bar explaining controls
+# - Viewer MUST be read‑only.
+#
+# IDEA FORMAT RULES (PERMANENT)
+# - Each idea MUST follow this format:
+#       YYYY‑MM‑DD HH:MM | AI_NAME | IDEA CATEGORY | description...
+# - Allowed categories:
+#       • UI
+#       • PATCHER
+#       • SYSTEM
+#       • SYNC
+#       • TREE VIEWER
+#       • THEMES
+#       • ACCESSIBILITY
+#       • PERFORMANCE
+#       • SAFETY
+#       • MISC
+# - New categories may be appended but never removed.
+#
+# =============================================================================
+# AI IDEAS (APPEND‑ONLY)
+# =============================================================================
+# 2026‑03‑10 00:50 | ChatGPT | UI | Future versions should support icons for menu items.
+# 2026‑03‑10 00:50 | ChatGPT | THEMES | Future versions should support wallpapers and theme packs.
+# 2026‑03‑10 00:50 | ChatGPT | SYSTEM | Add remote GitHub sync for editing Ultramode from phone.
+# 2026‑03‑10 00:50 | ChatGPT | TREE VIEWER | Add hierarchical module tree viewer with filters.
+#
+# (AIs MUST continue appending ideas below this line.)
+#
+# =============================================================================
+# CHANGE LOG (APPEND ONLY)
+# YYYY‑MM‑DD HH:MM | AUTHOR | VERSION | NOTE
+# 2026‑03‑10 00:50 | Paul | v1.0 | Created AI_IDEAS.log with full permanent rules.
+# =============================================================================
+# Hi Mom.
