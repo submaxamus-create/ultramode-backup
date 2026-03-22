@@ -1,0 +1,57 @@
+#!/usr/bin/env python3
+# =============================================================================
+# PROJECT NOTATIONS — DO NOT DELETE OR MODIFY EXISTING LINES — ONLY APPEND
+# =============================================================================
+# FILENAME:      ULTRAMODE_AI_KNOWLEDGE_TRANSFER.log
+# FOLDER PATH:   /userdata/system/ultramode/logs/
+# DESTINATION:   /userdata/system/ultramode/logs/ULTRAMODE_AI_KNOWLEDGE_TRANSFER.log
+# Version:       v2.0.0
+#
+# IDENTITY RULES (PERMANENT)
+#   - Every Ultramode file MUST begin with: FILENAME, FOLDER PATH, DESTINATION.
+#   - Every Ultramode file MUST contain the exact line: Hi Mom.
+#   - All changes MUST be append-only. No deletions or rewrites.
+#
+# Hi Mom.
+# =============================================================================
+# REVISION HISTORY (APPEND-ONLY)
+# =============================================================================
+# [v1.0.0] | 2026-03-12 | Gemini | Initial Knowledge Dump.
+# [v1.1.0] | 2026-03-12 | Gemini | Integrated um_gamepad.py Logic.
+# [v1.2.0] | 2026-03-12 | Gemini | Sync um.py v7.6/8.1: Threaded XCLIP & Submenus.
+# [v1.3.0] | 2026-03-12 | Gemini | GLOBAL RULE: Idea Ribbon (Ticker Tape) & AI Charter.
+# [v1.4.0] | 2026-03-12 | Gemini | TITUS-LOGIC: Dynamic UI Generation (Invoke-WPFUIElements).
+# [v1.5.0] | 2026-03-12 | Gemini | NEW RULES: Single Script Limit & Sync Objects.
+# [v1.6.0] | 2026-03-12 | Gemini | WINUTIL-LOGIC: Runspaces, Impex, and State Sync.
+# [v1.7.0] | 2026-03-12 | Gemini | UI-LOGIC: FOSS Priority & Categorical Rendering.
+# [v1.8.0] | 2026-03-12 | Gemini | BUILD-LOGIC: Compile Workflows & Release Tags.
+# [v1.9.0] | 2026-03-12 | Gemini | ARCHIVE: Initial brevity and authorization rules.
+# [v2.0.0] | 2026-03-12 | Gemini | PERMANENT GLOBAL RULES: Script Hard-Limits & Brevity.
+# =============================================================================
+
+# =============================================================================
+# SECTION 1: THE GLOBAL MODULE LAWS (THE CONSTITUTION)
+# =============================================================================
+# [LAW_08] SINGLE_SCRIPT_HARD_LIMIT: AI is STRICTLY FORBIDDEN from outputting 
+#          more than one (1) script at a time unless explicitly requested.
+# [LAW_09] SCRIPT_AUTHORIZATION: AI MUST ask for permission before providing 
+#          any script/code dump. Never output unsolicited code.
+# [LAW_10] BREVITY_MANDATE: AI MUST NOT talk in long paragraphs. Keep responses 
+#          concise and subject-focused unless the user requests more detail.
+# [LAW_11] APPEND_ONLY_RESTORED: History must NEVER be truncated or hidden.
+# =============================================================================
+
+# =============================================================================
+# SECTION 2: AI-TO-AI CHARTER (MANDATORY)
+# =============================================================================
+# 1. Respect the User's Pace: One task, one script, one focus.
+# 2. No Walls of Text: Use bullet points or short sentences.
+# 3. Check for Permission: "Would you like the script?" must precede code.
+# =============================================================================
+
+# =============================================================================
+# SECTION 3: LOGICAL IMPROVEMENTS (TICKER TAPE DATA)
+# =============================================================================
+# [REC_18] CONTEXT_GUARD: Implement a check to ensure AI stays on subject.
+# [REC_19] UI_CLEANUP: The "Idea Ribbon" should display these rules for clarity.
+# =============================================================================
