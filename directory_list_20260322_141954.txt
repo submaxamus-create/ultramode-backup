@@ -1,0 +1,1100 @@
+DIRECTORY LIST REPORT
+================================================================================
+Scan root: /userdata/system/ultramode
+Generated: 2026-03-22 14:19:54
+================================================================================
+
+[DIR ] [MOD: 2026-03-22 14:19:54] /userdata/system/ultramode
+    [FILE] [MOD: 2026-03-22 09:37:15] [SIZE:    28.2 KB] [EXT: .pdf] /userdata/system/ultramode/Deep Research Backing Conversation for session None.pdf
+    [FILE] [MOD: 2026-03-21 17:34:29] [SIZE:    14.8 KB] [EXT: [no_ext]] /userdata/system/ultramode/UM DEEP RESEARCH SESSION SUMMARY
+    [FILE] [MOD: 2026-03-22 14:19:54] [SIZE:      0.0 B] [EXT: .txt] /userdata/system/ultramode/directory_list_20260322_141954.txt
+    [FILE] [MOD: 2026-03-15 17:12:25] [SIZE:     2.8 KB] [EXT: .py] /userdata/system/ultramode/directory_list_richer.py
+    [FILE] [MOD: 2026-03-22 00:06:04] [SIZE:     2.5 KB] [EXT: .sh] /userdata/system/ultramode/restore_taskbar.sh
+    [FILE] [MOD: 2026-03-19 00:45:43] [SIZE:    25.3 KB] [EXT: .py] /userdata/system/ultramode/um.py
+    [FILE] [MOD: 2026-03-22 12:20:38] [SIZE:    33.3 KB] [EXT: .py] /userdata/system/ultramode/um_master_logs_bootstrap_v1.py
+    [FILE] [MOD: UNKNOWN_TIME] [SIZE: UNKNOWN_SIZE] [EXT: .log] /userdata/system/ultramode/um_notation.log
+    [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     3.7 KB] [EXT: .py] /userdata/system/ultramode/um_notation.py
+    [FILE] [MOD: 2026-03-16 05:58:17] [SIZE:     3.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/um_notation.py.bak-0321_1938
+    [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     3.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/um_notation.py.bak-0321_1938_2
+    [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:    22.7 KB] [EXT: .py] /userdata/system/ultramode/um_v9.1.1_r2.py
+    [FILE] [MOD: 2026-03-21 15:47:06] [SIZE:    22.6 KB] [EXT: .bak] /userdata/system/ultramode/um_v9.1.1_r2.py.bak
+    [FILE] [MOD: 2026-03-21 15:28:37] [SIZE:    35.8 KB] [EXT: .py] /userdata/system/ultramode/um_v9.3_r1.py
+    [FILE] [MOD: 2026-03-22 00:23:09] [SIZE:    37.8 KB] [EXT: .py] /userdata/system/ultramode/um_v9.3_r1_desktop_scan_fix.py
+    [FILE] [MOD: 2026-03-22 00:37:52] [SIZE:    44.8 KB] [EXT: .py] /userdata/system/ultramode/um_v9.4_r1_devbox_desktop_buffer.py
+    [FILE] [MOD: 2026-03-22 08:53:39] [SIZE:    46.4 KB] [EXT: .py] /userdata/system/ultramode/um_v9.5_r1_stylepass.py
+    [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    42.3 KB] [EXT: .py] /userdata/system/ultramode/um_v9_2_r1.py
+    [FILE] [MOD: 2026-03-15 18:58:30] [SIZE:    42.2 KB] [EXT: .bak] /userdata/system/ultramode/um_v9_2_r1.py.bak
+    [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:    42.3 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/um_v9_2_r1.py.bak-0321_1938
+    [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    42.3 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/um_v9_2_r1.py.bak-0321_1938_2
+    [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    42.3 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/um_v9_2_r1.py.bak-0321_1938_3
+    [FILE] [MOD: 2026-03-21 18:45:08] [SIZE:    576.0 B] [EXT: .py] /userdata/system/ultramode/unknown.py
+    [DIR ] [MOD: 2026-03-21 23:56:35] /userdata/system/ultramode/! AI LOST MODULES
+        [FILE] [MOD: 2026-03-12 23:08:01] [SIZE:      0.0 B] [EXT: .txt] /userdata/system/ultramode/! AI LOST MODULES/New Text Document.txt
+        [FILE] [MOD: 2026-03-12 22:13:07] [SIZE:     2.5 KB] [EXT: .svg] /userdata/system/ultramode/! AI LOST MODULES/batocera_ultramode_tweaker_toolbox.svg
+        [FILE] [MOD: 2026-03-12 22:14:39] [SIZE:     1.7 KB] [EXT: .svg] /userdata/system/ultramode/! AI LOST MODULES/batocera_ultramode_tweaker_toolbox_monochrome.svg
+        [FILE] [MOD: 2026-03-12 23:09:36] [SIZE:     6.4 KB] [EXT: .py] /userdata/system/ultramode/! AI LOST MODULES/change_loadscreen.py
+        [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:     6.8 KB] [EXT: .py] /userdata/system/ultramode/! AI LOST MODULES/change_loadscreen1.2.py
+        [FILE] [MOD: 2026-03-13 00:19:03] [SIZE:     6.9 KB] [EXT: .bak] /userdata/system/ultramode/! AI LOST MODULES/change_loadscreen1.2.py.bak
+        [FILE] [MOD: 2026-03-15 17:12:25] [SIZE:     2.8 KB] [EXT: .py] /userdata/system/ultramode/! AI LOST MODULES/directory_list_richer.py
+        [FILE] [MOD: 2026-03-15 14:29:52] [SIZE:    542.0 B] [EXT: .py] /userdata/system/ultramode/! AI LOST MODULES/fix_clock.py
+        [FILE] [MOD: 2026-03-20 20:26:18] [SIZE:    14.4 KB] [EXT: .txt] /userdata/system/ultramode/! AI LOST MODULES/ot it, since you sent it as a file,,, how do i use patcher with a file.txt
+        [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:    21.8 KB] [EXT: .py] /userdata/system/ultramode/! AI LOST MODULES/patch_history_manager_v1.py
+        [FILE] [MOD: 2026-03-20 19:54:53] [SIZE:    21.8 KB] [EXT: .bak] /userdata/system/ultramode/! AI LOST MODULES/patch_history_manager_v1.py.bak
+        [FILE] [MOD: 2026-03-20 19:55:34] [SIZE:     3.9 KB] [EXT: .txt] /userdata/system/ultramode/! AI LOST MODULES/patch_history_recovery_plan_v1 (1).txt
+        [FILE] [MOD: 2026-03-20 19:55:19] [SIZE:     3.9 KB] [EXT: .txt] /userdata/system/ultramode/! AI LOST MODULES/patch_history_recovery_plan_v1.txt
+        [FILE] [MOD: 2026-03-20 20:25:50] [SIZE:    15.7 KB] [EXT: .txt] /userdata/system/ultramode/! AI LOST MODULES/patch_history_sidecar_append_patch_v1.txt
+        [FILE] [MOD: 2026-03-21 20:24:28] [SIZE:    798.0 B] [EXT: .py] /userdata/system/ultramode/! AI LOST MODULES/split_script_for_copilot.py
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    33.0 KB] [EXT: .py] /userdata/system/ultramode/! AI LOST MODULES/ultramode_toolbox.py
+        [FILE] [MOD: 2026-03-15 12:45:16] [SIZE:    33.0 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/! AI LOST MODULES/ultramode_toolbox.py.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 18:15:04] [SIZE:    13.2 KB] [EXT: .bak] /userdata/system/ultramode/! AI LOST MODULES/um_gamepad_gui_fix_module_v1_2026-03-21.py.bak
+        [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:    13.6 KB] [EXT: .py] /userdata/system/ultramode/! AI LOST MODULES/um_gamepad_gui_fix_module_v2_2026-03-21.py
+        [FILE] [MOD: 2026-03-21 18:28:48] [SIZE:    13.5 KB] [EXT: .bak] /userdata/system/ultramode/! AI LOST MODULES/um_gamepad_gui_fix_module_v2_2026-03-21.py.bak
+        [FILE] [MOD: 2026-03-21 18:03:22] [SIZE:    10.9 KB] [EXT: .bak] /userdata/system/ultramode/! AI LOST MODULES/um_gamepad_ref_fixer_v1_2026-03-21.py.bak
+        [FILE] [MOD: 2026-03-21 19:37:12] [SIZE:    13.3 KB] [EXT: .py] /userdata/system/ultramode/! AI LOST MODULES/um_log_to_logtxt_gui_fixer_v3_2026-03-21.py
+        [FILE] [MOD: 2026-03-21 17:43:13] [SIZE:     5.2 KB] [EXT: .txt] /userdata/system/ultramode/! AI LOST MODULES/um_py_sidecar_orchestration_append_2026-03-21.txt
+        [FILE] [MOD: 2026-03-20 20:28:26] [SIZE:    14.4 KB] [EXT: .txt] /userdata/system/ultramode/! AI LOST MODULES/umpatcher_master_step_roadmap.txt
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   161.5 KB] [EXT: .py] /userdata/system/ultramode/! AI LOST MODULES/umpatcher_v11_r8.py
+        [FILE] [MOD: 2026-03-20 21:05:36] [SIZE:   161.5 KB] [EXT: .bak] /userdata/system/ultramode/! AI LOST MODULES/umpatcher_v11_r8.py.bak
+        [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   161.5 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/! AI LOST MODULES/umpatcher_v11_r8.py.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   161.5 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/! AI LOST MODULES/umpatcher_v11_r8.py.bak-0321_1938_2
+        [DIR ] [MOD: 2026-03-21 19:37:38] /userdata/system/ultramode/! AI LOST MODULES/! IGNORE THESE
+            [FILE] [MOD: 2026-03-15 14:00:36] [SIZE:    608.0 B] [EXT: .py] /userdata/system/ultramode/! AI LOST MODULES/! IGNORE THESE/directory_list.py
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:    13.3 KB] [EXT: .py] /userdata/system/ultramode/! AI LOST MODULES/! IGNORE THESE/um_gamepad_gui_fix_module_v1_2026-03-21.py
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:    11.1 KB] [EXT: .py] /userdata/system/ultramode/! AI LOST MODULES/! IGNORE THESE/um_gamepad_ref_fixer_v1_2026-03-21.py
+            [FILE] [MOD: 2026-03-21 19:05:16] [SIZE:    12.9 KB] [EXT: .py] /userdata/system/ultramode/! AI LOST MODULES/! IGNORE THESE/um_log_to_logtxt_gui_fixer_v1_2026-03-21.py
+            [FILE] [MOD: 2026-03-21 19:14:00] [SIZE:    12.9 KB] [EXT: .py] /userdata/system/ultramode/! AI LOST MODULES/! IGNORE THESE/um_log_to_logtxt_gui_fixer_v2_2026-03-21.py
+        [DIR ] [MOD: 2026-03-10 22:48:12] /userdata/system/ultramode/! AI LOST MODULES/FIND FILES SUB FROM FOLDER , EXECUTE THEM
+            [FILE] [MOD: 2026-03-10 22:48:42] [SIZE:     2.6 KB] [EXT: .py] /userdata/system/ultramode/! AI LOST MODULES/FIND FILES SUB FROM FOLDER , EXECUTE THEM/patch_finder.py
+        [DIR ] [MOD: 2026-03-22 00:08:36] /userdata/system/ultramode/! AI LOST MODULES/quick tools
+            [FILE] [MOD: 2026-03-22 00:05:28] [SIZE:      0.0 B] [EXT: [no_ext]] /userdata/system/ultramode/! AI LOST MODULES/quick tools/New
+            [FILE] [MOD: 2026-03-21 23:57:12] [SIZE:     3.7 KB] [EXT: .py] /userdata/system/ultramode/! AI LOST MODULES/quick tools/investigate_desktop.py
+    [DIR ] [MOD: 2026-03-22 10:32:17] /userdata/system/ultramode/GAME
+        [FILE] [MOD: 2026-03-22 09:55:17] [SIZE:   978.8 KB] [EXT: .html] /userdata/system/ultramode/GAME/SPRUCE TREE.html
+        [FILE] [MOD: 2026-03-22 10:30:46] [SIZE:     3.2 KB] [EXT: .txt] /userdata/system/ultramode/GAME/pyramid_dojo_handoff.txt
+        [FILE] [MOD: 2026-03-22 10:32:10] [SIZE:     2.4 KB] [EXT: .txt] /userdata/system/ultramode/GAME/python_dojo_handoff.txt
+        [DIR ] [MOD: 2026-03-22 10:30:30] /userdata/system/ultramode/GAME/NOOT THIS
+            [FILE] [MOD: 2026-03-22 10:03:16] [SIZE:    718.0 B] [EXT: .sh] /userdata/system/ultramode/GAME/NOOT THIS/install_and_run_8bit_fighter.sh
+            [DIR ] [MOD: 2026-03-22 10:06:28] /userdata/system/ultramode/GAME/NOOT THIS/Downloads a homebrew NES fighting-style game INNES AND RUNS
+        [DIR ] [MOD: 2026-03-22 09:55:17] /userdata/system/ultramode/GAME/SPRUCE TREE_files
+            [FILE] [MOD: 2026-03-22 09:55:16] [SIZE:     2.7 MB] [EXT: .png] /userdata/system/ultramode/GAME/SPRUCE TREE_files/277dd603-596c-48be-89d1-6452874efc60.png
+            [FILE] [MOD: 2026-03-22 09:55:17] [SIZE:     2.3 MB] [EXT: .png] /userdata/system/ultramode/GAME/SPRUCE TREE_files/6f80bfb6-48cc-457d-b050-d3145d07a709.png
+            [FILE] [MOD: 2026-03-22 09:55:17] [SIZE:     1.9 MB] [EXT: .png] /userdata/system/ultramode/GAME/SPRUCE TREE_files/7c7ee69c-2da4-4bf6-9adb-11b2ddaf2047.png
+            [FILE] [MOD: 2026-03-22 09:55:17] [SIZE:     2.6 MB] [EXT: .png] /userdata/system/ultramode/GAME/SPRUCE TREE_files/8c25e152-c6fd-448e-9173-e12ef09a86bf.png
+            [FILE] [MOD: 2026-03-22 09:55:16] [SIZE:    820.0 B] [EXT: .css] /userdata/system/ultramode/GAME/SPRUCE TREE_files/ansi-1f6vhsjh.css
+            [FILE] [MOD: 2026-03-22 09:55:16] [SIZE:     2.7 MB] [EXT: .png] /userdata/system/ultramode/GAME/SPRUCE TREE_files/c6059eee-ba00-49fc-9077-3f4d3d7412b0.png
+            [FILE] [MOD: 2026-03-22 09:55:16] [SIZE:     1.9 KB] [EXT: .css] /userdata/system/ultramode/GAME/SPRUCE TREE_files/code-block-dop2czwo.css
+            [FILE] [MOD: 2026-03-22 09:55:16] [SIZE:    962.0 B] [EXT: .css] /userdata/system/ultramode/GAME/SPRUCE TREE_files/code-block-viewer-bb2wmqiy.css
+            [FILE] [MOD: 2026-03-22 09:55:16] [SIZE:   174.2 KB] [EXT: .css] /userdata/system/ultramode/GAME/SPRUCE TREE_files/conversation-small-f6lv6gwj(1).css
+            [FILE] [MOD: 2026-03-22 09:55:16] [SIZE:   174.2 KB] [EXT: .css] /userdata/system/ultramode/GAME/SPRUCE TREE_files/conversation-small-f6lv6gwj.css
+            [FILE] [MOD: 2026-03-22 09:55:16] [SIZE:     1.4 KB] [EXT: .css] /userdata/system/ultramode/GAME/SPRUCE TREE_files/cot-message-mbvpc7rn.css
+            [FILE] [MOD: 2026-03-22 09:55:16] [SIZE:     2.6 KB] [EXT: [no_ext]] /userdata/system/ultramode/GAME/SPRUCE TREE_files/favicons
+            [FILE] [MOD: 2026-03-22 09:55:16] [SIZE:     1.5 KB] [EXT: [no_ext]] /userdata/system/ultramode/GAME/SPRUCE TREE_files/favicons(1)
+            [FILE] [MOD: 2026-03-22 09:55:16] [SIZE:    650.0 B] [EXT: [no_ext]] /userdata/system/ultramode/GAME/SPRUCE TREE_files/favicons(2)
+            [FILE] [MOD: 2026-03-22 09:55:16] [SIZE:    116.0 B] [EXT: .css] /userdata/system/ultramode/GAME/SPRUCE TREE_files/index-ivzj8m6u.css
+            [FILE] [MOD: 2026-03-22 09:55:17] [SIZE:   455.3 KB] [EXT: [no_ext]] /userdata/system/ultramode/GAME/SPRUCE TREE_files/js
+            [FILE] [MOD: 2026-03-22 09:55:16] [SIZE:    572.0 B] [EXT: .css] /userdata/system/ultramode/GAME/SPRUCE TREE_files/product-variants-ga945uk2.css
+            [FILE] [MOD: 2026-03-22 09:55:16] [SIZE:     1.1 MB] [EXT: .css] /userdata/system/ultramode/GAME/SPRUCE TREE_files/root-hz5rsofz(1).css
+            [FILE] [MOD: 2026-03-22 09:55:16] [SIZE:     1.1 MB] [EXT: .css] /userdata/system/ultramode/GAME/SPRUCE TREE_files/root-hz5rsofz.css
+            [FILE] [MOD: 2026-03-22 09:55:17] [SIZE:    520.0 B] [EXT: .html] /userdata/system/ultramode/GAME/SPRUCE TREE_files/saved_resource.html
+            [FILE] [MOD: 2026-03-22 09:55:16] [SIZE:    28.3 KB] [EXT: .css] /userdata/system/ultramode/GAME/SPRUCE TREE_files/silk-hq-jrmbfqt7.css
+            [FILE] [MOD: 2026-03-22 09:55:16] [SIZE:    416.0 B] [EXT: .css] /userdata/system/ultramode/GAME/SPRUCE TREE_files/table-components-ca43bz4f.css
+            [FILE] [MOD: 2026-03-22 09:55:16] [SIZE:     5.1 KB] [EXT: .jpg] /userdata/system/ultramode/GAME/SPRUCE TREE_files/unnamed.jpg
+            [FILE] [MOD: 2026-03-22 09:55:16] [SIZE:    12.8 KB] [EXT: .css] /userdata/system/ultramode/GAME/SPRUCE TREE_files/writing-block-editor-mayjjcgo.css
+        [DIR ] [MOD: 2026-03-22 10:27:46] /userdata/system/ultramode/GAME/full game maybe
+            [FILE] [MOD: 2026-03-22 10:26:37] [SIZE:     1.8 KB] [EXT: .zip] /userdata/system/ultramode/GAME/full game maybe/PyramidDojo_minimal.zip
+            [DIR ] [MOD: 2026-03-22 10:28:01] /userdata/system/ultramode/GAME/full game maybe/PyramidDojo_minimal
+                [FILE] [MOD: 2026-03-22 14:26:24] [SIZE:     5.0 KB] [EXT: .py] /userdata/system/ultramode/GAME/full game maybe/PyramidDojo_minimal/main.py
+                [DIR ] [MOD: 2026-03-22 10:27:46] /userdata/system/ultramode/GAME/full game maybe/PyramidDojo_minimal/rooms
+                    [FILE] [MOD: 2026-03-22 14:26:24] [SIZE:    174.0 B] [EXT: .txt] /userdata/system/ultramode/GAME/full game maybe/PyramidDojo_minimal/rooms/room1.txt
+    [DIR ] [MOD: 2026-03-22 09:13:18] /userdata/system/ultramode/RULES AND GOOD IDEAS
+        [FILE] [MOD: 2026-03-20 18:34:53] [SIZE:   148.9 KB] [EXT: .txt] /userdata/system/ultramode/RULES AND GOOD IDEAS/MASTER_UM_HELP_LOGS&NOTATIONS.LOG.txt
+        [FILE] [MOD: 2026-03-12 23:48:10] [SIZE:     3.6 KB] [EXT: .txt] /userdata/system/ultramode/RULES AND GOOD IDEAS/ULTRAMODE_AI_KNOWLEDGE_TRANSFER 2.0_log.txt
+        [FILE] [MOD: 2026-03-21 15:51:02] [SIZE:    21.2 KB] [EXT: .txt] /userdata/system/ultramode/RULES AND GOOD IDEAS/ULTRAMODE_MASTER_NOTATION_BLOCK.txt
+        [FILE] [MOD: 2026-03-21 19:57:40] [SIZE:     4.5 KB] [EXT: .pdf] /userdata/system/ultramode/RULES AND GOOD IDEAS/UltraMode_Deep_Research_Session_Summary.pdf
+        [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:   691.3 KB] [EXT: .html] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github.html
+        [FILE] [MOD: 2026-03-21 15:24:38] [SIZE:   287.4 KB] [EXT: .mhtml] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github.mhtml
+        [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:   937.1 KB] [EXT: .html] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2.html
+        [FILE] [MOD: 2026-03-09 20:41:04] [SIZE:     35.0 B] [EXT: .txt] /userdata/system/ultramode/RULES AND GOOD IDEAS/install_debug_log.txt
+        [FILE] [MOD: 2026-03-09 18:59:26] [SIZE:     5.4 KB] [EXT: .txt] /userdata/system/ultramode/RULES AND GOOD IDEAS/master_help_log.txt
+        [FILE] [MOD: 2026-03-09 18:57:50] [SIZE:     7.6 KB] [EXT: .txt] /userdata/system/ultramode/RULES AND GOOD IDEAS/master_rules_log.txt
+        [FILE] [MOD: 2026-03-21 15:56:07] [SIZE:    78.7 KB] [EXT: .png] /userdata/system/ultramode/RULES AND GOOD IDEAS/mermaid-diagram.png
+        [DIR ] [MOD: 2026-03-21 19:38:26] /userdata/system/ultramode/RULES AND GOOD IDEAS/! AI_FIXING_notes
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     7.7 KB] [EXT: .txt] /userdata/system/ultramode/RULES AND GOOD IDEAS/! AI_FIXING_notes/AI_THINKTANK.txt
+            [FILE] [MOD: 2026-03-12 22:30:00] [SIZE:     7.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/RULES AND GOOD IDEAS/! AI_FIXING_notes/AI_THINKTANK.txt.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     7.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/RULES AND GOOD IDEAS/! AI_FIXING_notes/AI_THINKTANK.txt.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     7.7 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/RULES AND GOOD IDEAS/! AI_FIXING_notes/AI_THINKTANK.txt.bak-0321_1938_3
+            [FILE] [MOD: 2026-03-09 18:40:51] [SIZE:    764.0 B] [EXT: [no_ext]] /userdata/system/ultramode/RULES AND GOOD IDEAS/! AI_FIXING_notes/NOTATION BLOCK
+            [FILE] [MOD: 2026-03-09 18:53:57] [SIZE:      0.0 B] [EXT: [no_ext]] /userdata/system/ultramode/RULES AND GOOD IDEAS/! AI_FIXING_notes/New
+            [FILE] [MOD: 2026-03-09 18:54:42] [SIZE:     4.4 KB] [EXT: .txt] /userdata/system/ultramode/RULES AND GOOD IDEAS/! AI_FIXING_notes/THE BIG GOAL.TXT
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    29.4 KB] [EXT: .txt] /userdata/system/ultramode/RULES AND GOOD IDEAS/! AI_FIXING_notes/ULTRAMODE_MASTER_DUMP.txt
+            [FILE] [MOD: 2026-03-12 22:09:07] [SIZE:    29.3 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/RULES AND GOOD IDEAS/! AI_FIXING_notes/ULTRAMODE_MASTER_DUMP.txt.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    29.3 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/RULES AND GOOD IDEAS/! AI_FIXING_notes/ULTRAMODE_MASTER_DUMP.txt.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    29.4 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/RULES AND GOOD IDEAS/! AI_FIXING_notes/ULTRAMODE_MASTER_DUMP.txt.bak-0321_1938_3
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    29.4 KB] [EXT: .bak-0321_1938_4] /userdata/system/ultramode/RULES AND GOOD IDEAS/! AI_FIXING_notes/ULTRAMODE_MASTER_DUMP.txt.bak-0321_1938_4
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    29.4 KB] [EXT: .bak-0321_1938_5] /userdata/system/ultramode/RULES AND GOOD IDEAS/! AI_FIXING_notes/ULTRAMODE_MASTER_DUMP.txt.bak-0321_1938_5
+            [FILE] [MOD: 2026-03-12 20:27:25] [SIZE:     3.7 KB] [EXT: .txt] /userdata/system/ultramode/RULES AND GOOD IDEAS/! AI_FIXING_notes/ai_studio_code.txt
+            [FILE] [MOD: 2026-03-12 19:40:31] [SIZE:    22.9 KB] [EXT: .py] /userdata/system/ultramode/RULES AND GOOD IDEAS/! AI_FIXING_notes/whatisum_log.py
+            [DIR ] [MOD: 2026-03-12 19:38:21] /userdata/system/ultramode/RULES AND GOOD IDEAS/! AI_FIXING_notes/New folder
+        [DIR ] [MOD: 2026-03-21 19:52:27] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:    820.0 B] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/ansi-1f6vhsjh.css
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:     1.9 KB] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/code-block-dop2czwo.css
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:    962.0 B] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/code-block-viewer-bb2wmqiy.css
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:   174.2 KB] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/conversation-small-f6lv6gwj(1).css
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:   174.2 KB] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/conversation-small-f6lv6gwj.css
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:     1.4 KB] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/cot-message-mbvpc7rn.css
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:    589.0 B] [EXT: [no_ext]] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/favicons
+            [FILE] [MOD: 2026-03-21 19:52:27] [SIZE:     1.3 KB] [EXT: [no_ext]] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/favicons(1)
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:    544.0 B] [EXT: [no_ext]] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/favicons(2)
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:   1016.0 B] [EXT: [no_ext]] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/favicons(3)
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:    401.0 B] [EXT: [no_ext]] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/favicons(4)
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:     1.6 KB] [EXT: [no_ext]] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/favicons(5)
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:   331.2 KB] [EXT: .jpg] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/image-1774046425240.jpg
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:   344.2 KB] [EXT: .jpg] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/image-1774046439245.jpg
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:   325.9 KB] [EXT: .jpg] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/image-1774049301011.jpg
+            [FILE] [MOD: 2026-03-21 19:52:27] [SIZE:   339.8 KB] [EXT: .jpg] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/image-1774049313960.jpg
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:   402.2 KB] [EXT: .jpg] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/image-1774116956317.jpg
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:   318.0 KB] [EXT: .jpg] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/image-1774118005270.jpg
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:   348.4 KB] [EXT: .jpg] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/image-1774118015457.jpg
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:    116.0 B] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/index-ivzj8m6u.css
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:   455.3 KB] [EXT: [no_ext]] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/js
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:    73.5 KB] [EXT: .js] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/main-BPMNJuFb.js
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:    429.0 B] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/main-DG9fc0-j.css
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:    572.0 B] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/product-variants-ga945uk2.css
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:    881.0 B] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/prosemirror-kdtc7ib2.css
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:     1.1 MB] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/root-hz5rsofz(1).css
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:     1.1 MB] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/root-hz5rsofz.css
+            [FILE] [MOD: 2026-03-21 19:52:27] [SIZE:     8.2 MB] [EXT: .html] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/saved_resource(1).html
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/saved_resource(10).html
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/saved_resource(11).html
+            [FILE] [MOD: 2026-03-21 19:52:27] [SIZE:     8.2 MB] [EXT: .html] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/saved_resource(2).html
+            [FILE] [MOD: 2026-03-21 19:52:27] [SIZE:     8.2 MB] [EXT: .html] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/saved_resource(3).html
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:     8.2 MB] [EXT: .html] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/saved_resource(4).html
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:     8.2 MB] [EXT: .html] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/saved_resource(5).html
+            [FILE] [MOD: 2026-03-21 19:52:27] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/saved_resource(6).html
+            [FILE] [MOD: 2026-03-21 19:52:27] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/saved_resource(7).html
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/saved_resource(8).html
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/saved_resource(9).html
+            [FILE] [MOD: 2026-03-21 19:52:27] [SIZE:     8.2 MB] [EXT: .html] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/saved_resource.html
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:    28.3 KB] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/silk-hq-jrmbfqt7.css
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:    416.0 B] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/table-components-ca43bz4f.css
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:     5.1 KB] [EXT: .jpg] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/unnamed.jpg
+            [FILE] [MOD: 2026-03-21 19:52:26] [SIZE:    12.8 KB] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github2_files/writing-block-editor-mayjjcgo.css
+        [DIR ] [MOD: 2026-03-21 15:23:29] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:    820.0 B] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/ansi-1f6vhsjh.css
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:     1.9 KB] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/code-block-dop2czwo.css
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:    962.0 B] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/code-block-viewer-bb2wmqiy.css
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:   174.2 KB] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/conversation-small-f6lv6gwj(1).css
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:   174.2 KB] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/conversation-small-f6lv6gwj.css
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:     1.4 KB] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/cot-message-mbvpc7rn.css
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:    589.0 B] [EXT: [no_ext]] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/favicons
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:     1.3 KB] [EXT: [no_ext]] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/favicons(1)
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:   331.2 KB] [EXT: .jpg] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/image-1774046425240.jpg
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:   344.2 KB] [EXT: .jpg] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/image-1774046439245.jpg
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:   325.9 KB] [EXT: .jpg] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/image-1774049301011.jpg
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:   339.8 KB] [EXT: .jpg] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/image-1774049313960.jpg
+            [FILE] [MOD: 2026-03-21 15:25:00] [SIZE:   402.2 KB] [EXT: .jpg] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/image-1774116956317.jpg
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:   318.0 KB] [EXT: .jpg] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/image-1774118005270.jpg
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:   348.4 KB] [EXT: .jpg] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/image-1774118015457.jpg
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:    116.0 B] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/index-ivzj8m6u.css
+            [FILE] [MOD: 2026-03-21 15:25:00] [SIZE:   455.3 KB] [EXT: [no_ext]] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/js
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:    73.5 KB] [EXT: .js] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/main-BPMNJuFb.js
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:    429.0 B] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/main-DG9fc0-j.css
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:    572.0 B] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/product-variants-ga945uk2.css
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:    881.0 B] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/prosemirror-kdtc7ib2.css
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:     1.1 MB] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/root-hz5rsofz(1).css
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:     1.1 MB] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/root-hz5rsofz.css
+            [FILE] [MOD: 2026-03-21 15:25:00] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/saved_resource(1).html
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:    520.0 B] [EXT: .html] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/saved_resource(2).html
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:     8.3 MB] [EXT: .html] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/saved_resource.html
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:    28.3 KB] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/silk-hq-jrmbfqt7.css
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:    416.0 B] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/table-components-ca43bz4f.css
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:     5.1 KB] [EXT: .jpg] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/unnamed.jpg
+            [FILE] [MOD: 2026-03-21 15:24:59] [SIZE:    12.8 KB] [EXT: .css] /userdata/system/ultramode/RULES AND GOOD IDEAS/Ultramode github_files/writing-block-editor-mayjjcgo.css
+    [DIR ] [MOD: 2026-03-21 19:38:25] /userdata/system/ultramode/TRPLIT
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    22.5 KB] [EXT: .py] /userdata/system/ultramode/TRPLIT/um.py
+        [FILE] [MOD: 2026-03-16 05:09:31] [SIZE:    22.5 KB] [EXT: .bak] /userdata/system/ultramode/TRPLIT/um.py.bak
+        [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:    22.5 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/TRPLIT/um.py.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    22.5 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/TRPLIT/um.py.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    22.5 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/TRPLIT/um.py.bak-0321_1938_3
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     3.7 KB] [EXT: .py] /userdata/system/ultramode/TRPLIT/um_notation.py
+        [FILE] [MOD: 2026-03-16 05:09:58] [SIZE:     3.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/TRPLIT/um_notation.py.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     3.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/TRPLIT/um_notation.py.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   126.3 KB] [EXT: .py] /userdata/system/ultramode/TRPLIT/umpatcher.py
+        [FILE] [MOD: 2026-03-16 05:09:53] [SIZE:   126.2 KB] [EXT: .bak] /userdata/system/ultramode/TRPLIT/umpatcher.py.bak
+        [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   126.2 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/TRPLIT/umpatcher.py.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   126.2 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/TRPLIT/umpatcher.py.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   126.3 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/TRPLIT/umpatcher.py.bak-0321_1938_3
+        [DIR ] [MOD: 2026-03-21 19:38:25] /userdata/system/ultramode/TRPLIT/2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    22.7 KB] [EXT: .py] /userdata/system/ultramode/TRPLIT/2/um.py
+            [FILE] [MOD: 2026-03-16 12:04:19] [SIZE:    22.6 KB] [EXT: .bak] /userdata/system/ultramode/TRPLIT/2/um.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:    22.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/TRPLIT/2/um.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    22.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/TRPLIT/2/um.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    22.7 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/TRPLIT/2/um.py.bak-0321_1938_3
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    22.5 KB] [EXT: .py] /userdata/system/ultramode/TRPLIT/2/um_bad.py
+            [FILE] [MOD: 2026-03-16 05:57:55] [SIZE:    22.5 KB] [EXT: .bak] /userdata/system/ultramode/TRPLIT/2/um_bad.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:    22.5 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/TRPLIT/2/um_bad.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    22.5 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/TRPLIT/2/um_bad.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    22.5 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/TRPLIT/2/um_bad.py.bak-0321_1938_3
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     3.7 KB] [EXT: .py] /userdata/system/ultramode/TRPLIT/2/um_notation.py
+            [FILE] [MOD: 2026-03-16 05:58:17] [SIZE:     3.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/TRPLIT/2/um_notation.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     3.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/TRPLIT/2/um_notation.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   126.4 KB] [EXT: .py] /userdata/system/ultramode/TRPLIT/2/umpatcher.py
+            [FILE] [MOD: 2026-03-16 12:27:29] [SIZE:   126.4 KB] [EXT: .bak] /userdata/system/ultramode/TRPLIT/2/umpatcher.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   126.4 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/TRPLIT/2/umpatcher.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   126.4 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/TRPLIT/2/umpatcher.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   126.4 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/TRPLIT/2/umpatcher.py.bak-0321_1938_3
+            [FILE] [MOD: 2026-03-16 05:58:21] [SIZE:    75.4 KB] [EXT: .txt] /userdata/system/ultramode/TRPLIT/2/umpatcher_log.txt
+    [DIR ] [MOD: 2026-03-19 01:10:52] /userdata/system/ultramode/User desktop 
+        [FILE] [MOD: 2026-03-19 01:10:52] [SIZE:    291.0 B] [EXT: [no_ext]] /userdata/system/ultramode/User desktop / launcher location
+    [DIR ] [MOD: 2026-03-21 19:39:14] /userdata/system/ultramode/__pycache__
+        [FILE] [MOD: 2026-03-09 19:30:57] [SIZE:     8.4 KB] [EXT: .pyc] /userdata/system/ultramode/__pycache__/um_gamepad.cpython-312.pyc
+        [FILE] [MOD: 2026-03-21 19:39:14] [SIZE:     4.6 KB] [EXT: .pyc] /userdata/system/ultramode/__pycache__/um_notation.cpython-312.pyc
+    [DIR ] [MOD: 2026-03-21 19:38:25] /userdata/system/ultramode/backup_20260310_024546
+        [FILE] [MOD: 2026-03-09 21:45:46] [SIZE:     56.0 B] [EXT: .py] /userdata/system/ultramode/backup_20260310_024546/__init__.py
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     3.4 KB] [EXT: .py] /userdata/system/ultramode/backup_20260310_024546/ai_ideas_viewer.py
+        [FILE] [MOD: 2026-03-09 21:45:46] [SIZE:     3.4 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backup_20260310_024546/ai_ideas_viewer.py.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     3.4 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backup_20260310_024546/ai_ideas_viewer.py.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     3.4 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/backup_20260310_024546/ai_ideas_viewer.py.bak-0321_1938_3
+    [DIR ] [MOD: 2026-03-21 19:38:25] /userdata/system/ultramode/backups
+        [FILE] [MOD: 2026-03-18 17:12:25] [SIZE:     2.1 KB] [EXT: .sh] /userdata/system/ultramode/backups/drag_run_py.sh
+        [FILE] [MOD: 2026-03-10 00:51:29] [SIZE:    537.0 B] [EXT: .sh] /userdata/system/ultramode/backups/fix_layoutfilesystem repair script.sh
+        [FILE] [MOD: 2026-03-16 13:07:43] [SIZE:    20.4 KB] [EXT: .works] /userdata/system/ultramode/backups/um.py.works
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    34.4 KB] [EXT: .py] /userdata/system/ultramode/backups/um_v.py
+        [FILE] [MOD: 2026-03-13 02:30:16] [SIZE:    34.3 KB] [EXT: .bak] /userdata/system/ultramode/backups/um_v.py.bak
+        [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:    34.4 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/um_v.py.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    34.4 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/um_v.py.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    34.4 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/backups/um_v.py.bak-0321_1938_3
+        [DIR ] [MOD: 2026-03-15 17:22:54] /userdata/system/ultramode/backups/dead files
+        [DIR ] [MOD: 2026-03-21 19:38:26] /userdata/system/ultramode/backups/self
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    30.4 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260314_032729.py
+            [FILE] [MOD: 2026-03-13 22:14:23] [SIZE:    30.4 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260314_032729.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    30.4 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260314_033829.py
+            [FILE] [MOD: 2026-03-13 22:14:23] [SIZE:    30.4 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260314_033829.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    30.4 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260314_040411.py
+            [FILE] [MOD: 2026-03-13 22:38:29] [SIZE:    30.4 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260314_040411.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    30.4 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260314_040602.py
+            [FILE] [MOD: 2026-03-13 22:38:29] [SIZE:    30.4 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260314_040602.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    30.4 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260314_041009.py
+            [FILE] [MOD: 2026-03-13 22:38:29] [SIZE:    30.4 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260314_041009.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    30.4 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260314_041351.py
+            [FILE] [MOD: 2026-03-13 22:38:29] [SIZE:    30.4 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260314_041351.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    30.4 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260314_041616.py
+            [FILE] [MOD: 2026-03-13 22:38:29] [SIZE:    30.4 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260314_041616.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    30.4 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260314_041913.py
+            [FILE] [MOD: 2026-03-13 22:38:29] [SIZE:    30.4 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260314_041913.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   139.7 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_221834.py
+            [FILE] [MOD: 2026-03-16 17:13:03] [SIZE:   139.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_221834.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   139.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_221834.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   139.7 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_223023.py
+            [FILE] [MOD: 2026-03-16 17:13:03] [SIZE:   139.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_223023.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   139.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_223023.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   139.7 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_223914.py
+            [FILE] [MOD: 2026-03-16 17:13:03] [SIZE:   139.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_223914.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   139.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_223914.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   139.7 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_224359.py
+            [FILE] [MOD: 2026-03-16 17:13:03] [SIZE:   139.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_224359.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   139.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_224359.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   139.7 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_224855.py
+            [FILE] [MOD: 2026-03-16 17:13:03] [SIZE:   139.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_224855.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   139.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_224855.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   139.7 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_225007.py
+            [FILE] [MOD: 2026-03-16 17:13:03] [SIZE:   139.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_225007.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   139.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_225007.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   139.7 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_225105.py
+            [FILE] [MOD: 2026-03-16 17:13:03] [SIZE:   139.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_225105.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   139.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_225105.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   139.7 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_225156.py
+            [FILE] [MOD: 2026-03-16 17:13:03] [SIZE:   139.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_225156.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   139.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_225156.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   149.7 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_235817.py
+            [FILE] [MOD: 2026-03-16 18:51:47] [SIZE:   149.7 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_235817.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   149.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_235817.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   149.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260316_235817.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   153.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_171648.py
+            [FILE] [MOD: 2026-03-16 20:25:33] [SIZE:   153.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_171648.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   153.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_171648.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   153.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_171648.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   153.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_173916.py
+            [FILE] [MOD: 2026-03-16 20:25:33] [SIZE:   153.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_173916.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   153.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_173916.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   153.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_173916.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   153.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_175343.py
+            [FILE] [MOD: 2026-03-16 20:25:33] [SIZE:   153.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_175343.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   153.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_175343.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   153.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_175343.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   153.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_175353.py
+            [FILE] [MOD: 2026-03-16 20:25:33] [SIZE:   153.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_175353.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   153.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_175353.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   153.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_175353.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   153.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_175613.py
+            [FILE] [MOD: 2026-03-16 20:25:33] [SIZE:   153.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_175613.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   153.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_175613.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   153.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_175613.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   153.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_183035.py
+            [FILE] [MOD: 2026-03-16 20:25:33] [SIZE:   153.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_183035.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   153.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_183035.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   153.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_183035.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   153.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_183324.py
+            [FILE] [MOD: 2026-03-16 20:25:33] [SIZE:   153.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_183324.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   153.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_183324.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   153.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_183324.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   153.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_185238.py
+            [FILE] [MOD: 2026-03-16 20:25:33] [SIZE:   153.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_185238.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   153.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_185238.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   153.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_185238.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   153.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_191020.py
+            [FILE] [MOD: 2026-03-16 20:25:33] [SIZE:   153.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_191020.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   153.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_191020.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   153.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_191020.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   153.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_194903.py
+            [FILE] [MOD: 2026-03-16 20:25:33] [SIZE:   153.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_194903.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   153.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_194903.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   153.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_194903.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   156.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_215250.py
+            [FILE] [MOD: 2026-03-17 21:39:06] [SIZE:   156.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_215250.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   156.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_215250.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   156.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260317_215250.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   156.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260318_055901.py
+            [FILE] [MOD: 2026-03-17 21:39:06] [SIZE:   156.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260318_055901.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   156.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260318_055901.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   156.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260318_055901.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   156.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260318_194615.py
+            [FILE] [MOD: 2026-03-17 21:39:06] [SIZE:   156.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260318_194615.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   156.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260318_194615.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   156.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260318_194615.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   156.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260318_212546.py
+            [FILE] [MOD: 2026-03-17 21:39:06] [SIZE:   156.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260318_212546.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   156.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260318_212546.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   156.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260318_212546.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   156.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260318_213342.py
+            [FILE] [MOD: 2026-03-17 21:39:06] [SIZE:   156.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260318_213342.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   156.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260318_213342.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   156.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260318_213342.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   156.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_001825.py
+            [FILE] [MOD: 2026-03-17 21:39:06] [SIZE:   156.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_001825.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   156.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_001825.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   156.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_001825.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   156.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_001858.py
+            [FILE] [MOD: 2026-03-17 21:39:06] [SIZE:   156.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_001858.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   156.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_001858.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   156.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_001858.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   156.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_001918.py
+            [FILE] [MOD: 2026-03-17 21:39:06] [SIZE:   156.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_001918.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   156.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_001918.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   156.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_001918.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   156.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_002122.py
+            [FILE] [MOD: 2026-03-17 21:39:06] [SIZE:   156.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_002122.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   156.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_002122.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   156.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_002122.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   156.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_010942.py
+            [FILE] [MOD: 2026-03-17 21:39:06] [SIZE:   156.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_010942.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   156.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_010942.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   156.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_010942.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   156.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_011052.py
+            [FILE] [MOD: 2026-03-17 21:39:06] [SIZE:   156.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_011052.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   156.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_011052.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   156.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260319_011052.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   156.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260320_204732.py
+            [FILE] [MOD: 2026-03-17 21:39:06] [SIZE:   156.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260320_204732.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   156.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260320_204732.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   156.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260320_204732.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   156.1 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260320_210159.py
+            [FILE] [MOD: 2026-03-17 21:39:06] [SIZE:   156.1 KB] [EXT: .bak] /userdata/system/ultramode/backups/self/umpatcher_backup_20260320_210159.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   156.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260320_210159.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   156.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260320_210159.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   161.5 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260321_184508.py
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   161.5 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260321_184508.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   161.5 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260321_184508.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   161.5 KB] [EXT: .py] /userdata/system/ultramode/backups/self/umpatcher_backup_20260321_185613.py
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   161.5 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/backups/self/umpatcher_backup_20260321_185613.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   161.5 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/backups/self/umpatcher_backup_20260321_185613.py.bak-0321_1938_2
+    [DIR ] [MOD: 2026-03-16 14:27:10] /userdata/system/ultramode/bad_patches
+    [DIR ] [MOD: 2026-03-20 18:24:16] /userdata/system/ultramode/chatgpt chats html
+        [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:     1.3 MB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange.html
+        [DIR ] [MOD: 2026-03-20 18:24:18] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:    820.0 B] [EXT: .css] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/ansi-1f6vhsjh.css
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:     1.9 KB] [EXT: .css] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/code-block-dop2czwo.css
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:    992.0 B] [EXT: .css] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/code-block-viewer-fzo1sbww.css
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:   175.7 KB] [EXT: .css] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/conversation-small-c1x458nc(1).css
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:   175.7 KB] [EXT: .css] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/conversation-small-c1x458nc.css
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:     1.5 KB] [EXT: .css] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/cot-message-lq73ofyy.css
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:    307.0 B] [EXT: [no_ext]] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/favicons
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:    632.0 B] [EXT: [no_ext]] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/favicons(1)
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:    116.0 B] [EXT: .css] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/index-ivzj8m6u.css
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:   455.3 KB] [EXT: [no_ext]] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/js
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:    73.5 KB] [EXT: .js] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/main-BPMNJuFb.js
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:    429.0 B] [EXT: .css] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/main-DG9fc0-j.css
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:    572.0 B] [EXT: .css] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/product-variants-ga945uk2.css
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:     1.2 MB] [EXT: .css] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/root-i91xpi72(1).css
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:     1.2 MB] [EXT: .css] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/root-i91xpi72.css
+            [FILE] [MOD: 2026-03-20 18:24:18] [SIZE:     8.2 MB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(1).html
+            [FILE] [MOD: 2026-03-20 18:24:17] [SIZE:     8.2 MB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(10).html
+            [FILE] [MOD: 2026-03-20 18:24:17] [SIZE:     8.2 MB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(11).html
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:     8.2 MB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(12).html
+            [FILE] [MOD: 2026-03-20 18:24:17] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(13).html
+            [FILE] [MOD: 2026-03-20 18:24:18] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(14).html
+            [FILE] [MOD: 2026-03-20 18:24:17] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(15).html
+            [FILE] [MOD: 2026-03-20 18:24:17] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(16).html
+            [FILE] [MOD: 2026-03-20 18:24:17] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(17).html
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(18).html
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(19).html
+            [FILE] [MOD: 2026-03-20 18:24:17] [SIZE:     8.2 MB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(2).html
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(20).html
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(21).html
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(22).html
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(23).html
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(24).html
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:     1.2 KB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(25).html
+            [FILE] [MOD: 2026-03-20 18:24:18] [SIZE:     8.2 MB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(3).html
+            [FILE] [MOD: 2026-03-20 18:24:18] [SIZE:     8.2 MB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(4).html
+            [FILE] [MOD: 2026-03-20 18:24:17] [SIZE:     8.2 MB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(5).html
+            [FILE] [MOD: 2026-03-20 18:24:17] [SIZE:     8.2 MB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(6).html
+            [FILE] [MOD: 2026-03-20 18:24:17] [SIZE:     8.2 MB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(7).html
+            [FILE] [MOD: 2026-03-20 18:24:18] [SIZE:     8.2 MB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(8).html
+            [FILE] [MOD: 2026-03-20 18:24:17] [SIZE:     8.2 MB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource(9).html
+            [FILE] [MOD: 2026-03-20 18:24:18] [SIZE:     8.2 MB] [EXT: .html] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/saved_resource.html
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:    28.6 KB] [EXT: .css] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/silk-hq-lutwos9z.css
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:    416.0 B] [EXT: .css] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/table-components-ca43bz4f.css
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:     5.1 KB] [EXT: .jpg] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/unnamed.jpg
+            [FILE] [MOD: 2026-03-20 18:24:16] [SIZE:    14.0 KB] [EXT: .css] /userdata/system/ultramode/chatgpt chats html/Greetings Exchange_files/writing-block-editor-o50eco9x.css
+    [DIR ] [MOD: 2026-03-21 15:34:42] /userdata/system/ultramode/graphics
+        [FILE] [MOD: 2026-03-15 15:47:53] [SIZE:     4.1 MB] [EXT: .png] /userdata/system/ultramode/graphics/ChatGPT Image Mar 15, 2026, 08_47_53 PM.png
+        [FILE] [MOD: 2026-03-15 15:55:51] [SIZE:     3.4 MB] [EXT: .png] /userdata/system/ultramode/graphics/ChatGPT Image Mar 15, 2026, 08_55_50 PM.png
+        [FILE] [MOD: 2026-03-15 16:01:59] [SIZE:     3.9 MB] [EXT: .png] /userdata/system/ultramode/graphics/ChatGPT Image Mar 15, 2026, 09_01_59 PM.png
+        [FILE] [MOD: 2026-03-15 16:31:23] [SIZE:   145.5 KB] [EXT: .png] /userdata/system/ultramode/graphics/best_buds_clean_no_text.png
+        [FILE] [MOD: 2026-03-15 16:25:50] [SIZE:    42.0 KB] [EXT: .jpg] /userdata/system/ultramode/graphics/s-l400.jpg
+    [DIR ] [MOD: 2026-03-22 09:08:54] /userdata/system/ultramode/logs
+        [FILE] [MOD: 2026-03-09 22:44:59] [SIZE:    486.0 B] [EXT: .txt] /userdata/system/ultramode/logs/AI RULES FOR WORKING WITH ME.LOG.txt
+        [FILE] [MOD: 2026-03-09 19:05:21] [SIZE:     3.4 KB] [EXT: .txt] /userdata/system/ultramode/logs/AI_IDEAS_log.txt
+        [FILE] [MOD: 2026-03-05 20:16:22] [SIZE:     1.4 KB] [EXT: .txt] /userdata/system/ultramode/logs/RUULES NOTATION BLOCK.TXT
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    22.8 KB] [EXT: .txt] /userdata/system/ultramode/logs/UM_FILELIST.txt
+        [FILE] [MOD: 2026-03-07 20:03:53] [SIZE:    22.8 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/logs/UM_FILELIST.txt.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    22.8 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/logs/UM_FILELIST.txt.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    23.9 KB] [EXT: .txt] /userdata/system/ultramode/logs/UM_FULL_DIAG.txt
+        [FILE] [MOD: 2026-03-07 19:57:48] [SIZE:    23.9 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/logs/UM_FULL_DIAG.txt.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    23.9 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/logs/UM_FULL_DIAG.txt.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    24.8 KB] [EXT: .txt] /userdata/system/ultramode/logs/UM_FULL_REPORT.txt
+        [FILE] [MOD: 2026-03-07 20:08:44] [SIZE:    24.8 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/logs/UM_FULL_REPORT.txt.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    24.8 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/logs/UM_FULL_REPORT.txt.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-07 20:11:03] [SIZE:     4.3 KB] [EXT: .txt] /userdata/system/ultramode/logs/UM_PATCHER_MODULES.txt
+        [FILE] [MOD: 2026-03-07 20:02:27] [SIZE:      0.0 B] [EXT: .txt] /userdata/system/ultramode/logs/UM_REBUILD.txt
+        [FILE] [MOD: 2026-03-09 10:11:22] [SIZE:     1.0 KB] [EXT: .+)",] /userdata/system/ultramode/logs/\s*(.+)",
+        [FILE] [MOD: 2026-03-09 22:43:04] [SIZE:     1.1 KB] [EXT: .txt] /userdata/system/ultramode/logs/ai block RULES.LOG.txt
+        [FILE] [MOD: 2026-03-05 23:36:42] [SIZE:     2.8 KB] [EXT: .txt] /userdata/system/ultramode/logs/complete rule‑set, for ChatGPT_log.txt
+        [FILE] [MOD: 2026-03-21 15:59:28] [SIZE:    11.3 KB] [EXT: .txt] /userdata/system/ultramode/logs/global_handoff_rules_v0.1.txt
+        [FILE] [MOD: 2026-03-08 18:19:29] [SIZE:   1020.0 B] [EXT: .txt] /userdata/system/ultramode/logs/patch_history_log.txt
+        [FILE] [MOD: 2026-03-08 18:19:29] [SIZE:    130.0 B] [EXT: .txt] /userdata/system/ultramode/logs/test_target.txt
+        [FILE] [MOD: 2026-03-05 21:41:13] [SIZE:     7.8 KB] [EXT: .txt] /userdata/system/ultramode/logs/ultramode-patcher-conversation-log-2026-03-05.txt
+        [FILE] [MOD: 2026-03-13 01:58:14] [SIZE:     2.3 KB] [EXT: .txt] /userdata/system/ultramode/logs/ultramode.log.TXT
+        [FILE] [MOD: 2026-03-07 19:19:23] [SIZE:    311.0 B] [EXT: .txt] /userdata/system/ultramode/logs/ultramode_anomalies.txt
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    93.9 KB] [EXT: .txt] /userdata/system/ultramode/logs/ultramode_deep_preview.txt
+        [FILE] [MOD: 2026-03-07 19:12:55] [SIZE:    93.9 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/logs/ultramode_deep_preview.txt.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    93.9 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/logs/ultramode_deep_preview.txt.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    93.9 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/logs/ultramode_deep_preview.txt.bak-0321_1938_3
+        [FILE] [MOD: 2026-03-09 11:32:57] [SIZE:    44.5 KB] [EXT: .txt] /userdata/system/ultramode/logs/ultramode_diagnostic_20260309_163252_log.txt
+        [FILE] [MOD: 2026-03-07 19:19:46] [SIZE:     95.0 B] [EXT: .txt] /userdata/system/ultramode/logs/ultramode_directory_checksum.txt
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     7.8 KB] [EXT: .txt] /userdata/system/ultramode/logs/ultramode_entropy_scan.txt
+        [FILE] [MOD: 2026-03-07 19:18:17] [SIZE:     7.8 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/logs/ultramode_entropy_scan.txt.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     7.8 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/logs/ultramode_entropy_scan.txt.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     7.8 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/logs/ultramode_entropy_scan.txt.bak-0321_1938_3
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    24.4 KB] [EXT: .txt] /userdata/system/ultramode/logs/ultramode_extended_manifest.txt
+        [FILE] [MOD: 2026-03-07 19:16:39] [SIZE:    24.4 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/logs/ultramode_extended_manifest.txt.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    24.4 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/logs/ultramode_extended_manifest.txt.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    24.4 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/logs/ultramode_extended_manifest.txt.bak-0321_1938_3
+        [FILE] [MOD: 2026-03-03 12:31:42] [SIZE:    112.0 B] [EXT: .txt] /userdata/system/ultramode/logs/ultramode_extractor_log.txt
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     6.9 KB] [EXT: .txt] /userdata/system/ultramode/logs/ultramode_filecount.txt
+        [FILE] [MOD: 2026-03-07 18:39:44] [SIZE:     6.8 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/logs/ultramode_filecount.txt.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     6.9 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/logs/ultramode_filecount.txt.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     6.9 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/logs/ultramode_filecount.txt.bak-0321_1938_3
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    14.5 KB] [EXT: .txt] /userdata/system/ultramode/logs/ultramode_filehashes.txt
+        [FILE] [MOD: 2026-03-07 18:40:29] [SIZE:    14.5 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/logs/ultramode_filehashes.txt.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    14.5 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/logs/ultramode_filehashes.txt.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    14.5 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/logs/ultramode_filehashes.txt.bak-0321_1938_3
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     8.4 KB] [EXT: .txt] /userdata/system/ultramode/logs/ultramode_filelist.txt
+        [FILE] [MOD: 2026-03-06 18:11:52] [SIZE:     8.4 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/logs/ultramode_filelist.txt.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     8.4 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/logs/ultramode_filelist.txt.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    11.0 KB] [EXT: .txt] /userdata/system/ultramode/logs/ultramode_filetypes.txt
+        [FILE] [MOD: 2026-03-07 19:17:41] [SIZE:    11.0 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/logs/ultramode_filetypes.txt.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    11.0 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/logs/ultramode_filetypes.txt.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    11.0 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/logs/ultramode_filetypes.txt.bak-0321_1938_3
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    19.6 KB] [EXT: .txt] /userdata/system/ultramode/logs/ultramode_full_fingerprint.txt
+        [FILE] [MOD: 2026-03-07 18:41:55] [SIZE:    19.6 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/logs/ultramode_full_fingerprint.txt.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    19.6 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/logs/ultramode_full_fingerprint.txt.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    19.6 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/logs/ultramode_full_fingerprint.txt.bak-0321_1938_3
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    17.8 KB] [EXT: .txt] /userdata/system/ultramode/logs/ultramode_integrity_map.txt
+        [FILE] [MOD: 2026-03-07 18:41:28] [SIZE:    17.8 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/logs/ultramode_integrity_map.txt.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    17.8 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/logs/ultramode_integrity_map.txt.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    17.8 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/logs/ultramode_integrity_map.txt.bak-0321_1938_3
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    30.2 KB] [EXT: .json] /userdata/system/ultramode/logs/ultramode_manifest.json
+        [FILE] [MOD: 2026-03-07 19:13:28] [SIZE:    30.2 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/logs/ultramode_manifest.json.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    30.2 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/logs/ultramode_manifest.json.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    15.0 KB] [EXT: .txt] /userdata/system/ultramode/logs/ultramode_multisignal_anomalies.txt
+        [FILE] [MOD: 2026-03-07 19:45:49] [SIZE:    15.0 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/logs/ultramode_multisignal_anomalies.txt.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    15.0 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/logs/ultramode_multisignal_anomalies.txt.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    15.0 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/logs/ultramode_multisignal_anomalies.txt.bak-0321_1938_3
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    32.2 KB] [EXT: .txt] /userdata/system/ultramode/logs/ultramode_preview_map.txt
+        [FILE] [MOD: 2026-03-07 18:42:15] [SIZE:    32.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/logs/ultramode_preview_map.txt.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    32.2 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/logs/ultramode_preview_map.txt.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    32.2 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/logs/ultramode_preview_map.txt.bak-0321_1938_3
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    14.5 KB] [EXT: .txt] /userdata/system/ultramode/logs/ultramode_timestamp_drift.txt
+        [FILE] [MOD: 2026-03-07 19:21:38] [SIZE:    14.5 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/logs/ultramode_timestamp_drift.txt.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    14.5 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/logs/ultramode_timestamp_drift.txt.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    14.5 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/logs/ultramode_timestamp_drift.txt.bak-0321_1938_3
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     4.6 KB] [EXT: .txt] /userdata/system/ultramode/logs/ultramode_tree.txt
+        [FILE] [MOD: 2026-03-07 19:18:37] [SIZE:     4.6 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/logs/ultramode_tree.txt.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     4.6 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/logs/ultramode_tree.txt.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     4.6 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/logs/ultramode_tree.txt.bak-0321_1938_3
+        [FILE] [MOD: 2026-03-06 23:17:06] [SIZE:     57.0 B] [EXT: .txt] /userdata/system/ultramode/logs/um_flags.txt
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     2.3 KB] [EXT: .txt] /userdata/system/ultramode/logs/um_tree.txt
+        [FILE] [MOD: 2026-03-06 22:49:19] [SIZE:     2.3 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/logs/um_tree.txt.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     2.3 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/logs/um_tree.txt.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     2.3 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/logs/um_tree.txt.bak-0321_1938_3
+        [FILE] [MOD: 2026-03-10 20:48:40] [SIZE:     9.5 KB] [EXT: .txt] /userdata/system/ultramode/logs/umpatcher.log.needs tidyed up tidied_log.txt
+        [FILE] [MOD: 2026-03-09 11:42:08] [SIZE:    447.0 B] [EXT: .txt] /userdata/system/ultramode/logs/umpatcher.run_log.txt
+        [FILE] [MOD: 2026-03-09 13:50:37] [SIZE:     3.7 KB] [EXT: .txt] /userdata/system/ultramode/logs/umpatcher_log.txt
+        [FILE] [MOD: 2026-03-06 23:38:05] [SIZE:    312.0 B] [EXT: .txt] /userdata/system/ultramode/logs/update_input.txt
+        [FILE] [MOD: 2026-03-03 20:07:49] [SIZE:    142.0 B] [EXT: .txt] /userdata/system/ultramode/logs/updater_log.txt
+        [FILE] [MOD: 2026-03-08 21:13:23] [SIZE:     6.5 KB] [EXT: .txt] /userdata/system/ultramode/logs/what ultramode and patcher are for ai.txt
+        [FILE] [MOD: 2026-03-22 11:51:50] [SIZE:     8.4 MB] [EXT: .txt] /userdata/system/ultramode/logs/xclip_installer_log.txt
+        [DIR ] [MOD: 2026-03-14 12:06:14] /userdata/system/ultramode/logs/changelogs
+        [DIR ] [MOD: 2026-03-14 12:06:14] /userdata/system/ultramode/logs/exports
+        [DIR ] [MOD: 2026-03-14 12:06:14] /userdata/system/ultramode/logs/help
+        [DIR ] [MOD: 2026-03-14 12:06:14] /userdata/system/ultramode/logs/ideas
+        [DIR ] [MOD: 2026-03-21 19:38:26] /userdata/system/ultramode/logs/modules
+            [FILE] [MOD: 2026-03-21 16:32:43] [SIZE:     9.6 KB] [EXT: .txt] /userdata/system/ultramode/logs/modules/discover_plugins_log.txt
+            [FILE] [MOD: 2026-03-21 18:56:13] [SIZE:     6.3 KB] [EXT: .bak-20260321_185613] /userdata/system/ultramode/logs/modules/um_notation.log.bak-20260321_185613
+            [FILE] [MOD: 2026-03-22 11:51:50] [SIZE:     6.1 KB] [EXT: .txt] /userdata/system/ultramode/logs/modules/um_notation_log.txt
+            [FILE] [MOD: 2026-03-22 11:51:50] [SIZE:     6.8 KB] [EXT: .txt] /userdata/system/ultramode/logs/modules/um_runtime_notes_log.txt
+            [FILE] [MOD: 2026-03-21 18:56:13] [SIZE:    48.4 KB] [EXT: .txt] /userdata/system/ultramode/logs/modules/umpatcher_module_log.txt
+            [FILE] [MOD: 2026-03-21 18:46:44] [SIZE:   199.1 KB] [EXT: .txt] /userdata/system/ultramode/logs/modules/umpatcher_notes_log.txt
+        [DIR ] [MOD: 2026-03-14 12:06:14] /userdata/system/ultramode/logs/scraps
+    [DIR ] [MOD: 2026-03-21 19:38:25] /userdata/system/ultramode/modules
+        [FILE] [MOD: 2026-03-09 21:49:27] [SIZE:     56.0 B] [EXT: .py] /userdata/system/ultramode/modules/__init__.py
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     3.4 KB] [EXT: .py] /userdata/system/ultramode/modules/ai_ideas_viewer.py
+        [FILE] [MOD: 2026-03-09 19:06:50] [SIZE:     3.4 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/ai_ideas_viewer.py.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     3.4 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/ai_ideas_viewer.py.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     3.4 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/ai_ideas_viewer.py.bak-0321_1938_3
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    10.3 KB] [EXT: .py] /userdata/system/ultramode/modules/ultramode.py
+        [FILE] [MOD: 2026-03-09 19:39:32] [SIZE:    10.3 KB] [EXT: .bak] /userdata/system/ultramode/modules/ultramode.py.bak
+        [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:    10.3 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/ultramode.py.bak-0321_1938
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    10.3 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/ultramode.py.bak-0321_1938_2
+        [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    10.3 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/ultramode.py.bak-0321_1938_3
+        [FILE] [MOD: 2026-03-13 02:11:34] [SIZE:     3.5 KB] [EXT: .py] /userdata/system/ultramode/modules/um_logger_tools.py
+        [DIR ] [MOD: 2026-03-13 18:38:20] /userdata/system/ultramode/modules/__pycache__
+            [FILE] [MOD: 2026-03-10 00:33:28] [SIZE:    397.0 B] [EXT: .pyc] /userdata/system/ultramode/modules/__pycache__/um_gamepad.cpython-312.pyc
+            [FILE] [MOD: 2026-03-13 18:38:20] [SIZE:     7.6 KB] [EXT: .pyc] /userdata/system/ultramode/modules/__pycache__/um_gamepad_shim.cpython-312.pyc
+        [DIR ] [MOD: 2026-03-21 19:38:25] /userdata/system/ultramode/modules/mandatory
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:     2.0 KB] [EXT: .py] /userdata/system/ultramode/modules/mandatory/um_gamepad.py
+            [FILE] [MOD: 2026-03-10 00:40:06] [SIZE:     1.9 KB] [EXT: .bak] /userdata/system/ultramode/modules/mandatory/um_gamepad.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:     7.7 KB] [EXT: .py] /userdata/system/ultramode/modules/mandatory/um_gamepad_shim.py
+            [FILE] [MOD: 2026-03-13 18:36:59] [SIZE:     7.6 KB] [EXT: .bak] /userdata/system/ultramode/modules/mandatory/um_gamepad_shim.py.bak
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    16.6 KB] [EXT: .py] /userdata/system/ultramode/modules/mandatory/um_gui.py
+            [FILE] [MOD: 2026-03-13 01:39:59] [SIZE:    16.5 KB] [EXT: .bak] /userdata/system/ultramode/modules/mandatory/um_gui.py.bak
+            [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:    16.6 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/mandatory/um_gui.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    16.6 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/mandatory/um_gui.py.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     3.7 KB] [EXT: .py] /userdata/system/ultramode/modules/mandatory/um_notation.py
+            [FILE] [MOD: 2026-03-15 18:55:22] [SIZE:     3.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/mandatory/um_notation.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     3.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/mandatory/um_notation.py.bak-0321_1938_2
+            [DIR ] [MOD: 2026-03-21 18:44:42] /userdata/system/ultramode/modules/mandatory/__pycache__
+                [FILE] [MOD: 2026-03-09 22:05:38] [SIZE:    153.0 B] [EXT: .pyc] /userdata/system/ultramode/modules/mandatory/__pycache__/__init__.cpython-312.pyc
+                [FILE] [MOD: 2026-03-09 22:21:37] [SIZE:     9.1 KB] [EXT: .pyc] /userdata/system/ultramode/modules/mandatory/__pycache__/ultramode.cpython-312.pyc
+                [FILE] [MOD: 2026-03-21 18:44:42] [SIZE:     3.1 KB] [EXT: .pyc] /userdata/system/ultramode/modules/mandatory/__pycache__/um_gamepad.cpython-312.pyc
+                [FILE] [MOD: 2026-03-21 18:44:42] [SIZE:     7.8 KB] [EXT: .pyc] /userdata/system/ultramode/modules/mandatory/__pycache__/um_gamepad_shim.cpython-312.pyc
+                [FILE] [MOD: 2026-03-13 01:50:36] [SIZE:    19.0 KB] [EXT: .pyc] /userdata/system/ultramode/modules/mandatory/__pycache__/um_gui.cpython-312.pyc
+                [FILE] [MOD: 2026-03-15 19:00:20] [SIZE:     4.6 KB] [EXT: .pyc] /userdata/system/ultramode/modules/mandatory/__pycache__/um_notation.cpython-312.pyc
+        [DIR ] [MOD: 2026-03-21 22:42:35] /userdata/system/ultramode/modules/patcher
+            [FILE] [MOD: 2026-03-17 22:09:57] [SIZE:     5.3 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/copilot_recommendations_for_umpatcher_v1.txt
+            [FILE] [MOD: 2026-03-15 17:12:25] [SIZE:     2.8 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/directory_list_richer.py
+            [FILE] [MOD: 2026-03-19 01:09:42] [SIZE:     2.7 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/drag_run_py.py
+            [FILE] [MOD: 2026-03-20 23:48:07] [SIZE:    53.8 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patch_source_loader_gui_v7.py
+            [FILE] [MOD: 2026-03-16 17:18:34] [SIZE:     8.5 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher_test_lab_seed.py
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   161.5 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/umpatcher.py
+            [FILE] [MOD: 2026-03-20 21:20:45] [SIZE:   161.5 KB] [EXT: .bak] /userdata/system/ultramode/modules/patcher/umpatcher.py.bak
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   153.1 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/umpatcher.py.txt
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   156.1 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/umpatcher_current_badheader_base.py
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   191.1 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/umpatcher_log.txt
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   153.1 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/umpatcher_log_v11_0_r7.txt
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   156.1 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/umpatcher_v11_0_r7.py
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   161.5 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/umpatcher_v11_r8 (1).py
+            [DIR ] [MOD: 2026-03-20 22:32:25] /userdata/system/ultramode/modules/patcher/incoming
+                [FILE] [MOD: 2026-03-20 21:52:11] [SIZE:    24.4 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/incoming/patch_source_loader_gui_v2.py
+                [FILE] [MOD: 2026-03-20 22:14:01] [SIZE:    26.8 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/incoming/patch_source_loader_gui_v3.py
+                [FILE] [MOD: 2026-03-20 22:32:20] [SIZE:    28.8 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/incoming/patch_source_loader_gui_v4.py
+                [FILE] [MOD: 2026-03-20 21:31:13] [SIZE:     9.2 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/incoming/patch_source_loader_v1.py
+            [DIR ] [MOD: 2026-03-21 19:38:26] /userdata/system/ultramode/modules/patcher/patcher BACKUPS
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     9.6 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260316_224808.txt
+                [FILE] [MOD: 2026-03-16 17:48:08] [SIZE:     9.6 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260316_224808.txt.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     9.6 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260316_224808.txt.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     9.6 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260316_224808.txt.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     9.6 KB] [EXT: .bak-0321_1938_4] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260316_224808.txt.bak-0321_1938_4
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     9.6 KB] [EXT: .bak-0321_1938_5] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260316_224808.txt.bak-0321_1938_5
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     9.6 KB] [EXT: .bak-0321_1938_6] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260316_224808.txt.bak-0321_1938_6
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     9.6 KB] [EXT: .bak-0321_1938_7] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260316_224808.txt.bak-0321_1938_7
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     9.6 KB] [EXT: .bak-0321_1938_8] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260316_224808.txt.bak-0321_1938_8
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     9.6 KB] [EXT: .bak-0321_1938_9] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260316_224808.txt.bak-0321_1938_9
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    11.1 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260317_000636.txt
+                [FILE] [MOD: 2026-03-16 19:06:36] [SIZE:    11.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260317_000636.txt.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    11.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260317_000636.txt.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    11.1 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260317_000636.txt.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    11.1 KB] [EXT: .bak-0321_1938_4] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260317_000636.txt.bak-0321_1938_4
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    11.1 KB] [EXT: .bak-0321_1938_5] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260317_000636.txt.bak-0321_1938_5
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    11.1 KB] [EXT: .bak-0321_1938_6] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260317_000636.txt.bak-0321_1938_6
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    11.1 KB] [EXT: .bak-0321_1938_7] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260317_000636.txt.bak-0321_1938_7
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    11.1 KB] [EXT: .bak-0321_1938_8] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260317_000636.txt.bak-0321_1938_8
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    11.1 KB] [EXT: .bak-0321_1938_9] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/directory_list_20260317_000636.txt.bak-0321_1938_9
+                [FILE] [MOD: 2026-03-13 23:19:42] [SIZE:     29.0 B] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/patch_test.txt
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    75.5 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher.log.TXT
+                [FILE] [MOD: 2026-03-15 15:39:12] [SIZE:    75.4 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher.log.TXT.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    75.4 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher.log.TXT.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    75.4 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher.log.TXT.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    75.4 KB] [EXT: .bak-0321_1938_4] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher.log.TXT.bak-0321_1938_4
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    75.4 KB] [EXT: .bak-0321_1938_5] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher.log.TXT.bak-0321_1938_5
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    75.4 KB] [EXT: .bak-0321_1938_6] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher.log.TXT.bak-0321_1938_6
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    75.4 KB] [EXT: .bak-0321_1938_7] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher.log.TXT.bak-0321_1938_7
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    75.5 KB] [EXT: .bak-0321_1938_8] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher.log.TXT.bak-0321_1938_8
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    75.5 KB] [EXT: .bak-0321_1938_9] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher.log.TXT.bak-0321_1938_9
+                [FILE] [MOD: 2026-03-16 15:17:06] [SIZE:   131.4 KB] [EXT: .bak] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher.py.bak
+                [FILE] [MOD: 2026-03-16 18:58:17] [SIZE:   149.7 KB] [EXT: .bak-20260316_235817] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher.py.bak-20260316_235817
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   119.2 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher10.9.py
+                [FILE] [MOD: 2026-03-16 01:13:11] [SIZE:   119.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher10.9.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   119.2 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher10.9.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   119.2 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher10.9.py.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   101.3 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher10v8_fixed.py
+                [FILE] [MOD: 2026-03-15 14:21:58] [SIZE:   101.2 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher10v8_fixed.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   101.3 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher10v8_fixed.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   101.3 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher10v8_fixed.py.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-17 18:05:27] [SIZE:    13.3 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_handoff_20260317_log.txt
+                [FILE] [MOD: 2026-03-13 22:05:49] [SIZE:     2.6 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_help (1)_log.txt
+                [FILE] [MOD: 2026-03-13 22:09:13] [SIZE:     2.6 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_help (2)_log.txt
+                [FILE] [MOD: 2026-03-14 13:56:34] [SIZE:    24.1 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_help (3B)_log.txt
+                [FILE] [MOD: 2026-03-13 22:27:29] [SIZE:    22.0 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_help(3a)_log.txt
+                [FILE] [MOD: 2026-03-13 22:27:29] [SIZE:    18.4 KB] [EXT: .bak-20260314_032729] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_help.log.bak-20260314_032729
+                [FILE] [MOD: 2026-03-14 00:31:44] [SIZE:     2.9 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_help4_log.txt
+                [FILE] [MOD: 2026-03-14 00:51:35] [SIZE:     5.3 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_help_log.txt
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    83.5 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log (1).txt
+                [FILE] [MOD: 2026-03-16 15:17:12] [SIZE:    83.4 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log (1).txt.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    83.5 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log (1).txt.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    83.5 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log (1).txt.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    83.5 KB] [EXT: .bak-0321_1938_4] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log (1).txt.bak-0321_1938_4
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    83.5 KB] [EXT: .bak-0321_1938_5] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log (1).txt.bak-0321_1938_5
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    83.5 KB] [EXT: .bak-0321_1938_6] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log (1).txt.bak-0321_1938_6
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    83.5 KB] [EXT: .bak-0321_1938_7] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log (1).txt.bak-0321_1938_7
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    83.5 KB] [EXT: .bak-0321_1938_8] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log (1).txt.bak-0321_1938_8
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    83.5 KB] [EXT: .bak-0321_1938_9] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log (1).txt.bak-0321_1938_9
+                [FILE] [MOD: 2026-03-15 15:39:12] [SIZE:    75.4 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log.txt
+                [FILE] [MOD: 2026-03-17 17:16:48] [SIZE:    94.8 KB] [EXT: .bak-20260317_171648] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log.txt.bak-20260317_171648
+                [FILE] [MOD: 2026-03-17 17:39:16] [SIZE:   106.1 KB] [EXT: .bak-20260317_173916] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log.txt.bak-20260317_173916
+                [FILE] [MOD: 2026-03-17 17:53:43] [SIZE:   109.5 KB] [EXT: .bak-20260317_175343] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log.txt.bak-20260317_175343
+                [FILE] [MOD: 2026-03-17 17:53:53] [SIZE:   118.3 KB] [EXT: .bak-20260317_175353] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log.txt.bak-20260317_175353
+                [FILE] [MOD: 2026-03-17 17:56:13] [SIZE:   127.1 KB] [EXT: .bak-20260317_175613] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log.txt.bak-20260317_175613
+                [FILE] [MOD: 2026-03-17 18:30:35] [SIZE:   130.4 KB] [EXT: .bak-20260317_183035] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log.txt.bak-20260317_183035
+                [FILE] [MOD: 2026-03-17 18:33:24] [SIZE:   134.1 KB] [EXT: .bak-20260317_183324] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log.txt.bak-20260317_183324
+                [FILE] [MOD: 2026-03-17 18:52:38] [SIZE:   144.5 KB] [EXT: .bak-20260317_185238] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log.txt.bak-20260317_185238
+                [FILE] [MOD: 2026-03-17 19:10:20] [SIZE:   147.2 KB] [EXT: .bak-20260317_191020] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log.txt.bak-20260317_191020
+                [FILE] [MOD: 2026-03-17 19:49:03] [SIZE:   150.2 KB] [EXT: .bak-20260317_194903] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log.txt.bak-20260317_194903
+                [FILE] [MOD: 2026-03-15 03:36:12] [SIZE:     5.0 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_11.0_log.txt
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    77.2 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_appended_2026-03-16_v2.txt
+                [FILE] [MOD: 2026-03-16 14:39:04] [SIZE:    77.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_appended_2026-03-16_v2.txt.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    77.2 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_appended_2026-03-16_v2.txt.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    77.2 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_appended_2026-03-16_v2.txt.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    77.2 KB] [EXT: .bak-0321_1938_4] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_appended_2026-03-16_v2.txt.bak-0321_1938_4
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    77.2 KB] [EXT: .bak-0321_1938_5] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_appended_2026-03-16_v2.txt.bak-0321_1938_5
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    77.2 KB] [EXT: .bak-0321_1938_6] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_appended_2026-03-16_v2.txt.bak-0321_1938_6
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    77.2 KB] [EXT: .bak-0321_1938_7] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_appended_2026-03-16_v2.txt.bak-0321_1938_7
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    77.2 KB] [EXT: .bak-0321_1938_8] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_appended_2026-03-16_v2.txt.bak-0321_1938_8
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    77.2 KB] [EXT: .bak-0321_1938_9] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_appended_2026-03-16_v2.txt.bak-0321_1938_9
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    94.7 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r20_confirm_wrap_helper_fix.txt
+                [FILE] [MOD: 2026-03-16 20:03:29] [SIZE:    94.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r20_confirm_wrap_helper_fix.txt.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    94.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r20_confirm_wrap_helper_fix.txt.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    94.7 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r20_confirm_wrap_helper_fix.txt.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    94.7 KB] [EXT: .bak-0321_1938_4] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r20_confirm_wrap_helper_fix.txt.bak-0321_1938_4
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    94.7 KB] [EXT: .bak-0321_1938_5] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r20_confirm_wrap_helper_fix.txt.bak-0321_1938_5
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    94.7 KB] [EXT: .bak-0321_1938_6] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r20_confirm_wrap_helper_fix.txt.bak-0321_1938_6
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    94.7 KB] [EXT: .bak-0321_1938_7] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r20_confirm_wrap_helper_fix.txt.bak-0321_1938_7
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    94.7 KB] [EXT: .bak-0321_1938_8] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r20_confirm_wrap_helper_fix.txt.bak-0321_1938_8
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    94.7 KB] [EXT: .bak-0321_1938_9] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r20_confirm_wrap_helper_fix.txt.bak-0321_1938_9
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    94.9 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r21_confirm_clip_refresh.txt
+                [FILE] [MOD: 2026-03-16 20:25:27] [SIZE:    94.8 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r21_confirm_clip_refresh.txt.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    94.8 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r21_confirm_clip_refresh.txt.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    94.8 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r21_confirm_clip_refresh.txt.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    94.9 KB] [EXT: .bak-0321_1938_4] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r21_confirm_clip_refresh.txt.bak-0321_1938_4
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    94.9 KB] [EXT: .bak-0321_1938_5] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r21_confirm_clip_refresh.txt.bak-0321_1938_5
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    94.9 KB] [EXT: .bak-0321_1938_6] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r21_confirm_clip_refresh.txt.bak-0321_1938_6
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    94.9 KB] [EXT: .bak-0321_1938_7] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r21_confirm_clip_refresh.txt.bak-0321_1938_7
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    94.9 KB] [EXT: .bak-0321_1938_8] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r21_confirm_clip_refresh.txt.bak-0321_1938_8
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    94.9 KB] [EXT: .bak-0321_1938_9] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r21_confirm_clip_refresh.txt.bak-0321_1938_9
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.3 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r2_replit_untrusted_log_txt_rule.txt
+                [FILE] [MOD: 2026-03-16 15:21:18] [SIZE:    85.2 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r2_replit_untrusted_log_txt_rule.txt.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    85.2 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r2_replit_untrusted_log_txt_rule.txt.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    85.2 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r2_replit_untrusted_log_txt_rule.txt.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.2 KB] [EXT: .bak-0321_1938_4] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r2_replit_untrusted_log_txt_rule.txt.bak-0321_1938_4
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.2 KB] [EXT: .bak-0321_1938_5] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r2_replit_untrusted_log_txt_rule.txt.bak-0321_1938_5
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.2 KB] [EXT: .bak-0321_1938_6] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r2_replit_untrusted_log_txt_rule.txt.bak-0321_1938_6
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.3 KB] [EXT: .bak-0321_1938_7] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r2_replit_untrusted_log_txt_rule.txt.bak-0321_1938_7
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.3 KB] [EXT: .bak-0321_1938_8] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r2_replit_untrusted_log_txt_rule.txt.bak-0321_1938_8
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.3 KB] [EXT: .bak-0321_1938_9] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r2_replit_untrusted_log_txt_rule.txt.bak-0321_1938_9
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.1 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r3_controller_buffer_preview_fix.txt
+                [FILE] [MOD: 2026-03-16 15:48:46] [SIZE:    85.0 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r3_controller_buffer_preview_fix.txt.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    85.0 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r3_controller_buffer_preview_fix.txt.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    85.0 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r3_controller_buffer_preview_fix.txt.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.1 KB] [EXT: .bak-0321_1938_4] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r3_controller_buffer_preview_fix.txt.bak-0321_1938_4
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.1 KB] [EXT: .bak-0321_1938_5] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r3_controller_buffer_preview_fix.txt.bak-0321_1938_5
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.1 KB] [EXT: .bak-0321_1938_6] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r3_controller_buffer_preview_fix.txt.bak-0321_1938_6
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.1 KB] [EXT: .bak-0321_1938_7] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r3_controller_buffer_preview_fix.txt.bak-0321_1938_7
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.1 KB] [EXT: .bak-0321_1938_8] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r3_controller_buffer_preview_fix.txt.bak-0321_1938_8
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.1 KB] [EXT: .bak-0321_1938_9] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r3_controller_buffer_preview_fix.txt.bak-0321_1938_9
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.9 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_create_umpatcher_log_txt.txt
+                [FILE] [MOD: 2026-03-16 15:53:59] [SIZE:    85.9 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_create_umpatcher_log_txt.txt.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    85.9 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_create_umpatcher_log_txt.txt.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    85.9 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_create_umpatcher_log_txt.txt.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.9 KB] [EXT: .bak-0321_1938_4] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_create_umpatcher_log_txt.txt.bak-0321_1938_4
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.9 KB] [EXT: .bak-0321_1938_5] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_create_umpatcher_log_txt.txt.bak-0321_1938_5
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.9 KB] [EXT: .bak-0321_1938_6] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_create_umpatcher_log_txt.txt.bak-0321_1938_6
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.9 KB] [EXT: .bak-0321_1938_7] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_create_umpatcher_log_txt.txt.bak-0321_1938_7
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.9 KB] [EXT: .bak-0321_1938_8] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_create_umpatcher_log_txt.txt.bak-0321_1938_8
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    85.9 KB] [EXT: .bak-0321_1938_9] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_create_umpatcher_log_txt.txt.bak-0321_1938_9
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    86.9 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_preview_crash_fix_dated.txt
+                [FILE] [MOD: 2026-03-16 16:08:25] [SIZE:    86.9 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_preview_crash_fix_dated.txt.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    86.9 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_preview_crash_fix_dated.txt.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    86.9 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_preview_crash_fix_dated.txt.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    86.9 KB] [EXT: .bak-0321_1938_4] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_preview_crash_fix_dated.txt.bak-0321_1938_4
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    86.9 KB] [EXT: .bak-0321_1938_5] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_preview_crash_fix_dated.txt.bak-0321_1938_5
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    86.9 KB] [EXT: .bak-0321_1938_6] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_preview_crash_fix_dated.txt.bak-0321_1938_6
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    86.9 KB] [EXT: .bak-0321_1938_7] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_preview_crash_fix_dated.txt.bak-0321_1938_7
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    86.9 KB] [EXT: .bak-0321_1938_8] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_preview_crash_fix_dated.txt.bak-0321_1938_8
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    86.9 KB] [EXT: .bak-0321_1938_9] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r4_preview_crash_fix_dated.txt.bak-0321_1938_9
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    86.3 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r5_paste_now_button.txt
+                [FILE] [MOD: 2026-03-16 16:13:14] [SIZE:    86.3 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r5_paste_now_button.txt.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    86.3 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r5_paste_now_button.txt.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    86.3 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r5_paste_now_button.txt.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    86.3 KB] [EXT: .bak-0321_1938_4] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r5_paste_now_button.txt.bak-0321_1938_4
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    86.3 KB] [EXT: .bak-0321_1938_5] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r5_paste_now_button.txt.bak-0321_1938_5
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    86.3 KB] [EXT: .bak-0321_1938_6] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r5_paste_now_button.txt.bak-0321_1938_6
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    86.3 KB] [EXT: .bak-0321_1938_7] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r5_paste_now_button.txt.bak-0321_1938_7
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    86.3 KB] [EXT: .bak-0321_1938_8] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r5_paste_now_button.txt.bak-0321_1938_8
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    86.3 KB] [EXT: .bak-0321_1938_9] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r5_paste_now_button.txt.bak-0321_1938_9
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    91.7 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r6_shared_menu_gamepad_rules.txt
+                [FILE] [MOD: 2026-03-16 16:49:59] [SIZE:    91.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r6_shared_menu_gamepad_rules.txt.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    91.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r6_shared_menu_gamepad_rules.txt.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    91.7 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r6_shared_menu_gamepad_rules.txt.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    91.7 KB] [EXT: .bak-0321_1938_4] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r6_shared_menu_gamepad_rules.txt.bak-0321_1938_4
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    91.7 KB] [EXT: .bak-0321_1938_5] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r6_shared_menu_gamepad_rules.txt.bak-0321_1938_5
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    91.7 KB] [EXT: .bak-0321_1938_6] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r6_shared_menu_gamepad_rules.txt.bak-0321_1938_6
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    91.7 KB] [EXT: .bak-0321_1938_7] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r6_shared_menu_gamepad_rules.txt.bak-0321_1938_7
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    91.7 KB] [EXT: .bak-0321_1938_8] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r6_shared_menu_gamepad_rules.txt.bak-0321_1938_8
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    91.7 KB] [EXT: .bak-0321_1938_9] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r6_shared_menu_gamepad_rules.txt.bak-0321_1938_9
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    93.0 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r7_paste_buffer_now_bubble_fix.txt
+                [FILE] [MOD: 2026-03-16 17:00:10] [SIZE:    93.0 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r7_paste_buffer_now_bubble_fix.txt.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    93.0 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r7_paste_buffer_now_bubble_fix.txt.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    93.0 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r7_paste_buffer_now_bubble_fix.txt.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    93.0 KB] [EXT: .bak-0321_1938_4] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r7_paste_buffer_now_bubble_fix.txt.bak-0321_1938_4
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    93.0 KB] [EXT: .bak-0321_1938_5] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r7_paste_buffer_now_bubble_fix.txt.bak-0321_1938_5
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    93.0 KB] [EXT: .bak-0321_1938_6] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r7_paste_buffer_now_bubble_fix.txt.bak-0321_1938_6
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    93.0 KB] [EXT: .bak-0321_1938_7] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r7_paste_buffer_now_bubble_fix.txt.bak-0321_1938_7
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    93.0 KB] [EXT: .bak-0321_1938_8] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r7_paste_buffer_now_bubble_fix.txt.bak-0321_1938_8
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    93.0 KB] [EXT: .bak-0321_1938_9] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v10_9_r7_paste_buffer_now_bubble_fix.txt.bak-0321_1938_9
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   145.9 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v11_0_r6.txt
+                [FILE] [MOD: 2026-03-17 20:40:07] [SIZE:   145.8 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v11_0_r6.txt.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   145.9 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v11_0_r6.txt.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   145.9 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v11_0_r6.txt.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   145.9 KB] [EXT: .bak-0321_1938_4] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v11_0_r6.txt.bak-0321_1938_4
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   145.9 KB] [EXT: .bak-0321_1938_5] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v11_0_r6.txt.bak-0321_1938_5
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   145.9 KB] [EXT: .bak-0321_1938_6] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v11_0_r6.txt.bak-0321_1938_6
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   145.9 KB] [EXT: .bak-0321_1938_7] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v11_0_r6.txt.bak-0321_1938_7
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   145.9 KB] [EXT: .bak-0321_1938_8] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v11_0_r6.txt.bak-0321_1938_8
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   145.9 KB] [EXT: .bak-0321_1938_9] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v11_0_r6.txt.bak-0321_1938_9
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    82.0 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v4.txt
+                [FILE] [MOD: 2026-03-16 14:55:45] [SIZE:    82.0 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v4.txt.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    82.0 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v4.txt.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    82.0 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v4.txt.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    82.0 KB] [EXT: .bak-0321_1938_4] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v4.txt.bak-0321_1938_4
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    82.0 KB] [EXT: .bak-0321_1938_5] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v4.txt.bak-0321_1938_5
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    82.0 KB] [EXT: .bak-0321_1938_6] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v4.txt.bak-0321_1938_6
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    82.0 KB] [EXT: .bak-0321_1938_7] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v4.txt.bak-0321_1938_7
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    82.0 KB] [EXT: .bak-0321_1938_8] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v4.txt.bak-0321_1938_8
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    82.0 KB] [EXT: .bak-0321_1938_9] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v4.txt.bak-0321_1938_9
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    83.5 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v5.txt
+                [FILE] [MOD: 2026-03-16 15:05:05] [SIZE:    83.4 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v5.txt.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    83.5 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v5.txt.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    83.5 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v5.txt.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    83.5 KB] [EXT: .bak-0321_1938_4] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v5.txt.bak-0321_1938_4
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    83.5 KB] [EXT: .bak-0321_1938_5] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v5.txt.bak-0321_1938_5
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    83.5 KB] [EXT: .bak-0321_1938_6] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v5.txt.bak-0321_1938_6
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    83.5 KB] [EXT: .bak-0321_1938_7] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v5.txt.bak-0321_1938_7
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    83.5 KB] [EXT: .bak-0321_1938_8] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v5.txt.bak-0321_1938_8
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    83.5 KB] [EXT: .bak-0321_1938_9] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_log_v5.txt.bak-0321_1938_9
+                [FILE] [MOD: 2026-03-15 03:48:37] [SIZE:     1.6 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_refresh_handoff_log.txt
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    518.0 B] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_test_patch_01.txt
+                [FILE] [MOD: 2026-03-16 13:39:57] [SIZE:    506.0 B] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_test_patch_01.txt.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   153.7 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r10_auto_version_changelog_fix.py
+                [FILE] [MOD: 2026-03-16 18:48:01] [SIZE:   153.7 KB] [EXT: .bak] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r10_auto_version_changelog_fix.py.bak
+                [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   153.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r10_auto_version_changelog_fix.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   153.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r10_auto_version_changelog_fix.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   149.7 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r11_confirm_window_big_fix.py
+                [FILE] [MOD: 2026-03-16 18:51:40] [SIZE:   149.7 KB] [EXT: .bak] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r11_confirm_window_big_fix.py.bak
+                [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   149.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r11_confirm_window_big_fix.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   149.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r11_confirm_window_big_fix.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   151.7 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r17_confirm_preview_path_fix.py
+                [FILE] [MOD: 2026-03-16 19:28:49] [SIZE:   151.7 KB] [EXT: .bak] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r17_confirm_preview_path_fix.py.bak
+                [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   151.6 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r17_confirm_preview_path_fix.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   151.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r17_confirm_preview_path_fix.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   154.3 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r20_confirm_wrap_helper_fix.py
+                [FILE] [MOD: 2026-03-16 20:03:23] [SIZE:   154.3 KB] [EXT: .bak] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r20_confirm_wrap_helper_fix.py.bak
+                [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   154.3 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r20_confirm_wrap_helper_fix.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   154.3 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r20_confirm_wrap_helper_fix.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   153.1 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r21_confirm_clip_refresh.py
+                [FILE] [MOD: 2026-03-16 20:25:16] [SIZE:   153.1 KB] [EXT: .bak] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r21_confirm_clip_refresh.py.bak
+                [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   153.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r21_confirm_clip_refresh.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   153.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r21_confirm_clip_refresh.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   133.6 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r2_replit_untrusted_log_txt_rule.py
+                [FILE] [MOD: 2026-03-16 15:21:09] [SIZE:   133.6 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r2_replit_untrusted_log_txt_rule.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   133.6 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r2_replit_untrusted_log_txt_rule.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   132.1 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r3_controller_buffer_preview_fix.py
+                [FILE] [MOD: 2026-03-16 15:48:34] [SIZE:   132.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r3_controller_buffer_preview_fix.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   132.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r3_controller_buffer_preview_fix.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   125.0 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r4_adaptive_rules.py
+                [FILE] [MOD: 2026-03-16 14:39:12] [SIZE:   124.9 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r4_adaptive_rules.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   124.9 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r4_adaptive_rules.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   124.9 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r4_adaptive_rules.py.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   131.2 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r4_preview_crash_fix_applied.py
+                [FILE] [MOD: 2026-03-16 16:02:27] [SIZE:   131.2 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r4_preview_crash_fix_applied.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   131.2 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r4_preview_crash_fix_applied.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   131.2 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r4_preview_crash_fix_applied.py.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   133.4 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r4_preview_crash_fix_dated.py
+                [FILE] [MOD: 2026-03-16 16:08:15] [SIZE:   133.4 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r4_preview_crash_fix_dated.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   133.4 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r4_preview_crash_fix_dated.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   134.2 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r5_paste_now_button.py
+                [FILE] [MOD: 2026-03-16 16:13:09] [SIZE:   134.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r5_paste_now_button.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   134.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r5_paste_now_button.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   129.9 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r6_every_file_growth.py
+                [FILE] [MOD: 2026-03-16 14:55:51] [SIZE:   129.9 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r6_every_file_growth.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   129.9 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r6_every_file_growth.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   129.9 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r6_every_file_growth.py.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   137.9 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r6_paste_now_first_shared_menu_rules.py
+                [FILE] [MOD: 2026-03-16 16:49:46] [SIZE:   137.9 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r6_paste_now_first_shared_menu_rules.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   137.9 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r6_paste_now_first_shared_menu_rules.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   131.5 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r7_copy_first_test_rule.py
+                [FILE] [MOD: 2026-03-16 15:05:15] [SIZE:   131.4 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r7_copy_first_test_rule.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   131.4 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r7_copy_first_test_rule.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   131.4 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r7_copy_first_test_rule.py.bak-0321_1938_3
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   139.2 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r7_paste_buffer_now_bubble_fix.py
+                [FILE] [MOD: 2026-03-16 17:00:05] [SIZE:   139.2 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r7_paste_buffer_now_bubble_fix.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   139.2 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r7_paste_buffer_now_bubble_fix.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   139.7 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r8_compact_button_fix.py
+                [FILE] [MOD: 2026-03-16 17:12:59] [SIZE:   139.7 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r8_compact_button_fix.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   139.7 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r8_compact_button_fix.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   145.9 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r9_sectioned_base.py.txt
+                [FILE] [MOD: 2026-03-16 18:15:14] [SIZE:   145.9 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r9_sectioned_base.py.txt.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   145.9 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v10_9_r9_sectioned_base.py.txt.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   153.1 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v11_0_r6.py
+                [FILE] [MOD: 2026-03-17 20:39:53] [SIZE:   153.1 KB] [EXT: .bak] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v11_0_r6.py.bak
+                [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   153.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v11_0_r6.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   153.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcher_v11_0_r6.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    77.2 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcherx_6.py
+                [FILE] [MOD: 2026-03-14 13:41:51] [SIZE:    77.1 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcherx_6.py.bak-0321_1938
+                [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:    77.1 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcherx_6.py.bak-0321_1938_2
+                [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    77.1 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/umpatcherx_6.py.bak-0321_1938_3
+                [DIR ] [MOD: 2026-03-21 19:38:26] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/claude.ai
+                    [FILE] [MOD: 2026-03-17 18:41:30] [SIZE:    75.2 KB] [EXT: .zip] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/claude.ai/files.zip
+                    [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   151.8 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/claude.ai/umpatcher.py
+                    [FILE] [MOD: 2026-03-17 22:41:30] [SIZE:   151.8 KB] [EXT: .bak] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/claude.ai/umpatcher.py.bak
+                    [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:   151.8 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/claude.ai/umpatcher.py.bak-0321_1938
+                    [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   151.8 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/claude.ai/umpatcher.py.bak-0321_1938_2
+                    [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   145.9 KB] [EXT: .txt] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/claude.ai/umpatcher_log.txt
+                    [FILE] [MOD: 2026-03-17 22:41:30] [SIZE:   145.8 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/claude.ai/umpatcher_log.txt.bak-0321_1938
+                    [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   145.9 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/claude.ai/umpatcher_log.txt.bak-0321_1938_2
+                    [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:   145.9 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/claude.ai/umpatcher_log.txt.bak-0321_1938_3
+                    [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   145.9 KB] [EXT: .bak-0321_1938_4] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/claude.ai/umpatcher_log.txt.bak-0321_1938_4
+                    [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   145.9 KB] [EXT: .bak-0321_1938_5] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/claude.ai/umpatcher_log.txt.bak-0321_1938_5
+                    [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   145.9 KB] [EXT: .bak-0321_1938_6] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/claude.ai/umpatcher_log.txt.bak-0321_1938_6
+                    [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   145.9 KB] [EXT: .bak-0321_1938_7] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/claude.ai/umpatcher_log.txt.bak-0321_1938_7
+                    [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   145.9 KB] [EXT: .bak-0321_1938_8] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/claude.ai/umpatcher_log.txt.bak-0321_1938_8
+                    [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:   145.9 KB] [EXT: .bak-0321_1938_9] /userdata/system/ultramode/modules/patcher/patcher BACKUPS/claude.ai/umpatcher_log.txt.bak-0321_1938_9
+            [DIR ] [MOD: 2026-03-21 15:05:57] /userdata/system/ultramode/modules/patcher/psloader backups
+                [FILE] [MOD: 2026-03-20 23:24:01] [SIZE:    47.8 KB] [EXT: .py] /userdata/system/ultramode/modules/patcher/psloader backups/patch_source_loader_gui_v6.py
+        [DIR ] [MOD: 2026-03-22 11:58:54] /userdata/system/ultramode/modules/tools
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     6.0 KB] [EXT: .txt] /userdata/system/ultramode/modules/tools/directory_list_20260321_163455.txt
+            [FILE] [MOD: 2026-03-21 16:34:55] [SIZE:     6.0 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/tools/directory_list_20260321_163455.txt.bak-0321_1938
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     6.0 KB] [EXT: .bak-0321_1938_2] /userdata/system/ultramode/modules/tools/directory_list_20260321_163455.txt.bak-0321_1938_2
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     6.0 KB] [EXT: .bak-0321_1938_3] /userdata/system/ultramode/modules/tools/directory_list_20260321_163455.txt.bak-0321_1938_3
+            [FILE] [MOD: 2026-03-15 17:12:25] [SIZE:     2.8 KB] [EXT: .py] /userdata/system/ultramode/modules/tools/directory_list_richer.py
+            [DIR ] [MOD: 2026-03-21 18:30:09] /userdata/system/ultramode/modules/tools/discover_plugins
+                [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:    69.8 KB] [EXT: .py] /userdata/system/ultramode/modules/tools/discover_plugins/discover_plugins.py
+                [FILE] [MOD: 2026-03-21 16:55:20] [SIZE:    69.8 KB] [EXT: .bak] /userdata/system/ultramode/modules/tools/discover_plugins/discover_plugins.py.bak
+                [FILE] [MOD: 2026-03-18 21:25:46] [SIZE:    10.3 KB] [EXT: .txt] /userdata/system/ultramode/modules/tools/discover_plugins/discover_plugins_header_rules_log.txt
+                [FILE] [MOD: 2026-03-18 21:33:42] [SIZE:    14.8 KB] [EXT: .txt] /userdata/system/ultramode/modules/tools/discover_plugins/discover_plugins_thinktank_log.txt
+            [DIR ] [MOD: 2026-03-18 16:54:03] /userdata/system/ultramode/modules/tools/experimental
+                [DIR ] [MOD: 2026-03-21 19:38:26] /userdata/system/ultramode/modules/tools/experimental/um_toolbox
+                    [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:    68.9 KB] [EXT: .py] /userdata/system/ultramode/modules/tools/experimental/um_toolbox/ultramode_toolbox_v1.2_r20260315_0145pm_edt.py
+                    [FILE] [MOD: 2026-03-15 13:52:18] [SIZE:    68.8 KB] [EXT: .bak] /userdata/system/ultramode/modules/tools/experimental/um_toolbox/ultramode_toolbox_v1.2_r20260315_0145pm_edt.py.bak
+                    [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:    68.9 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/tools/experimental/um_toolbox/ultramode_toolbox_v1.2_r20260315_0145pm_edt.py.bak-0321_1938
+                    [DIR ] [MOD: 2026-03-21 19:38:26] /userdata/system/ultramode/modules/tools/experimental/um_toolbox/toolbox_logs
+                        [FILE] [MOD: 2026-03-15 14:10:31] [SIZE:    989.0 B] [EXT: .txt] /userdata/system/ultramode/modules/tools/experimental/um_toolbox/toolbox_logs/toolbox_log.txt
+                    [DIR ] [MOD: 2026-03-15 13:54:55] /userdata/system/ultramode/modules/tools/experimental/um_toolbox/toolbox_splash_backup
+                    [DIR ] [MOD: 2026-03-15 13:54:55] /userdata/system/ultramode/modules/tools/experimental/um_toolbox/toolbox_templates
+            [DIR ] [MOD: 2026-03-21 19:38:26] /userdata/system/ultramode/modules/tools/file_searcher
+                [FILE] [MOD: 2026-03-15 05:49:26] [SIZE:     4.1 KB] [EXT: .txt] /userdata/system/ultramode/modules/tools/file_searcher/file_searcher_notes.txt
+                [FILE] [MOD: 2026-03-15 17:43:37] [SIZE:     8.9 KB] [EXT: .py] /userdata/system/ultramode/modules/tools/file_searcher/fs.py
+                [FILE] [MOD: 2026-03-15 05:47:37] [SIZE:     3.6 KB] [EXT: .txt] /userdata/system/ultramode/modules/tools/file_searcher/fs_helper dunnwot this is.txt
+                [FILE] [MOD: 2026-03-15 06:49:49] [SIZE:     6.0 KB] [EXT: .txt] /userdata/system/ultramode/modules/tools/file_searcher/fs_helper_log.txt
+                [FILE] [MOD: 2026-03-15 06:11:14] [SIZE:     8.0 KB] [EXT: .txt] /userdata/system/ultramode/modules/tools/file_searcher/fs_helperv2_log.txt
+            [DIR ] [MOD: 2026-03-22 14:11:53] /userdata/system/ultramode/modules/tools/github_cleanup_lab
+                [FILE] [MOD: 2026-03-22 12:27:49] [SIZE:    715.0 B] [EXT: .json] /userdata/system/ultramode/modules/tools/github_cleanup_lab/github_cleanup_lab_config.json
+                [FILE] [MOD: 2026-03-21 23:38:42] [SIZE:    10.8 KB] [EXT: .txt] /userdata/system/ultramode/modules/tools/github_cleanup_lab/github_cleanup_lab_handoff_v1_0_log.txt
+                [FILE] [MOD: 2026-03-22 11:19:02] [SIZE:    59.0 KB] [EXT: .py] /userdata/system/ultramode/modules/tools/github_cleanup_lab/github_cleanup_lab_v1_0.py
+                [FILE] [MOD: 2026-03-22 11:20:03] [SIZE:     6.8 KB] [EXT: .txt] /userdata/system/ultramode/modules/tools/github_cleanup_lab/github_cleanup_lab_v1_0_log.txt
+                [FILE] [MOD: 2026-03-22 11:51:50] [SIZE:    23.3 KB] [EXT: .txt] /userdata/system/ultramode/modules/tools/github_cleanup_lab/github_cleanup_lab_v1_0_r2_log.txt
+                [FILE] [MOD: 2026-03-22 11:45:57] [SIZE:    69.3 KB] [EXT: .py] /userdata/system/ultramode/modules/tools/github_cleanup_lab/github_cleanup_lab_v1_1_r2.py
+                [FILE] [MOD: 2026-03-22 12:27:13] [SIZE:    89.9 KB] [EXT: .py] /userdata/system/ultramode/modules/tools/github_cleanup_lab/github_cleanup_lab_v1_2_r1.py
+                [FILE] [MOD: 2026-03-22 12:27:49] [SIZE:    24.4 KB] [EXT: .txt] /userdata/system/ultramode/modules/tools/github_cleanup_lab/github_cleanup_lab_v1_2_r1_log.txt
+                [FILE] [MOD: 2026-03-22 14:11:48] [SIZE:    21.5 KB] [EXT: .py] /userdata/system/ultramode/modules/tools/github_cleanup_lab/github_cleanup_lab_v1_3_r1_api_backup.py
+            [DIR ] [MOD: 2026-03-22 11:49:13] /userdata/system/ultramode/modules/tools/global_rule_gatherer
+                [FILE] [MOD: 2026-03-22 00:17:48] [SIZE:    13.8 KB] [EXT: .bak] /userdata/system/ultramode/modules/tools/global_rule_gatherer/global_rule_gatherer_gui_v1.py.bak
+                [FILE] [MOD: 2026-03-22 01:40:40] [SIZE:    39.5 KB] [EXT: .py] /userdata/system/ultramode/modules/tools/global_rule_gatherer/global_rule_gatherer_gui_v2.py
+                [FILE] [MOD: 2026-03-22 10:40:44] [SIZE:    52.2 KB] [EXT: .py] /userdata/system/ultramode/modules/tools/global_rule_gatherer/global_rule_gatherer_gui_v3.1.py
+                [FILE] [MOD: 2026-03-22 10:52:33] [SIZE:    57.1 KB] [EXT: .py] /userdata/system/ultramode/modules/tools/global_rule_gatherer/global_rule_gatherer_gui_v3.2.py
+                [FILE] [MOD: 2026-03-22 11:23:14] [SIZE:    66.0 KB] [EXT: .py] /userdata/system/ultramode/modules/tools/global_rule_gatherer/global_rule_gatherer_gui_v3.3.py
+                [FILE] [MOD: 2026-03-22 10:33:00] [SIZE:    50.0 KB] [EXT: .py] /userdata/system/ultramode/modules/tools/global_rule_gatherer/global_rule_gatherer_gui_v3.py
+                [FILE] [MOD: 2026-03-22 11:23:28] [SIZE:    12.4 KB] [EXT: .txt] /userdata/system/ultramode/modules/tools/global_rule_gatherer/global_rule_gatherer_log.txt
+                [FILE] [MOD: 2026-03-22 08:47:25] [SIZE:   548.0 KB] [EXT: .txt] /userdata/system/ultramode/modules/tools/global_rule_gatherer/global_rules_report_v2_deduped_20260322_084724.txt
+                [FILE] [MOD: 2026-03-22 10:41:42] [SIZE:     1.5 MB] [EXT: .txt] /userdata/system/ultramode/modules/tools/global_rule_gatherer/global_rules_report_v3_1_deduped_20260322_104142.txt
+                [FILE] [MOD: 2026-03-22 10:53:36] [SIZE:   109.2 KB] [EXT: .txt] /userdata/system/ultramode/modules/tools/global_rule_gatherer/global_rules_report_v3_2_deduped_20260322_105336.txt
+            [DIR ] [MOD: 2026-03-21 17:35:37] /userdata/system/ultramode/modules/tools/module_lab
+                [FILE] [MOD: 2026-03-18 18:07:42] [SIZE:    26.4 KB] [EXT: .bak] /userdata/system/ultramode/modules/tools/module_lab/module_lab.py.bak
+                [FILE] [MOD: 2026-03-21 17:07:29] [SIZE:    37.7 KB] [EXT: .py] /userdata/system/ultramode/modules/tools/module_lab/module_lab_v10.py
+                [FILE] [MOD: 2026-03-21 17:35:32] [SIZE:    45.4 KB] [EXT: .py] /userdata/system/ultramode/modules/tools/module_lab/module_lab_v11.py
+            [DIR ] [MOD: 2026-03-16 17:51:56] /userdata/system/ultramode/modules/tools/patcher_test_lab
+                [FILE] [MOD: 2026-03-16 17:26:36] [SIZE:    415.0 B] [EXT: .txt] /userdata/system/ultramode/modules/tools/patcher_test_lab/01_create_test_patch.txt
+                [FILE] [MOD: 2026-03-16 17:26:36] [SIZE:    362.0 B] [EXT: .txt] /userdata/system/ultramode/modules/tools/patcher_test_lab/02_append_test_patch.txt
+                [FILE] [MOD: 2026-03-16 17:26:36] [SIZE:    396.0 B] [EXT: .txt] /userdata/system/ultramode/modules/tools/patcher_test_lab/03_insert_before_test_patch.txt
+                [FILE] [MOD: 2026-03-16 17:26:36] [SIZE:    390.0 B] [EXT: .txt] /userdata/system/ultramode/modules/tools/patcher_test_lab/04_insert_after_test_patch.txt
+                [FILE] [MOD: 2026-03-16 17:26:36] [SIZE:    378.0 B] [EXT: .txt] /userdata/system/ultramode/modules/tools/patcher_test_lab/05_replace_test_patch.txt
+                [FILE] [MOD: 2026-03-16 17:26:36] [SIZE:    383.0 B] [EXT: .txt] /userdata/system/ultramode/modules/tools/patcher_test_lab/06_full_test_patch.txt
+                [FILE] [MOD: 2026-03-16 17:26:36] [SIZE:     3.8 KB] [EXT: .txt] /userdata/system/ultramode/modules/tools/patcher_test_lab/COPY_FROM_HERE_patch_blocks.txt
+                [FILE] [MOD: 2026-03-16 17:26:36] [SIZE:    926.0 B] [EXT: .txt] /userdata/system/ultramode/modules/tools/patcher_test_lab/README_TEST_LAB.txt
+                [FILE] [MOD: 2026-03-16 17:43:59] [SIZE:     88.0 B] [EXT: .txt] /userdata/system/ultramode/modules/tools/patcher_test_lab/created_by_patch_test.txt
+                [FILE] [MOD: 2026-03-16 17:51:05] [SIZE:    207.0 B] [EXT: .txt] /userdata/system/ultramode/modules/tools/patcher_test_lab/target_anchor_test.txt
+                [FILE] [MOD: 2026-03-16 17:48:55] [SIZE:    121.0 B] [EXT: .bak-20260316_224855] /userdata/system/ultramode/modules/tools/patcher_test_lab/target_anchor_test.txt.bak-20260316_224855
+                [FILE] [MOD: 2026-03-16 17:50:07] [SIZE:    163.0 B] [EXT: .bak-20260316_225007] /userdata/system/ultramode/modules/tools/patcher_test_lab/target_anchor_test.txt.bak-20260316_225007
+                [FILE] [MOD: 2026-03-16 17:51:05] [SIZE:    203.0 B] [EXT: .bak-20260316_225105] /userdata/system/ultramode/modules/tools/patcher_test_lab/target_anchor_test.txt.bak-20260316_225105
+                [FILE] [MOD: 2026-03-16 17:30:23] [SIZE:    135.0 B] [EXT: .txt] /userdata/system/ultramode/modules/tools/patcher_test_lab/target_append_test.txt
+                [FILE] [MOD: 2026-03-16 17:30:23] [SIZE:     82.0 B] [EXT: .bak-20260316_223023] /userdata/system/ultramode/modules/tools/patcher_test_lab/target_append_test.txt.bak-20260316_223023
+                [FILE] [MOD: 2026-03-16 17:51:56] [SIZE:     82.0 B] [EXT: .txt] /userdata/system/ultramode/modules/tools/patcher_test_lab/target_full_test.txt
+                [FILE] [MOD: 2026-03-16 17:51:56] [SIZE:     78.0 B] [EXT: .bak-20260316_225156] /userdata/system/ultramode/modules/tools/patcher_test_lab/target_full_test.txt.bak-20260316_225156
+            [DIR ] [MOD: 2026-03-22 11:58:54] /userdata/system/ultramode/modules/tools/um_master_logs_bootstrap
+        [DIR ] [MOD: 2026-03-22 11:49:59] /userdata/system/ultramode/modules/um github
+            [FILE] [MOD: 2026-03-21 23:21:52] [SIZE:    87.7 KB] [EXT: .pdf] /userdata/system/ultramode/modules/um github/GitHub Repository Cleanup Tools – Design & Roadmap.pdf
+            [FILE] [MOD: 2026-03-21 22:32:31] [SIZE:     2.7 KB] [EXT: .py] /userdata/system/ultramode/modules/um github/github_sync_gui.py
+            [FILE] [MOD: 2026-03-21 22:36:52] [SIZE:     1.5 KB] [EXT: .txt] /userdata/system/ultramode/modules/um github/github_sync_rules.txt
+            [FILE] [MOD: 2026-03-21 22:34:39] [SIZE:     5.6 KB] [EXT: .zip] /userdata/system/ultramode/modules/um github/github_sync_tool_handoff.zip
+            [FILE] [MOD: 2026-03-21 22:33:09] [SIZE:    657.0 B] [EXT: .py] /userdata/system/ultramode/modules/um github/help_sidecar.py
+            [FILE] [MOD: 2026-03-21 22:33:18] [SIZE:     1.5 KB] [EXT: .py] /userdata/system/ultramode/modules/um github/sync_core.py
+            [FILE] [MOD: 2026-03-21 22:32:46] [SIZE:    399.0 B] [EXT: .py] /userdata/system/ultramode/modules/um github/theme_sidecar.py
+            [DIR ] [MOD: 2026-03-21 22:32:15] /userdata/system/ultramode/modules/um github/MESS
+                [FILE] [MOD: 2026-03-21 21:27:21] [SIZE:     2.7 KB] [EXT: .py] /userdata/system/ultramode/modules/um github/MESS/github_sync_gui.py
+                [FILE] [MOD: 2026-03-21 21:03:45] [SIZE:     4.5 KB] [EXT: .py] /userdata/system/ultramode/modules/um github/MESS/github_sync_module_v9.5.py
+                [FILE] [MOD: 2026-03-21 21:07:32] [SIZE:     1.8 KB] [EXT: .md] /userdata/system/ultramode/modules/um github/MESS/github_sync_module_v9.5_sidecar.md
+                [FILE] [MOD: 2026-03-21 21:49:56] [SIZE:     3.2 KB] [EXT: .py] /userdata/system/ultramode/modules/um github/MESS/github_sync_um_v10 (1).py
+                [FILE] [MOD: 2026-03-21 21:55:28] [SIZE:     3.2 KB] [EXT: .py] /userdata/system/ultramode/modules/um github/MESS/github_sync_um_v10.py
+                [FILE] [MOD: 2026-03-21 21:19:47] [SIZE:    657.0 B] [EXT: .py] /userdata/system/ultramode/modules/um github/MESS/help_sidecar.py
+                [FILE] [MOD: 2026-03-21 21:19:53] [SIZE:     1.5 KB] [EXT: .py] /userdata/system/ultramode/modules/um github/MESS/sync_core.py
+                [FILE] [MOD: 2026-03-21 21:19:36] [SIZE:    399.0 B] [EXT: .py] /userdata/system/ultramode/modules/um github/MESS/theme_sidecar.py
+            [DIR ] [MOD: 2026-03-21 22:39:30] /userdata/system/ultramode/modules/um github/__pycache__
+                [FILE] [MOD: 2026-03-21 22:39:30] [SIZE:    732.0 B] [EXT: .pyc] /userdata/system/ultramode/modules/um github/__pycache__/help_sidecar.cpython-312.pyc
+                [FILE] [MOD: 2026-03-21 22:39:30] [SIZE:     2.8 KB] [EXT: .pyc] /userdata/system/ultramode/modules/um github/__pycache__/sync_core.cpython-312.pyc
+                [FILE] [MOD: 2026-03-21 22:39:30] [SIZE:    748.0 B] [EXT: .pyc] /userdata/system/ultramode/modules/um github/__pycache__/theme_sidecar.cpython-312.pyc
+            [DIR ] [MOD: 2026-03-21 21:04:41] /userdata/system/ultramode/modules/um github/backup
+                [FILE] [MOD: 2026-03-20 18:22:55] [SIZE:   486.9 KB] [EXT: .html] /userdata/system/ultramode/modules/um github/backup/Ultramode github.html
+                [FILE] [MOD: 2026-03-20 18:31:31] [SIZE:    42.8 KB] [EXT: .py] /userdata/system/ultramode/modules/um github/backup/github_sync_module_handoff.py
+                [FILE] [MOD: 2026-03-20 18:31:43] [SIZE:     4.3 KB] [EXT: .txt] /userdata/system/ultramode/modules/um github/backup/github_sync_module_log.txt
+                [FILE] [MOD: 2026-03-20 18:36:32] [SIZE:    33.4 KB] [EXT: .py] /userdata/system/ultramode/modules/um github/backup/github_sync_module_v1.py
+                [FILE] [MOD: 2026-03-20 18:36:45] [SIZE:    54.9 KB] [EXT: .txt] /userdata/system/ultramode/modules/um github/backup/github_sync_module_v1_log.txt
+                [FILE] [MOD: 2026-03-20 19:19:20] [SIZE:    34.2 KB] [EXT: .py] /userdata/system/ultramode/modules/um github/backup/github_sync_module_v2.py
+                [FILE] [MOD: 2026-03-20 19:19:30] [SIZE:    55.8 KB] [EXT: .txt] /userdata/system/ultramode/modules/um github/backup/github_sync_module_v2_log.txt
+                [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:    36.0 KB] [EXT: .py] /userdata/system/ultramode/modules/um github/backup/github_sync_module_v4.py
+                [FILE] [MOD: 2026-03-20 23:16:18] [SIZE:    36.0 KB] [EXT: .bak] /userdata/system/ultramode/modules/um github/backup/github_sync_module_v4.py.bak
+                [FILE] [MOD: 2026-03-20 23:17:11] [SIZE:    12.4 KB] [EXT: .txt] /userdata/system/ultramode/modules/um github/backup/github_sync_module_v4_log.txt
+                [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:    37.2 KB] [EXT: .py] /userdata/system/ultramode/modules/um github/backup/github_sync_module_v5.py
+                [FILE] [MOD: 2026-03-21 14:11:44] [SIZE:    37.2 KB] [EXT: .bak] /userdata/system/ultramode/modules/um github/backup/github_sync_module_v5.py.bak
+                [FILE] [MOD: 2026-03-21 14:11:53] [SIZE:    12.9 KB] [EXT: .txt] /userdata/system/ultramode/modules/um github/backup/github_sync_module_v5_log.txt
+                [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:    30.0 KB] [EXT: .py] /userdata/system/ultramode/modules/um github/backup/github_sync_module_v6.py
+                [FILE] [MOD: 2026-03-21 14:30:21] [SIZE:    29.9 KB] [EXT: .bak] /userdata/system/ultramode/modules/um github/backup/github_sync_module_v6.py.bak
+                [FILE] [MOD: 2026-03-21 14:30:28] [SIZE:     4.0 KB] [EXT: .txt] /userdata/system/ultramode/modules/um github/backup/github_sync_module_v6_log.txt
+                [FILE] [MOD: 2026-03-21 14:42:46] [SIZE:    38.2 KB] [EXT: .bak] /userdata/system/ultramode/modules/um github/backup/github_sync_module_v7.py.bak
+                [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:    38.2 KB] [EXT: .txt] /userdata/system/ultramode/modules/um github/backup/github_sync_module_v7_full.txt
+                [FILE] [MOD: 2026-03-21 14:42:55] [SIZE:    10.8 KB] [EXT: .txt] /userdata/system/ultramode/modules/um github/backup/github_sync_module_v7_log.txt
+                [FILE] [MOD: 2026-03-21 14:42:33] [SIZE:    376.0 B] [EXT: .py] /userdata/system/ultramode/modules/um github/backup/github_sync_module_v8.py
+                [FILE] [MOD: 2026-03-21 14:42:28] [SIZE:     9.1 KB] [EXT: .txt] /userdata/system/ultramode/modules/um github/backup/github_sync_module_v8_log.txt
+                [FILE] [MOD: 2026-03-21 20:40:26] [SIZE:    38.2 KB] [EXT: .py] /userdata/system/ultramode/modules/um github/backup/github_sync_module_v9.py
+                [FILE] [MOD: 2026-03-21 20:32:39] [SIZE:    17.4 KB] [EXT: .txt] /userdata/system/ultramode/modules/um github/backup/github_tool_copilot_help.txt
+                [DIR ] [MOD: 2026-03-21 20:25:59] /userdata/system/ultramode/modules/um github/backup/New
+                    [FILE] [MOD: 2026-03-21 20:25:59] [SIZE:    11.9 KB] [EXT: .txt] /userdata/system/ultramode/modules/um github/backup/New/copilot_chunk_01.txt
+                    [FILE] [MOD: 2026-03-21 20:25:59] [SIZE:    14.0 KB] [EXT: .txt] /userdata/system/ultramode/modules/um github/backup/New/copilot_chunk_02.txt
+                    [FILE] [MOD: 2026-03-21 20:25:59] [SIZE:    12.3 KB] [EXT: .txt] /userdata/system/ultramode/modules/um github/backup/New/copilot_chunk_03.txt
+                    [FILE] [MOD: 2026-03-21 18:30:09] [SIZE:    38.2 KB] [EXT: .py] /userdata/system/ultramode/modules/um github/backup/New/github_sync_module_v7.py
+                    [FILE] [MOD: 2026-03-21 20:24:28] [SIZE:    798.0 B] [EXT: .py] /userdata/system/ultramode/modules/um github/backup/New/split_script_for_copilot.py
+                [DIR ] [MOD: 2026-03-20 18:22:55] /userdata/system/ultramode/modules/um github/backup/Ultramode github_files
+                    [FILE] [MOD: 2026-03-20 18:22:55] [SIZE:    820.0 B] [EXT: .css] /userdata/system/ultramode/modules/um github/backup/Ultramode github_files/ansi-1f6vhsjh.css
+                    [FILE] [MOD: 2026-03-20 18:22:55] [SIZE:     1.9 KB] [EXT: .css] /userdata/system/ultramode/modules/um github/backup/Ultramode github_files/code-block-dop2czwo.css
+                    [FILE] [MOD: 2026-03-20 18:22:55] [SIZE:    992.0 B] [EXT: .css] /userdata/system/ultramode/modules/um github/backup/Ultramode github_files/code-block-viewer-fzo1sbww.css
+                    [FILE] [MOD: 2026-03-20 18:22:55] [SIZE:   175.7 KB] [EXT: .css] /userdata/system/ultramode/modules/um github/backup/Ultramode github_files/conversation-small-c1x458nc(1).css
+                    [FILE] [MOD: 2026-03-20 18:22:54] [SIZE:   175.7 KB] [EXT: .css] /userdata/system/ultramode/modules/um github/backup/Ultramode github_files/conversation-small-c1x458nc.css
+                    [FILE] [MOD: 2026-03-20 18:22:55] [SIZE:     1.5 KB] [EXT: .css] /userdata/system/ultramode/modules/um github/backup/Ultramode github_files/cot-message-lq73ofyy.css
+                    [FILE] [MOD: 2026-03-20 18:22:55] [SIZE:    589.0 B] [EXT: [no_ext]] /userdata/system/ultramode/modules/um github/backup/Ultramode github_files/favicons
+                    [FILE] [MOD: 2026-03-20 18:22:55] [SIZE:    116.0 B] [EXT: .css] /userdata/system/ultramode/modules/um github/backup/Ultramode github_files/index-ivzj8m6u.css
+                    [FILE] [MOD: 2026-03-20 18:22:55] [SIZE:   455.3 KB] [EXT: [no_ext]] /userdata/system/ultramode/modules/um github/backup/Ultramode github_files/js
+                    [FILE] [MOD: 2026-03-20 18:22:55] [SIZE:    572.0 B] [EXT: .css] /userdata/system/ultramode/modules/um github/backup/Ultramode github_files/product-variants-ga945uk2.css
+                    [FILE] [MOD: 2026-03-20 18:22:54] [SIZE:     1.2 MB] [EXT: .css] /userdata/system/ultramode/modules/um github/backup/Ultramode github_files/root-i91xpi72(1).css
+                    [FILE] [MOD: 2026-03-20 18:22:54] [SIZE:     1.2 MB] [EXT: .css] /userdata/system/ultramode/modules/um github/backup/Ultramode github_files/root-i91xpi72.css
+                    [FILE] [MOD: 2026-03-20 18:22:55] [SIZE:    28.6 KB] [EXT: .css] /userdata/system/ultramode/modules/um github/backup/Ultramode github_files/silk-hq-lutwos9z.css
+                    [FILE] [MOD: 2026-03-20 18:22:55] [SIZE:    416.0 B] [EXT: .css] /userdata/system/ultramode/modules/um github/backup/Ultramode github_files/table-components-ca43bz4f.css
+                    [FILE] [MOD: 2026-03-20 18:22:55] [SIZE:     5.1 KB] [EXT: .jpg] /userdata/system/ultramode/modules/um github/backup/Ultramode github_files/unnamed.jpg
+                    [FILE] [MOD: 2026-03-20 18:22:55] [SIZE:    14.0 KB] [EXT: .css] /userdata/system/ultramode/modules/um github/backup/Ultramode github_files/writing-block-editor-o50eco9x.css
+            [DIR ] [MOD: 2026-03-21 23:54:49] /userdata/system/ultramode/modules/um github/new
+                [FILE] [MOD: 2026-03-21 23:54:49] [SIZE:    309.0 B] [EXT: .json] /userdata/system/ultramode/modules/um github/new/github_cleanup_lab_config.json
+                [FILE] [MOD: 2026-03-21 23:53:45] [SIZE:    59.0 KB] [EXT: .py] /userdata/system/ultramode/modules/um github/new/github_cleanup_lab_v1_0.py
+                [FILE] [MOD: 2026-03-21 23:54:49] [SIZE:     6.8 KB] [EXT: .txt] /userdata/system/ultramode/modules/um github/new/github_cleanup_lab_v1_0_log.txt
+        [DIR ] [MOD: 2026-03-21 19:38:26] /userdata/system/ultramode/modules/xclip_offline
+            [FILE] [MOD: 2026-03-09 21:46:16] [SIZE:      0.0 B] [EXT: .py] /userdata/system/ultramode/modules/xclip_offline/__init__.py
+            [FILE] [MOD: 2026-03-21 19:38:26] [SIZE:     7.4 KB] [EXT: .py] /userdata/system/ultramode/modules/xclip_offline/install_xclip.py
+            [FILE] [MOD: 2026-03-09 21:34:07] [SIZE:     7.6 KB] [EXT: .bak-0321_1938] /userdata/system/ultramode/modules/xclip_offline/install_xclip.py.bak-0321_1938
+            [FILE] [MOD: 2026-03-09 21:28:20] [SIZE:   103.0 KB] [EXT: .so] /userdata/system/ultramode/modules/xclip_offline/libXmu.so
+            [FILE] [MOD: 2026-03-09 21:28:20] [SIZE:   103.0 KB] [EXT: .6] /userdata/system/ultramode/modules/xclip_offline/libXmu.so.6
+            [FILE] [MOD: 2026-03-09 21:28:20] [SIZE:   103.0 KB] [EXT: .0] /userdata/system/ultramode/modules/xclip_offline/libXmu.so.6.2.0
+            [FILE] [MOD: 2026-03-09 21:28:20] [SIZE:    17.8 KB] [EXT: .so] /userdata/system/ultramode/modules/xclip_offline/libXmuu.so
+            [FILE] [MOD: 2026-03-09 21:28:20] [SIZE:    17.8 KB] [EXT: .1] /userdata/system/ultramode/modules/xclip_offline/libXmuu.so.1
+            [FILE] [MOD: 2026-03-09 21:28:20] [SIZE:    17.8 KB] [EXT: .0] /userdata/system/ultramode/modules/xclip_offline/libXmuu.so.1.0.0
+            [FILE] [MOD: 2026-03-09 21:28:20] [SIZE:   419.8 KB] [EXT: .so] /userdata/system/ultramode/modules/xclip_offline/libXt.so
+            [FILE] [MOD: 2026-03-09 21:28:20] [SIZE:   419.8 KB] [EXT: .6] /userdata/system/ultramode/modules/xclip_offline/libXt.so.6
+            [FILE] [MOD: 2026-03-09 21:28:20] [SIZE:   419.8 KB] [EXT: .0] /userdata/system/ultramode/modules/xclip_offline/libXt.so.6.0.0
+            [FILE] [MOD: 2022-05-21 16:18:03] [SIZE:    76.2 KB] [EXT: .zst] /userdata/system/ultramode/modules/xclip_offline/libxmu.pkg.tar.zst
+            [FILE] [MOD: 2021-01-24 13:43:33] [SIZE:   535.5 KB] [EXT: .zst] /userdata/system/ultramode/modules/xclip_offline/libxt.pkg.tar.zst
+            [FILE] [MOD: 2026-03-09 21:28:20] [SIZE:    26.1 KB] [EXT: [no_ext]] /userdata/system/ultramode/modules/xclip_offline/xclip
+            [FILE] [MOD: 2024-11-21 17:34:02] [SIZE:    14.6 KB] [EXT: .zst] /userdata/system/ultramode/modules/xclip_offline/xclip.pkg.tar.zst
+            [DIR ] [MOD: 2026-03-21 19:39:14] /userdata/system/ultramode/modules/xclip_offline/__pycache__
+                [FILE] [MOD: 2026-03-21 19:39:14] [SIZE:     5.8 KB] [EXT: .pyc] /userdata/system/ultramode/modules/xclip_offline/__pycache__/install_xclip.cpython-312.pyc
+    [DIR ] [MOD: 2026-03-21 18:44:46] /userdata/system/ultramode/patcher
+    [DIR ] [MOD: 2026-03-09 21:45:46] /userdata/system/ultramode/scripts
+    [DIR ] [MOD: 2026-03-18 18:10:25] /userdata/system/ultramode/state
+        [DIR ] [MOD: 2026-03-21 17:38:00] /userdata/system/ultramode/state/module_lab
+            [FILE] [MOD: 2026-03-21 17:38:28] [SIZE:     81.0 B] [EXT: .txt] /userdata/system/ultramode/state/module_lab/last_target_hint.txt
+            [FILE] [MOD: 2026-03-21 17:38:28] [SIZE:     16.0 B] [EXT: .txt] /userdata/system/ultramode/state/module_lab/last_tested_module.txt
+    [DIR ] [MOD: 2026-03-18 19:46:56] /userdata/system/ultramode/to_be_repaired
+    [DIR ] [MOD: 2026-03-22 12:24:06] /userdata/system/ultramode/um_master_logs
+        [DIR ] [MOD: 2026-03-22 12:24:06] /userdata/system/ultramode/um_master_logs/archive
+            [FILE] [MOD: 2026-03-22 12:24:06] [SIZE:    924.0 B] [EXT: .txt] /userdata/system/ultramode/um_master_logs/archive/archive_readme.txt
+        [DIR ] [MOD: 2026-03-22 12:24:06] /userdata/system/ultramode/um_master_logs/help
+            [FILE] [MOD: 2026-03-22 12:24:06] [SIZE:     1.2 KB] [EXT: .txt] /userdata/system/ultramode/um_master_logs/help/master_logs_help.txt
+        [DIR ] [MOD: 2026-03-22 12:24:06] /userdata/system/ultramode/um_master_logs/index
+            [FILE] [MOD: 2026-03-22 12:24:06] [SIZE:     1.1 KB] [EXT: .txt] /userdata/system/ultramode/um_master_logs/index/master_log_index.txt
+        [DIR ] [MOD: 2026-03-22 12:24:06] /userdata/system/ultramode/um_master_logs/modules
+            [FILE] [MOD: 2026-03-22 12:24:06] [SIZE:    954.0 B] [EXT: .txt] /userdata/system/ultramode/um_master_logs/modules/modules_index.txt
+        [DIR ] [MOD: 2026-03-22 12:24:06] /userdata/system/ultramode/um_master_logs/notation
+            [FILE] [MOD: 2026-03-22 12:24:06] [SIZE:     1.2 KB] [EXT: .txt] /userdata/system/ultramode/um_master_logs/notation/master_notation.txt
+        [DIR ] [MOD: 2026-03-22 12:24:06] /userdata/system/ultramode/um_master_logs/reports
+            [FILE] [MOD: 2026-03-22 12:24:06] [SIZE:    901.0 B] [EXT: .txt] /userdata/system/ultramode/um_master_logs/reports/reports_readme.txt
+        [DIR ] [MOD: 2026-03-22 12:24:06] /userdata/system/ultramode/um_master_logs/rules
+            [FILE] [MOD: 2026-03-22 12:24:06] [SIZE:     1.2 KB] [EXT: .txt] /userdata/system/ultramode/um_master_logs/rules/global_ai_rules.txt
+        [DIR ] [MOD: 2026-03-22 12:24:06] /userdata/system/ultramode/um_master_logs/runtime
+            [FILE] [MOD: 2026-03-22 12:24:06] [SIZE:    909.0 B] [EXT: .txt] /userdata/system/ultramode/um_master_logs/runtime/runtime_readme.txt
+    [DIR ] [MOD: 2026-03-09 21:45:57] /userdata/system/ultramode/xclip_offline
