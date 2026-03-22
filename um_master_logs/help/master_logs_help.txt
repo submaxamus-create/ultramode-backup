@@ -1,0 +1,29 @@
+===============================================================================
+ULTRAMODE MASTER LOG FILE
+===============================================================================
+TITLE:         Master Logs Help
+PATH:          /userdata/system/ultramode/um_master_logs/help/master_logs_help.txt
+STATUS:        ACTIVE STARTER FILE
+RULE:          APPEND-ONLY. NEVER DELETE HISTORY. ONLY APPEND.
+CREATED_BY:    um_master_logs_bootstrap_v1.py
+CREATED_AT:    2026-03-22 12:24:06 PM
+===============================================================================
+PURPOSE:
+  - Explain what each master log folder is for.
+  - Help future AI and humans navigate the architecture quickly.
+===============================================================================
+
+[FOLDER_MAP]
+- index/ = where things are
+- rules/ = project-wide law / AI rules / script rules
+- help/ = usage/help authority
+- notation/ = ideas / architecture / thinktank
+- runtime/ = runtime/live evidence
+- reports/ = generated outputs
+- archive/ = snapshots and old exports
+- modules/ = future module summaries or mirrored summaries
+
+[USAGE_NOTES]
+- Prefer .txt for sidecar transport and uploads.
+- Preserve append-only history where practical.
+
