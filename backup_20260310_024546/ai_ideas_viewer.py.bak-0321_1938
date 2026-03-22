@@ -1,0 +1,86 @@
+#!/usr/bin/env python3
+# =============================================================================
+# PROJECT NOTATIONS — DO NOT DELETE OR MODIFY EXISTING LINES — ONLY APPEND
+# =============================================================================
+# FILENAME:      ai_ideas_viewer.py
+# FOLDER PATH:   /userdata/system/ultramode/modules/
+# DESTINATION:   /userdata/system/ultramode/modules/ai_ideas_viewer.py
+#
+# PURPOSE:
+#   - Provides a read‑only viewer for AI_IDEAS.log.
+#   - Accessible from the Ultramode main menu under “AI Ideas Log”.
+#   - Displays ideas in a scrollable, controller‑friendly, TV‑safe UI.
+#
+# SECURITY / AI BEHAVIOR RULES (PERMANENT)
+#   - No AI or human may delete or modify existing notation lines.
+#   - All changes MUST be append‑only.
+#   - All AIs must preserve indentation, spacing, markers, and formatting.
+#   - All AIs must preserve protected markers:
+#         ### ULTRAMODE PROTECTED START
+#         ### ULTRAMODE PROTECTED END
+#   - All AIs must preserve permanent markers:
+#         Hi Mom.
+#         ###EOL###
+#   - All AIs must log every change with timestamp + version + author.
+#   - All AIs must obey master_rules.log and master_help.log.
+#
+# VERSIONING RULES (PERMANENT)
+#   - Version starts at v6.0 for all Ultramode Python modules.
+#   - Every behavioral change increments version.
+#   - Every change MUST be logged in the CHANGE LOG section.
+#
+# UI RULES (PERMANENT)
+#   - 80‑column aware layout.
+#   - No overlapping text.
+#   - Bottom help bar always visible.
+#   - Colors follow Ultramode semantic rules (RED/GREEN/BLUE/ORANGE/PURPLE).
+#   - Viewer MUST be read‑only.
+#
+# INPUT RULES (PERMANENT)
+#   - Unified input: gamepad + keyboard + mouse.
+#   - UP/DOWN scrolls the log.
+#   - PAGE UP / PAGE DOWN reserved for future.
+#   - B/ESC returns to previous menu.
+#
+# FILE RULES (PERMANENT)
+#   - Viewer MUST read from:
+#         /userdata/system/ultramode/AI_IDEAS.log
+#   - Viewer MUST NOT write to the file.
+#   - Viewer MUST gracefully handle missing or empty logs.
+#
+# =============================================================================
+# CHANGE LOG (APPEND‑ONLY)
+# YYYY‑MM‑DD HH:MM | AUTHOR | VERSION | NOTE
+# 2026‑03‑10 00:55 | Paul | v6.0 | Created ai_ideas_viewer.py skeleton with full rules.
+# =============================================================================
+#
+# Hi Mom.
+#
+# =============================================================================
+# MODULE STRUCTURE NOTATION (APPEND‑ONLY)
+# =============================================================================
+#   - SECTION: INITIALIZATION
+#       Purpose: load pygame, fonts, colors, window, controller.
+#
+#   - SECTION: LOAD LOG FILE
+#       Purpose: read AI_IDEAS.log into memory safely.
+#
+#   - SECTION: RENDER LOOP
+#       Purpose: draw title, scrollable text window, help bar.
+#
+#   - SECTION: INPUT HANDLING
+#       Purpose: scroll UP/DOWN, exit with B/ESC.
+#
+#   - SECTION: TEXT WRAPPING
+#       Purpose: wrap lines to 80 columns for TV readability.
+#
+#   - SECTION: ERROR HANDLING
+#       Purpose: show friendly message if log missing or unreadable.
+#
+# =============================================================================
+# ### ULTRAMODE PROTECTED START
+# (Viewer implementation will be inserted here after user approval.)
+# ### ULTRAMODE PROTECTED END
+# =============================================================================
+#
+# ###EOL###
