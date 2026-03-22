@@ -1,0 +1,36 @@
+===============================================================================
+ULTRAMODE MASTER LOG FILE
+===============================================================================
+TITLE:         Master Notation
+PATH:          /userdata/system/ultramode/um_master_logs/notation/master_notation.txt
+STATUS:        ACTIVE STARTER FILE
+RULE:          APPEND-ONLY. NEVER DELETE HISTORY. ONLY APPEND.
+CREATED_BY:    um_master_logs_bootstrap_v1.py
+CREATED_AT:    2026-03-22 12:24:06 PM
+===============================================================================
+PURPOSE:
+  - Central thinktank file for project-wide ideas, goals, and architecture intent.
+  - Should preserve evolving cross-module concepts.
+===============================================================================
+
+[DISCOVERY_TO_ACTION_PIPELINE]
+- discover -> classify -> compare -> decide -> present -> log -> learn -> improve
+
+[SEED_CATEGORIES]
+- CHANGELOG
+- ANALYSIS
+- GOALS
+- IDEAS
+- AI_THINKTANK
+- ARCHITECTURE_INTENT
+- CROSS_MODULE_RELATIONSHIPS
+- SHARED_UI_RULES
+- INPUT_MODEL_PLAN
+- RULE_CONFIDENCE_MODEL
+- NOISE_PATTERNS_AND_COUNTERMEASURES
+- SAFE_EVOLUTION_RULES
+- MODULE_ORCHESTRATION_GOALS
+
+[FUTURE_APPENDS]
+- Append new architecture notes and project-wide ideas below this line.
+
