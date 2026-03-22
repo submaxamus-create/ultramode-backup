@@ -1,0 +1,122 @@
+[
+  {
+    "path": "/userdata/system/ultramode/modules/ultramode_patcher.log",
+    "size": 153,
+    "mtime": 1772686172.9189355,
+    "hash": "8e92cb3a37c86c16165ba313d709aabd3c9b0de322fc4bec54a2b473ff3f8d0d"
+  },
+  {
+    "path": "/userdata/system/ultramode/modules/ultramode_devhelper.py",
+    "size": 1112,
+    "mtime": 1772838396.967114,
+    "hash": "e409e106105b30fd7e132c4f09269d0f8368f9e34cbc4fb3225cf291ed9a6cf3"
+  },
+  {
+    "path": "/userdata/system/ultramode/modules/ultramode_patcher_v3.py",
+    "size": 98,
+    "mtime": 1772860349.033897,
+    "hash": "d0e06f9485a0872ef0f9285a85611549e45d22d5bd2a7b0fb75c0001b97aa836"
+  },
+  {
+    "path": "/userdata/system/ultramode/modules/ultramode_patcher_v3_wrapper.py",
+    "size": 352,
+    "mtime": 1772859322.984854,
+    "hash": "e166ca9d27fb91ed0669bbe415f30c2b620b62971069e83c7de888b7565018e3"
+  },
+  {
+    "path": "/userdata/system/ultramode/modules/ultramode_aibridge.py",
+    "size": 1541,
+    "mtime": 1772838503.9222784,
+    "hash": "688efe34b6e333597419ee17ab1de40069793ce010340bce1691463108ea9d59"
+  },
+  {
+    "path": "/userdata/system/ultramode/modules/ultramode_ui.py",
+    "size": 1629,
+    "mtime": 1772859158.0515451,
+    "hash": "44dd411d766a1bc5054b296fdc0e6e48892b29d3848c760707a5a48d76f71070"
+  },
+  {
+    "path": "/userdata/system/ultramode/modules/ultramode.py",
+    "size": 247,
+    "mtime": 1772858322.601155,
+    "hash": "69d7ecc319103a98adaa16581119d08cfb533f5d3363195cc4c5d814f742e3e8"
+  },
+  {
+    "path": "/userdata/system/ultramode/modules/tools/ultramode_tools_menu.py",
+    "size": 76,
+    "mtime": 1772857026.492063,
+    "hash": "0147dff0706bf61ec6f5eb9729c22b80ea08159bdbaa5d1699b977ed24b09e92"
+  },
+  {
+    "path": "/userdata/system/ultramode/modules/settings/ultramode_settings_menu.py",
+    "size": 4090,
+    "mtime": 1772580113.9663577,
+    "hash": "46e63a03ee23359d215c5d0c782afc4d34c242092d5287958a09f6a4e8885ef9"
+  },
+  {
+    "path": "/userdata/system/ultramode/modules/__pycache__/ultramode_patcher_v3.cpython-312.pyc",
+    "size": 456,
+    "mtime": 1772860461.4859715,
+    "hash": "26b9200d9c9612930d9dcd1c69e48cfda2ac0a043b1d1361414ba8581b5faf08"
+  },
+  {
+    "path": "/userdata/system/ultramode/modules/__pycache__/ultramode_ui.cpython-312.pyc",
+    "size": 3320,
+    "mtime": 1772859177.3931618,
+    "hash": "5a69b7af9ebcffe5580c1c1b26de165c86e672dd6ec1547296db3741f127d684"
+  },
+  {
+    "path": "/userdata/system/ultramode/modules/_oldpatchers/testpatch.py",
+    "size": 44,
+    "mtime": 1772671341.9821608,
+    "hash": "cb3ac7373c6e550277bb10cb804f6a01356bdda491d5361c5100c96bcc596b87"
+  },
+  {
+    "path": "/userdata/system/ultramode/modules/_oldpatchers/umpatcher.py",
+    "size": 9482,
+    "mtime": 1772774122.0176857,
+    "hash": "49f0162ac4a1a95a89737b850bee2c9b310124f8e9b5ffd26f5aa3c13e4ea000"
+  },
+  {
+    "path": "/userdata/system/ultramode/modules/_oldpatchers/ultramode_patcher.py",
+    "size": 66,
+    "mtime": 1772857026.4918876,
+    "hash": "a53472371374e675365c06b73dabecf1c26046e5953deecd06d9d91d42d0be5e"
+  },
+  {
+    "path": "/userdata/system/ultramode/modules/_oldpatchers/um_patcher.py",
+    "size": 13154,
+    "mtime": 1772770264.1155908,
+    "hash": "a385dac526232b4827153d9227ab3cc79d67a3e16a8ae10da67c7c7a4cc3bb80"
+  },
+  {
+    "path": "/userdata/system/ultramode/modules/_oldpatchers/um_patcher.sh",
+    "size": 3670,
+    "mtime": 1772680525.0059142,
+    "hash": "1bc364dd2328b50297680c5ea5b0e0706d6bc2fcd3593dd5ead2ff80deb259eb"
+  },
+  {
+    "path": "/userdata/system/ultramode/modules/_oldpatchers/um_patcher_updater.py",
+    "size": 473,
+    "mtime": 1772683064.9207304,
+    "hash": "5e75e2d9cbf8d8a39412e8725da49fac152737bd979e406e6c9de9fd74a0ea27"
+  },
+  {
+    "path": "/userdata/system/ultramode/modules/_oldpatchers/__pycache__/ultramode_patcher.cpython-312.pyc",
+    "size": 335,
+    "mtime": 1772860780.8194911,
+    "hash": "20f4bbb86d3ce654966efb097dad207627064b4634057e8910778ae5eee05a9e"
+  },
+  {
+    "path": "/userdata/system/ultramode/modules/patcher/umpatcher.py",
+    "size": 21326,
+    "mtime": 1772775039.015231,
+    "hash": "7175419c2e75c50ef79a7dd347907846289331e04232960646832a8a4e4009b6"
+  },
+  {
+    "path": "/userdata/system/ultramode/modules/patcher/__pycache__/umpatcher.cpython-312.pyc",
+    "size": 26073,
+    "mtime": 1772862877.6535444,
+    "hash": "e0c0fcb0ca6920dba3391d26dee67aa6439c62abf4b5072b7ccb457c9e50564a"
+  }
+]
