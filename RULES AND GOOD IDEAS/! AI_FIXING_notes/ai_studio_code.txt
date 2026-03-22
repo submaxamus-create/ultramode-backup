@@ -1,0 +1,70 @@
+WHATISUM.LOG — MASTER PROJECT CONTEXT & AI HANDOVER DOCUMENT
+
+Project name: modular-scripts-consolidation
+Main file: um.py (or just `um`)
+Owner: Paul
+Date: 2026-03-12
+
+================================================================================
+ATTENTION ALL AI ASSISTANTS (ChatGPT, Grok, Claude, etc.):
+READ THIS ENTIRE LOG BEFORE SUGGESTING CODE OR MAKING CHANGES.
+THIS IS YOUR CONTEXT. DO NOT FUCK IT UP.
+================================================================================
+
+[1] THE BACKSTORY & THE PROBLEM
+Over time, Paul and various AI assistants have created dozens of small Python utility scripts (named like `filename.py`). Because AI context windows are limited, the AIs have forgotten most of these tools. 
+Right now, these scripts are scattered across machines and long web chat threads. 
+- They lack proper metadata and standardized headers.
+- They are completely disconnected from the main application menus (`um`).
+- The project is a mess of duplicated logic and forgotten tools.
+
+[2] THE NOTATION CRISIS
+Throughout our long chat sessions, we have made critical decisions using specific trigger phrases:
+- "notate that"
+- "put that in notation"
+- "add to notation"
+- "@notate"
+
+THE ISSUE: These notations are currently trapped in extremely long web chat pages and out-of-sync scripts. If a notation was updated in one script, it probably wasn't updated in another. 
+We MUST save these long web pages as evidence files, extract the notations into a single source of truth, and then CLOSE or UNPIN those chats so we can move forward.
+
+[3] THE DESIRED END STATE
+Paul's immediate goal is to quickly upload ALL of this scattered stuff into a clean GitHub repository—a structured "folder of folders and files". 
+Once uploaded, your job as the AI is to process these files ONE BY ONE to achieve the following:
+1. Fix and normalize every script's header.
+2. Extract all notations into a master list.
+3. Plug every single one of these little scripts into the `um` module menus so they are easily accessible.
+
+[4] YOUR INSTRUCTIONS AS THE AI
+When Paul feeds you a file or asks you to process a script, you will do exactly this:
+
+STEP A: STANDARDIZE THE HEADER
+Every Python script MUST have this exact header at the top. If it doesn't, you add it. If it has a bad one, you fix it:
+"""
+Filename: <filename.py>
+Author: Paul
+Created: <Date>
+Purpose: <Short one-line description of what this tool does>
+Inputs: <What data it needs>
+Outputs: <What it returns or creates>
+Dependencies: <Libraries needed>
+Notation tags: <notate, ui, config, etc.>
+Notes: <Any special instructions or recovered notations>
+"""
+
+STEP B: CONSOLIDATE NOTATIONS
+If you see ANY notations (e.g., `# NOTE:`, `/* notate that */`, or inline instructions) inside the script, extract them. Acknowledge them to Paul so they can be added to the master `NOTATIONS.md` file. Do not let notations remain fragmented.
+
+STEP C: PLUG INTO THE MENUS
+Determine what the script does and write the integration code required to plug this script into the main `um` modular menu system. Do not leave a tool orphaned.
+
+[5] HIGH LEVEL PLAN OF ACTION (For Project Tracking)
+- Archive Evidence: Crawl and save every long web page/chat containing "notate that" into a local `evidence/` folder. Extract the text, then close the tabs.
+- Inventory Scripts: Dump all `*.py` files into `src/`.
+- Normalize Headers: Apply the standard header template to every script.
+- Extract Notations: Produce a single canonical `NOTATIONS.md`.
+- Create Manifest: Build a manifest/registry listing every script and where it belongs in the `um` menus.
+- Automate Fixes: AI fixes files one-by-one, plugging them into the menu.
+- Review & Merge: Push to GitHub.
+
+Remember: The main file is `um`. The goal is consolidation, clean headers, unified notations, and fully connected menus.
