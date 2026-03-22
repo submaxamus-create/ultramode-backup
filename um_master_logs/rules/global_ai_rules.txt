@@ -1,0 +1,28 @@
+===============================================================================
+ULTRAMODE MASTER LOG FILE
+===============================================================================
+TITLE:         Global AI Rules
+PATH:          /userdata/system/ultramode/um_master_logs/rules/global_ai_rules.txt
+STATUS:        ACTIVE STARTER FILE
+RULE:          APPEND-ONLY. NEVER DELETE HISTORY. ONLY APPEND.
+CREATED_BY:    um_master_logs_bootstrap_v1.py
+CREATED_AT:    2026-03-22 12:24:06 PM
+===============================================================================
+PURPOSE:
+  - Project-wide AI collaboration rules.
+  - Canonical place for repeated stable user preferences and workflow law.
+  - Should collect only truly global rules, not one-off local notes.
+===============================================================================
+
+[RULES]
+- Keep worthwhile rules concise, clear, and stable.
+- Prefer append-only additions over destructive rewrites.
+- When promoting a rule here, note why it is global.
+
+[PROMOTION_NOTES]
+- Promote repeated cross-module rules from local logs when confidence is high.
+- Keep uncertain or module-specific rules in local/module notation until proven global.
+
+[FUTURE_APPENDS]
+- Append future global rules below this line.
+
