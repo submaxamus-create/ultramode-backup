@@ -1,0 +1,119 @@
+# =============================================================================
+# ULTRAMODE MASTER HELP LOG  (APPEND‑ONLY — DO NOT MODIFY EXISTING LINES)
+# =============================================================================
+# FILENAME:      master_help.log
+# FOLDER PATH:   /userdata/system/ultramode/
+# DESTINATION:   /userdata/system/ultramode/master_help.log
+#
+# PURPOSE:
+#   - Centralized help‑text authority for all Ultramode modules and menus.
+#   - Defines how on‑screen help, tooltips, descriptions, and explanations work.
+#   - Ensures every selectable item always displays clear, human‑readable help.
+#
+# IDENTITY RULES (PERMANENT)
+# - Every Ultramode file MUST begin with: FILENAME, FOLDER PATH, DESTINATION.
+# - Every Ultramode file MUST contain the exact line: Hi Mom.
+# - Every Ultramode file MUST contain a permanent notation block.
+# - No AI or human may delete, shorten, rewrite, or reorder any existing line.
+# - All additions MUST be appended at the bottom of this file.
+#
+# GLOBAL HELP RULES (PERMANENT)
+# - Every selectable menu item MUST display on‑screen help text.
+# - Help text MUST explain:
+#       • what the item does
+#       • why it exists
+#       • what action it performs
+#       • what files or systems it affects
+#       • any warnings or risks
+# - Help text MUST be visible at all times in the bottom help bar.
+# - Help text MUST fit within 80 columns and wrap cleanly.
+# - Help text MUST use semantic colors:
+#       ORANGE = help/tips
+#       BLUE   = paths/info
+#       RED    = warnings/danger
+#       GREEN  = success/ready
+#       PURPLE = version/highlights
+# - Help text MUST update instantly when selection changes.
+# - Help text MUST be readable from a TV at 6–10 feet.
+#
+# HELP STRUCTURE RULES (PERMANENT)
+# - Each module MUST define help entries for:
+#       • menu items
+#       • buttons/actions
+#       • warnings
+#       • errors
+#       • confirmations
+#       • previews
+# - Help entries MUST be stored in a dictionary‑style structure:
+#       HELP["ITEM_NAME"] = "Description..."
+# - Help entries MUST NOT be deleted; only appended.
+# - Help entries MUST NOT be overwritten; new versions must be appended with version tags.
+# - Help entries MUST NOT contradict master_rules.log.
+#
+# HELP CATEGORIES (PERMANENT)
+# - CORE HELP: essential system actions (Apply Patch, Backup, Restore, Exit).
+# - MODULE HELP: per‑module descriptions and usage notes.
+# - BUFFER HELP: paste instructions, parser behavior, recognition bar info.
+# - SAFETY HELP: warnings about protected blocks, backups, integrity checks.
+# - NAVIGATION HELP: controller/keyboard/mouse instructions.
+# - TREE VIEWER HELP: module tree navigation, filters, previews.
+# - REMOTE SYNC HELP: GitHub sync, remote edits, conflict handling.
+# - ERROR HELP: human‑readable explanations for all error states.
+# - CONFIRMATION HELP: text shown before destructive actions.
+#
+# BUFFER / PASTE HELP (APPEND‑ONLY)
+# - "Paste Mode": Press P/Y or CTRL+V to open the paste field.
+# - "Apply From Buffer": Parses buffer only after selection.
+# - "Recognition Bar": Light‑blue bar shows detected filename + path.
+# - "Preview": Shows first 20 wrapped lines of buffer content.
+# - "Protected Warning": Red highlight if protected markers detected.
+#
+# NAVIGATION HELP (APPEND‑ONLY)
+# - A/ENTER: Activate selected item.
+# - B/ESC: Cancel or go back (with confirmation if destructive).
+# - UP/DOWN: Move selection.
+# - LEFT/RIGHT: Reserved for future submenus.
+# - MOUSE: Optional hover tooltips (future).
+#
+# MODULE TREE VIEWER HELP (APPEND‑ONLY)
+# - Shows hierarchical view of all modules.
+# - LEFT/RIGHT: Expand or collapse folders.
+# - A/ENTER: Preview module (read‑only).
+# - FILTERS: Show modified, errors, missing notation, deprecated references.
+# - SEARCH: Filter modules by name or tag.
+#
+# REMOTE SYNC / GITHUB HELP (APPEND‑ONLY)
+# - "Remote Edit": Allows editing Ultramode from phone or browser.
+# - "Sync Pull": Fetches updates from GitHub safely.
+# - "Sync Push": Uploads local changes with full logs.
+# - "Conflict Warning": Shown when remote and local edits collide.
+# - "Token Warning": Reminds user to keep GitHub tokens secure.
+#
+# ERROR HELP (APPEND‑ONLY)
+# - "Integrity Failure": File hash mismatch; write aborted.
+# - "Protected Block Violation": Patch attempted inside protected region.
+# - "Invalid Buffer": No filename/destination detected.
+# - "Missing Backup": Cannot restore; backup not found.
+# - "Sync Error": Remote update failed; check network or token.
+#
+# CONFIRMATION HELP (APPEND‑ONLY)
+# - "Apply Patch?": Warns user before writing to any file.
+# - "Overwrite Warning": Shown if patch touches sensitive areas.
+# - "Restore Backup?": Confirms before restoring older version.
+# - "Exit Program?": Confirms exit if unsaved work exists.
+#
+# FUTURE HELP IDEAS (APPEND‑ONLY)
+# - Context‑aware help that changes based on system state.
+# - Animated help transitions for readability.
+# - Multi‑page help screens for complex modules.
+# - Voice‑read help for accessibility.
+# - QR‑code help links to documentation website.
+# - AI‑generated help expansions for new modules.
+# - Help search bar for quick lookup.
+# - Help history: last 10 help messages shown.
+#
+# CHANGE LOG (APPEND ONLY)
+# YYYY‑MM‑DD HH:MM | AUTHOR | VERSION | NOTE
+# 2026‑03‑10 00:20 | Paul | v1.0 | Created master_help.log with full help‑system rules.
+# =============================================================================
+# Hi Mom.
