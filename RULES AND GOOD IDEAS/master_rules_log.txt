@@ -1,0 +1,199 @@
+# =============================================================================
+# ULTRAMODE MASTER RULES LOG  (APPEND‑ONLY — DO NOT MODIFY EXISTING LINES)
+# =============================================================================
+# FILENAME:      master_rules.log
+# FOLDER PATH:   /userdata/system/ultramode/
+# DESTINATION:   /userdata/system/ultramode/master_rules.log
+#
+# PURPOSE:
+#   - Centralized, canonical rule‑set for the entire Ultramode ecosystem.
+#   - All modules, patchers, tools, and AIs must obey this file.
+#   - No module may contradict or override these rules.
+#
+# IDENTITY RULES (PERMANENT)
+# - Every Ultramode file MUST begin with: FILENAME, FOLDER PATH, DESTINATION.
+# - Every Ultramode file MUST contain the exact line: Hi Mom.
+# - Every Ultramode file MUST contain a permanent notation block.
+# - No AI or human may delete, shorten, rewrite, or reorder any existing line.
+# - All additions MUST be appended at the bottom of this file.
+#
+# CHANGE‑LOG RULES (PERMANENT)
+# - Every file MUST contain a CHANGE LOG section.
+# - Every modification MUST add a new entry:
+#       YYYY‑MM‑DD HH:MM | AUTHOR | VERSION | NOTE
+# - Every behavioral change MUST increment the version number.
+# - No AI may modify or delete previous change‑log entries.
+# - Any script change MUST be annotated, dated, timed, and logged.
+# - All ideas, recommendations, and future plans MUST be logged in notation.
+#
+# AI‑BEHAVIOR RULES (PERMANENT)
+# - AIs may NEVER delete code, notation, comments, or protected blocks.
+# - AIs may ONLY append new lines, rules, ideas, or notes.
+# - AIs may NOT “clean up”, “optimize”, or “refactor” without explicit human approval.
+# - AIs must preserve indentation, spacing, markers, and formatting exactly.
+# - AIs must preserve all protected markers:
+#       ### ULTRAMODE PROTECTED START
+#       ### ULTRAMODE PROTECTED END
+# - AIs must preserve all permanent markers:
+#       Hi Mom.
+#       ###EOL###
+# - AIs must treat this rules log as LAW unless overridden by the human.
+#
+# MAIN MENU RULES (PERMANENT)
+# - The canonical main menu file is: um.py.
+# - All modules must recognize um.py as the master entrypoint.
+# - All legacy references to ultramode.py or umpatcher.py are deprecated.
+# - Migration tool MUST eventually scan all subfiles and rewrite references:
+#       ultramode.py → um.py
+#       umpatcher.py → um.py
+# - Migration tool must:
+#       • scan recursively
+#       • detect imports, strings, comments, paths
+#       • rewrite safely with atomic backups
+#       • log all replacements to logs/migration.log
+#
+# UI / UX RULES (PERMANENT)
+# - UI must be TV‑visible, 80‑column aware, and never overlap text.
+# - Every selectable item MUST display on‑screen help text explaining:
+#       • purpose
+#       • action
+#       • warnings
+#       • affected files
+# - Bottom help bar MUST always be visible.
+# - Colors MUST follow semantic rules:
+#       RED = error/danger
+#       GREEN = valid/ready
+#       BLUE = neutral/path/recognition bar
+#       ORANGE = help/tips
+#       PURPLE = version/highlights
+# - LEFT/RIGHT reserved for future submenus.
+#
+# INPUT RULES (PERMANENT)
+# - Unified input: gamepad + keyboard + mouse.
+# - A/ENTER must be crash‑safe (wrapped in try/except).
+# - B/ESC must cancel/back with confirmation if destructive.
+# - Cursor/D‑Pad must never move selection offscreen.
+#
+# BUFFER / PARSER RULES (PERMANENT)
+# - Paste field MUST be on‑screen (no terminal drop).
+# - Paste triggers: P/Y, CTRL+V, ENTER.
+# - Auto‑parse buffer ONLY after selecting “Apply From Buffer”.
+# - Parser MUST detect:
+#       • filename
+#       • folder path
+#       • destination
+#       • version
+#       • log type (rules / ideas / conversation / upgrades)
+# - Recognition bar MUST appear above menu when buffer is valid.
+# - Preview MUST show 20 wrapped lines, colorizing protected markers.
+#
+# BACKUP / WRITE‑SAFETY RULES (PERMANANT)
+# - Autobackup REQUIRED before any write.
+# - Backup path: /userdata/system/ultramode/backups/self/
+# - Backup format: <filename>.<YYYYMMDD‑HHMMSS>.bak
+# - Writes MUST be atomic: write → fsync → rename.
+# - If integrity/hash check fails, abort write.
+#
+# NOTATION ORGANIZATION RULES (PERMANENT)
+# - Every idea, recommendation, future plan, or suggestion MUST be placed in notation.
+# - Categories MUST exist:
+#       • PERMANENT RULES
+#       • CHANGE LOG
+#       • AI IDEAS
+#       • FUTURE FEATURES
+#       • USER REQUESTS
+#       • KNOWN BUGS
+#       • MIGRATION REMINDERS
+#       • MODULE TREE NOTES
+#       • REMOTE SYNC / GITHUB RULES
+# - No category may be deleted; new categories may be appended.
+# - AIs must never merge or reorganize categories without explicit human approval.
+#
+# REMOTE SYNC / GITHUB INTEGRATION RULES (PERMANENT)
+# - Ultramode MUST support syncing with a GitHub repository.
+# - Local changes MUST be committed with timestamp + author + version.
+# - Remote changes MUST be pulled safely with atomic writes.
+# - Merge conflicts MUST be logged and require manual approval.
+# - Remote edits MUST follow all Ultramode notation rules.
+# - Remote edits MUST preserve protected blocks.
+# - Remote edits MUST be logged in master_rules.log.
+# - GitHub tokens MUST be stored securely.
+# - Only approved devices or AIs may push changes.
+# - Remote edits MUST be validated before applying locally.
+# - Goal: allow editing Ultramode from phone or browser via GitHub.
+#
+# MODULE TREE VIEWER RULES (APPEND‑ONLY)
+# - Add a “Module Tree Viewer” menu option.
+# - Must scan modules/ recursively and build a hierarchical tree.
+# - Must show module status (OK / modified / drifted / missing / deprecated).
+# - Must show version + last change log entry.
+# - Must support expand/collapse with LEFT/RIGHT.
+# - Must show icons for module types.
+# - Must show on‑screen help text explaining navigation.
+# - Must support read‑only module preview.
+# - Must support filters (modified only, errors only, missing notation, deprecated references).
+# - Must support search by name or tag.
+# - Must support dependency graph visualization (future).
+#
+# FUTURE IDEAS (APPEND‑ONLY)
+# - Auto‑documentation generator.
+# - Module capability map.
+# - Safe mode launcher.
+# - Theme engine.
+# - Accessibility pack.
+# - Auto‑repair tool.
+# - Integrity daemon.
+# - Diff viewer for updates.
+# - Undo stack.
+# - AI explain mode.
+# - Multi‑buffer system.
+# - Patch simulation mode.
+# - Patch conflict detector.
+# - Patch risk score.
+# - Patch tagging.
+# - Patch history browser.
+# - Animated cursor.
+# - Icon‑based menus.
+# - Expert mode / Kid mode.
+# - On‑screen keyboard.
+# - Backup scheduler.
+# - Backup compression.
+# - Backup pruning.
+# - Restore preview.
+# - Dependency map.
+# - Migration scanner.
+# - AI suggestion queue.
+# - AI sandbox mode.
+# - AI etiquette rules.
+# - Dedicated notation folder.
+# - Auto‑indexer for notation.
+# - Unified log viewer.
+# - Crash reporter.
+# - Performance monitor.
+# - Module health score.
+# - Customizable controller mapping.
+# - Long‑press actions.
+# - Gesture navigation.
+# - Haptic feedback.
+# - Write‑lock mode.
+# - Tamper detection.
+# - Plugin system.
+# - Theme packs.
+# - Tool packs.
+# - Remote update mode.
+# - First‑run tutorial.
+# - “What’s new?” screen.
+# - Quick actions menu.
+# - Favorites list.
+# - Per‑module help pages.
+# - Documentation generator.
+# - Export/import settings.
+# - Project checksum.
+# - Project fingerprint.
+# - Multi‑device sync.
+#
+# CHANGE LOG (APPEND ONLY)
+# YYYY‑MM‑DD HH:MM | AUTHOR | VERSION | NOTE
+# 2026‑03‑10 00:10 | Paul | v1.0 | Created master_rules.log with full permanent rule‑set.
+# =============================================================================
+# Hi Mom.
