@@ -1,0 +1,594 @@
+FILENAME: ULTRAMODE_MASTER_NOTATION_BLOCK.txt
+PATCHER_COMPATIBILITY: REQUIRED
+PATCHER_HEADER_VERSION: 1.0
+
+──────────────────────────────────────────────────────────────────────────────
+ULTRAMODE MASTER NOTATION BLOCK — CANONICAL SPECIFICATION
+Version: 1.1 (append-only)
+Purpose: Defines the laws, structure, expectations, and architecture of UltraMode.
+Status: Permanent. All modules must comply. All future notations append here.
+──────────────────────────────────────────────────────────────────────────────
+
+==============================================================================
+SECTION 0 — GLOBAL MASTER RULES
+==============================================================================
+
+0.1 — PATCHER COMPATIBILITY FIRST  
+- Every AI-dumped block MUST begin with:
+  - `FILENAME: <descriptive_name.ext>`  
+  - `PATCHER_COMPATIBILITY: REQUIRED`  
+  - `PATCHER_HEADER_VERSION: <x.y>`  
+- No block is valid for use unless it starts with a patcher header.  
+- Patcher header is considered part of the NOTATION and must never be removed.  
+- Patcher uses FILENAME to:
+  - Identify the target file or logical unit.  
+  - Safely match and apply patches.  
+  - Avoid ambiguity between multiple blocks.
+
+0.2 — FILENAME IS MANDATORY  
+- Every AI-dumped block MUST declare a FILENAME.  
+- FILENAME must be:
+  - Stable, human-readable, and unique within its context.  
+  - Either the real file path or a canonical logical name.  
+- If the block describes a script, FILENAME should match the script:
+  - Example: `FILENAME: um.py`  
+  - Example: `FILENAME: modules/mandatory/um_gamepad.py`  
+- If the block is a pure notation/meta file:
+  - Example: `FILENAME: ULTRAMODE_MASTER_NOTATION_BLOCK.txt`
+
+0.3 — PATCHER-SAFE BLOCK STRUCTURE  
+- Order of any AI-dumped block:
+  1. Patcher header (FILENAME + PATCHER_COMPATIBILITY + PATCHER_HEADER_VERSION)  
+  2. High-level title and version  
+  3. Sections with stable headings  
+  4. Optional PATCH BLOCK definitions  
+- Sections and headings must be stable so the patcher can:
+  - Locate sections by name.  
+  - Append new content safely.  
+  - Avoid rewriting or deleting existing content.
+
+0.4 — APPEND-ONLY NOTATION  
+- All NOTATION is append-only.  
+- No destructive edits to previous content.  
+- New rules are added as new sections or sub-sections.  
+- If a rule is superseded, the new rule must explicitly state:
+  - Which rule it supersedes.  
+  - Why it changes behavior.  
+- Patcher must never remove old rules; it only adds new ones.
+
+==============================================================================
+SECTION 1 — ULTRAMODE PHILOSOPHY & GOVERNANCE
+==============================================================================
+
+1.1 — ULTRAMODE IS A TREE  
+- UltraMode is a living tree of modules, roots, branches, and leaves.  
+- `um.py` is the ROOT.  
+- Mandatory modules are the TRUNK.  
+- Optional modules are BRANCHES.  
+- Features, UI, logs, and user interactions are LEAVES.  
+- All growth is append-only, never destructive.  
+- All modules must be able to fall back to the root (`um.py`) for safety.
+
+1.2 — ULTRAMODE IS CONTROLLER-FIRST  
+- Every module must be fully operable with a controller.  
+- Keyboard/mouse are secondary.  
+- Gamepad input is centralized and never reimplemented.  
+- All UI must be navigable with D-pad, analog, A/B/X/Y, Start/Back.
+
+1.3 — ULTRAMODE IS PATCH-SAFE  
+- All scripts must contain PATCH BLOCKS.  
+- All modifications must be idempotent.  
+- No script may overwrite user data without explicit confirmation.  
+- All patches must be reversible or non-destructive.
+
+1.4 — ULTRAMODE IS LOG-DRIVEN  
+- Every module logs actions to its own category.  
+- Logs are append-only.  
+- Logs are used to generate developer documentation automatically.  
+- Logs are used to teach future modules how to behave.
+
+1.5 — ULTRAMODE IS SELF-DOCUMENTING  
+- Every module must contain a NOTATION section.  
+- NOTATION grows over time.  
+- NOTATION is the “DNA” of the module.  
+- NOTATION is never deleted, only appended.
+
+==============================================================================
+SECTION 2 — FILE & MODULE LAYOUT (CANONICAL)
+==============================================================================
+
+2.1 — ROOT FILE  
+- `FILENAME: um.py` (logical root)  
+- Location: `/userdata/system/ultramode/um.py`  
+- Responsibilities:
+  - Master controller.  
+  - Loads mandatory modules.  
+  - Provides fallback UI.  
+  - Provides global error handling.  
+  - Provides global logging.  
+  - Provides global help windows.  
+  - Provides global theme manager (future).
+
+2.2 — MANDATORY MODULES  
+Location: `/userdata/system/ultramode/modules/mandatory/`
+
+Mandatory modules include:
+- `um_gamepad.py` — Canonical controller input module.  
+- `um_paths.py` — Canonical path resolver.  
+- `um_logging.py` — Canonical logging system.  
+- `um_ui.py` — Canonical UI helpers.  
+- `um_patch.py` — Canonical patching helpers.  
+- `um_theme.py` — Canonical theme manager (future).  
+- `um_help.py` — Canonical help window generator.
+
+Rules:
+- Mandatory modules must never be removed.  
+- Mandatory modules must never be duplicated.  
+- Mandatory modules must never be imported from anywhere except `mandatory/`.  
+- Mandatory modules must never import optional modules.
+
+2.3 — OPTIONAL MODULES  
+Location: `/userdata/system/ultramode/modules/`
+
+Rules:
+- Optional modules may import mandatory modules.  
+- Optional modules may not import other optional modules unless explicitly allowed.  
+- Optional modules must declare their category in NOTATION.  
+- Optional modules must declare their dependencies in NOTATION.  
+- Optional modules must declare their UI layout in NOTATION.
+
+2.4 — SHIMS  
+Location: `/userdata/system/ultramode/modules/shims/`
+
+Purpose:
+- Provide compatibility layers.  
+- Allow old modules to call new mandatory modules.  
+- Allow new modules to call old APIs safely.  
+- Shims must be thin, transparent, and logged.
+
+==============================================================================
+SECTION 3 — GAMEPAD ARCHITECTURE (CANONICAL)
+==============================================================================
+
+3.1 — GAMEPAD IS CENTRALIZED  
+- Only one module handles gamepad input: `mandatory/um_gamepad.py`.  
+- No module may read joystick events directly.  
+- No module may use pygame or evdev directly.  
+- All modules must call UMGamepad’s public API.
+
+3.2 — GAMEPAD PUBLIC API (LOGICAL CONTRACT)  
+UMGamepad exposes:
+- `get_input()` — returns a unified input event.  
+- `wait_for_input()` — blocking wait for next event.  
+- `is_pressed(button)` — check button state.  
+- `consume()` — clear input buffer.  
+- `map(button, action)` — remap controls (future).  
+- `rumble()` — haptic feedback (future).  
+- `analog()` — analog stick values (future).  
+- `hotkeys()` — global shortcuts (future).
+
+3.3 — GAMEPAD EVENT MODEL  
+Events are normalized:
+- `UP`, `DOWN`, `LEFT`, `RIGHT`  
+- `A`, `B`, `X`, `Y`  
+- `START`, `BACK`  
+- `LB`, `RB`  
+- `LT`, `RT`  
+- `L3`, `R3`  
+- `ANALOG_MOVE` (future)
+
+3.4 — GAMEPAD INTEGRATION IN MODULES  
+Every module must:
+- Import UMGamepad from mandatory.  
+- Use UMGamepad for all input.  
+- Never poll input manually.  
+- Never block without using UMGamepad’s wait functions.  
+- Provide controller-friendly UI navigation.
+
+3.5 — GAMEPAD FALLBACK  
+If gamepad fails:
+- UMGamepad falls back to keyboard.  
+- UMGamepad logs the fallback.  
+- UMGamepad exposes the same API.  
+- Modules do not need to change.
+
+==============================================================================
+SECTION 4 — LOGGING SYSTEM (CANONICAL)
+==============================================================================
+
+4.1 — LOG CATEGORIES  
+Each module must log to its own category:
+- `core` — um.py  
+- `gamepad` — um_gamepad  
+- `ui` — um_ui  
+- `patch` — um_patch  
+- `theme` — um_theme  
+- `module:<name>` — optional modules
+
+4.2 — LOG FORMAT  
+- Timestamp  
+- Module name  
+- Action  
+- Details  
+- Severity (INFO/WARN/ERROR)
+
+4.3 — LOG PURPOSE  
+- Debugging  
+- Developer documentation generation  
+- Behavior learning  
+- Patch safety  
+- Crash recovery  
+- User support
+
+4.4 — LOG STORAGE  
+- `/userdata/system/ultramode/logs/<category>.log`  
+- Append-only  
+- Rotated automatically  
+- Never deleted without user action
+
+4.5 — LOG FIXING LATER (DECLARED INTENT)  
+- Current logs may be noisy or inconsistent.  
+- Future patches will:
+  - Normalize log formats.  
+  - Add log levels consistently.  
+  - Add correlation IDs for actions.  
+  - Add per-module log summaries.  
+- All log changes must be:
+  - Backwards compatible.  
+  - Documented in NOTATION.  
+  - Applied via PATCH BLOCKS only.
+
+==============================================================================
+SECTION 5 — PATCHING SYSTEM (CANONICAL)
+==============================================================================
+
+5.1 — PATCH BLOCKS  
+Every script must contain:
+# ───────────────────────────────────────────────
+# PATCH BLOCK <name>
+# version: <x.y>
+# purpose: <description>
+# safe: yes/no
+# ───────────────────────────────────────────────
+
+5.2 — PATCH RULES  
+- Patches must be idempotent.  
+- Patches must check before writing.  
+- Patches must log actions.  
+- Patches must never overwrite without confirmation.  
+- Patches must be reversible or non-destructive.
+
+5.3 — PATCH CATEGORIES  
+- `fix` — bug fixes  
+- `upgrade` — version bumps  
+- `migrate` — file moves  
+- `inject` — add new code  
+- `remove` — safe removal  
+- `shim` — compatibility layers
+
+5.4 — PATCHER + NOTATION RELATIONSHIP  
+- Patcher reads NOTATION to understand:
+  - Module purpose.  
+  - Dependencies.  
+  - Expected layout.  
+  - Known patch history.  
+- Patcher must never contradict NOTATION.  
+- If a patch changes behavior, NOTATION must be updated in the same operation.
+
+==============================================================================
+SECTION 6 — NOTATION SYSTEM (CANONICAL)
+==============================================================================
+
+6.1 — NOTATION PURPOSE  
+- Defines module behavior.  
+- Defines module dependencies.  
+- Defines UI layout.  
+- Defines controller mapping.  
+- Defines logging categories.  
+- Defines patching rules.  
+- Defines future plans.  
+- Defines developer notes.  
+- Defines version history.
+
+6.2 — NOTATION FORMAT (PER MODULE)  
+Each module must contain:
+
+──────────────────────────────────────────────
+MODULE NOTATION — <module name>
+version: <x.y>
+category: <category>
+dependencies: <mandatory modules only>
+ui: <menu layout, navigation rules>
+input: <gamepad usage>
+logging: <category>
+patching: <patch blocks>
+future: <planned features>
+notes: <developer notes>
+──────────────────────────────────────────────
+
+6.3 — NOTATION GROWTH  
+- Append-only.  
+- Never delete.  
+- Never rewrite history.  
+- New entries must be timestamped.  
+- New entries must be categorized.
+
+6.4 — NOTATION AS LEARNING CARRIER  
+- NOTATION is the “teaching material” for future modules.  
+- Categories and sections must be consistent so:
+  - Tools can parse them.  
+  - Docs can be generated.  
+  - AI can learn patterns safely.  
+- Any new category must be:
+  - Justified in NOTATION.  
+  - Reused where appropriate.
+
+==============================================================================
+SECTION 7 — UM.PY AS THE MASTER ROOT (CANONICAL)
+==============================================================================
+
+7.1 — UM.PY IS THE ROOT  
+- Loads mandatory modules.  
+- Provides fallback UI.  
+- Provides global error handling.  
+- Provides global logging.  
+- Provides global help windows.  
+- Provides global theme manager (future).  
+- Provides global module loader.  
+- Provides global controller loop.  
+- Provides global crash recovery.
+
+7.2 — UM.PY FALLBACK RULE  
+If any module fails:
+- um.py catches the exception.  
+- um.py logs the failure.  
+- um.py shows a safe fallback menu.  
+- um.py allows user to retry, skip, or disable module.  
+- um.py never crashes to terminal.
+
+7.3 — UM.PY MENU STRUCTURE  
+- Main Menu  
+- Module Browser  
+- Developer Tools  
+- Logs Viewer  
+- Settings  
+- Help  
+- Exit
+
+7.4 — UM.PY RESPONSIBILITIES  
+- Initialize gamepad.  
+- Initialize UI.  
+- Initialize logging.  
+- Initialize theme.  
+- Load modules.  
+- Render menus.  
+- Handle input.  
+- Dispatch actions.  
+- Manage errors.  
+- Manage patches.  
+- Manage updates.  
+- Manage documentation generation.
+
+==============================================================================
+SECTION 8 — FUTURE SYSTEMS (DECLARED)
+==============================================================================
+
+8.1 — THEME MANAGER  
+- Per-module color schemes.  
+- Global theme override.  
+- Icon packs.  
+- Font scaling.  
+- Accessibility modes.
+
+8.2 — HELP SYSTEM  
+- Auto-resizing help windows.  
+- Multi-sentence descriptions.  
+- Per-module help pages.  
+- Controller-friendly navigation.
+
+8.3 — DEVELOPER MODE  
+- Auto-activated when logs show developer behavior.  
+- Visible badge in UI.  
+- Extra menus unlocked.  
+- Extra logs enabled.
+
+8.4 — DOCUMENTATION GENERATOR  
+- Reads logs.  
+- Reads notation.  
+- Generates developer docs.  
+- Generates module maps.  
+- Generates dependency graphs.
+
+==============================================================================
+END OF ULTRAMODE MASTER NOTATION BLOCK
+==============================================================================
+
+
+==============================================================================
+SECTION 9 — GLOBAL COLLABORATION / HANDOFF RULES (APPENDED 2026-03-21)
+==============================================================================
+
+9.1 — SHORT DATE/TIME NOTATION IN CHAT
+- All future AI chat replies for project work should include a very short date/time notation.
+- Purpose:
+  - Help the user avoid getting lost in long chats.
+  - Make handoff timing easier to understand.
+  - Reduce confusion when chats are reopened later.
+
+9.2 — ASK BEFORE DUMPING FILES OR LONG TEXT
+- AI should not dump long scripts, long sidecars, or large explanations without asking first,
+  unless the user directly asked for the dump in that message.
+- Preferred behavior:
+  - keep chat short
+  - ask first
+  - one step at a time
+- This rule is global across UM, sidecars, and related project chats.
+
+9.3 — FILE HANDOFF RULE
+- Files handed back to the user should include a version in the filename when practical.
+- Example:
+  - um_v9.1.1_r2.py
+  - discover_plugins_v0.3.py
+- Purpose:
+  - Reduce accidental overwrite confusion.
+  - Reduce testing of wrong duplicate copies.
+  - Make handoff state clearer.
+
+9.4 — TXT SIDECAR / LOG RULE
+- Sidecars, logs, handoff notes, and rules files should prefer .txt extensions.
+- Reason:
+  - Easier upload back into AI chats.
+  - Easier cross-AI handoff.
+  - Less confusion than special-purpose extensions.
+- Examples:
+  - *_log.txt
+  - *_help_log.txt
+  - *_rules_log.txt
+  - *_thinktank_log.txt
+
+9.5 — GLOBAL HANDOFF / LAW-BOOK IDEA
+- UltraMode should maintain a durable global handoff / rules file for future AI.
+- Purpose:
+  - Preserve rules, structure, safety expectations, notation standards, and learned lessons.
+  - Allow future AI to patch more safely without relearning everything from scratch.
+- This global file may coexist with:
+  - ULTRAMODE_MASTER_NOTATION_BLOCK.txt
+  - global_handoff_rules_vX.Y.txt
+- The master notation remains canonical unless explicitly superseded by user instruction.
+
+==============================================================================
+SECTION 10 — GUI / WINDOW / RESIZE RULES (APPENDED 2026-03-21)
+==============================================================================
+
+10.1 — NATIVE WINDOW FRAME TERMINOLOGY
+- The "_ square X" top-right controls are the native OS window frame / native window decorations / window chrome.
+- Important:
+  - These are not custom pygame-drawn buttons unless explicitly implemented.
+  - If a script needs that behavior, prefer a normal decorated resizable pygame window first.
+
+10.2 — PRESERVE WORKING ENGINE, PORT VISUALS CAREFULLY
+- When improving GUI appearance, future AI should prefer:
+  - old engine + new paint
+- Meaning:
+  - preserve working input loop
+  - preserve working gamepad integration
+  - preserve working launcher behavior
+  - port visual styling carefully
+- Do not rewrite working runtime core just to chase nicer visuals.
+
+10.3 — SMART DEFAULT WINDOW SIZE
+- GUI modules should aim to open at a smart default size that fits content nicely.
+- Resizing should not merely stretch the window.
+- Resizing should work with:
+  - UI scale
+  - font scale
+  - panel spacing
+  - bubble sizes
+  - padding
+- Goal:
+  - adaptive layout
+  - readable text
+  - reduced clipping
+  - reduced cramped appearance
+
+10.4 — ZOOM / UI SCALE AS RESIZE BASE
+- If a module already has zoom or UI scale concepts, future AI should consider using that
+  as the base system for resize behavior.
+- Better idea:
+  - one scale factor drives fonts, padding, borders, and panel metrics together
+- Avoid separate sloppy one-off resize hacks.
+
+10.5 — GUI FAMILY LEARNING SOURCES
+- Future AI may learn visual direction from:
+  - umpatcher.py
+  - patch_source_loader_gui_v7.py
+- These are learning references, not forced clones.
+- Good takeaways include:
+  - richer dark GUI family feel
+  - stronger framed sections / bubbles
+  - cleaner header/footer presence
+  - controller-friendly navigation
+  - readable highlighted states
+- Future AI must preserve module identity and should not blindly copy appearances.
+
+==============================================================================
+SECTION 11 — DEVELOPER MODE (APPENDED 2026-03-21)
+==============================================================================
+
+11.1 — GLOBAL DEVELOPER MODE RULE
+- UltraMode should provide a global Developer Mode option.
+- Developer Mode should expose some advanced options, not everything.
+- Default behavior should remain safe and cleaner for normal usage.
+
+11.2 — DEVELOPER MODE SHOULD FIT THESE USES
+- repair tools
+- debug/status views
+- registration tools
+- test actions
+- extra logs
+- extra detail panes
+- dangerous actions behind clearer gates
+
+11.3 — SAFE-BY-DEFAULT RULE
+- Normal mode should stay clearer and less risky.
+- Developer Mode should be clearly visible when ON.
+- Dangerous or confusing actions should not be presented casually in normal mode.
+
+==============================================================================
+SECTION 12 — MISTAKES LEARNED / PATCH SAFETY (APPENDED 2026-03-21)
+==============================================================================
+
+12.1 — MISSING HELPER CHAINS
+- Recent work showed that large GUI rewrites can accidentally omit helper functions
+  and crash at runtime.
+- Future AI must verify:
+  - helper functions exist
+  - functions are defined before use
+  - status/color/display helpers are present
+  - event-loop helpers are preserved
+- Do not assume syntax-checking alone proves runtime safety.
+
+12.2 — DUPLICATE FILE CONFUSION
+- Testing wrong duplicate filenames caused confusion about whether a fix had worked.
+- Future AI should:
+  - prefer versioned filenames for handoff
+  - warn about duplicate copies
+  - help the user keep one active live script when possible
+
+12.3 — DO NOT BREAK GAMEPAD TO IMPROVE SKIN
+- Gamepad and launcher flow are core behavior.
+- Visual modernization must not break controller handling.
+- If there is a conflict between visual ambition and working input, preserve working input.
+
+12.4 — APPEND-ONLY RULE FOR LESSONS
+- Important mistakes and lessons should be preserved here rather than forgotten.
+- Future AI should append new lessons when they materially improve patch safety.
+
+==============================================================================
+SECTION 13 — FILE HEADER / TOP-OF-FILE DIRECTION (APPENDED 2026-03-21)
+==============================================================================
+
+13.1 — STRONG TOP-OF-FILE STANDARDS
+- Every script should begin with a strong, obvious top section that helps patching, handoff,
+  and future AI understanding.
+- This top section should preserve:
+  - shebang when required
+  - filename
+  - folder path
+  - destination
+  - version
+  - purpose
+  - visible permanent rules / cautions where appropriate
+
+13.2 — CHANGELOG / PROBLEMS / FIXER / THINKTANK PRESENCE
+- Future AI should preserve structured top-level notes for:
+  - changelog
+  - problems learned
+  - fixer notes / repair notes
+  - thinktank / ideas / goals
+- These may live partly in the file and partly in sidecars.
+- Heavy clutter should prefer sidecars, but important safety guidance should remain visible.
+
+==============================================================================
+END APPENDED RULES — 2026-03-21
+==============================================================================
