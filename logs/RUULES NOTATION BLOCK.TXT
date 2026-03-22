@@ -1,0 +1,20 @@
+# =============================================================================
+# PROJECT NOTATIONS - DO NOT DELETE OR MODIFY EXISTING LINES - ONLY APPEND
+# =============================================================================
+# Purpose:      Ultramode Patcher - menu-driven system patch tool
+# Target OS:    Batocera v43 (Linux-based retro gaming distro)
+# Runtime env:  xterm terminal emulator inside Batocera
+# Architecture: x86_64 (most common Batocera builds), some ARM possible
+# Constraints:  - No pip installs allowed (use only stdlib or preinstalled pkgs)
+#               - Must remain fully usable in lightweight xterm (no heavy GUI by default)
+#               - Prefer terminal/ncurses interface unless user explicitly requests Pygame
+#               - Gamepad support only if/when user says "add gamepad" or "pygame version"
+# Rules:        - Keep interface simple, visible on typical 720p/1080p TV via xterm
+#               - Colors must work in xterm (curses is safe choice)
+#               - Keyboard + optional gamepad navigation
+#               - Always warn before any file-modifying action (Apply Patch, Backup, etc.)
+#               - NEVER assume desktop Python environment (no tkinter default, etc.)
+#
+# Change log (append only, newest on top, format: YYYY-MM-DD | who/what):
+# 2025-03-xx | User (Paul) | Running exclusively in xterm on Batocera v43
+# =============================================================================
