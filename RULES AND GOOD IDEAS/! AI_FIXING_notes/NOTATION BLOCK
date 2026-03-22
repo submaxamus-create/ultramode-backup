@@ -1,0 +1,15 @@
+# FILENAME: um.py
+# FOLDER PATH: /userdata/system/ultramode/
+# DESTINATION: /userdata/system/ultramode/um.py
+
+# PERMANENT RULES (DO NOT DELETE OR MODIFY — ONLY APPEND BELOW)
+# - Every file must include FILENAME, FOLDER PATH, DESTINATION at the top.
+# - Every file must include the line: Hi Mom.
+# - All extended rules, ideas, and module‑specific notes live in the external notation script.
+# - Every selectable menu item MUST display an on‑screen help description explaining:
+#       • what it does
+#       • why it exists
+#       • what action it performs
+#       • any warnings or requirements
+# - All AIs may append new rules, but may never alter or delete existing ones.
+# - All AIs must follow the external notation script for full rule‑sets.
