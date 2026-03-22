@@ -1,0 +1,1580 @@
+===============================================================================
+UMPATCHER SIDECAR LOG / NOTATION FILE
+===============================================================================
+FILENAME:      umpatcher.log
+FOLDER PATH:   /userdata/system/ultramode/modules/patcher/
+DESTINATION:   /userdata/system/ultramode/modules/patcher/umpatcher.log
+PAIRING:       Intended to reside next to umpatcher.py
+ACCESS:        Accessible through umpatcher.py via HELP_LOG_PATH / Help / Notes
+STATUS:        ACTIVE SIDECAR
+RULE:          APPEND-ONLY. NEVER DELETE HISTORY. ONLY APPEND.
+
+Hi Mom.
+
+PURPOSE:
+  - Sidecar storage for AI notation, changelog history, design notes,
+    future ideas, and collaborative append-only context.
+  - Intended to live beside umpatcher.py in the same folder.
+  - Carry the heavy notation burden so umpatcher.py stays focused on
+    interface and working logic.
+  - Give future AI a stable external place to read goals, ideas, changelogs,
+    safety notes, unresolved problems, and architecture plans.
+
+GENERATED FROM:
+  - Merged from all known sidecar log variants and handoff files:
+      umpatcher_help.log
+      umpatcher_help4.log
+      umpatcher_help (1).log
+      umpatcher_help (2).log
+      umpatcher_help_3a_.log
+      umpatcher_help__3B_.log
+      umpatcher_help_log.bak-20260314_032729
+      umpatcher_log_11.0.log
+      umpatcher_refresh_handoff.log
+      umpatcher.log (prior master)
+
+NOTE:
+  - Duplicates removed. All unique content preserved.
+  - Format follows umpatcher.log master standard.
+  - The working script may still contain duplicated notation until a later
+    pass removes it from the code file itself.
+
+===============================================================================
+AI EXTRACTION / EXPORT RULES
+===============================================================================
+Future AI or helper modules scanning this file should look for blocks marked:
+
+  CATEGORY:
+  TYPE:
+  STATUS:
+  EXPORT_TO:
+
+They may copy those blocks into:
+
+  /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+
+They should preserve wording exactly, keep source credit, and avoid deleting
+the original local block.
+
+===============================================================================
+INDEX OF NOTATION BLOCKS IN THIS FILE
+===============================================================================
+  01. CATEGORY=AI_DIRECTIVE                        | TYPE=PERMANENT_CRITICAL_RULE
+  02. CATEGORY=PATCH_FORMAT_RULES                  | TYPE=ACTIVE_STANDARD
+  03. CATEGORY=SOURCE_CLASSIFICATION (REPLIT)      | TYPE=TRUSTED_SOURCE
+  04. CATEGORY=SOURCE_CLASSIFICATION (GITHUB)      | TYPE=REFERENCE_SOURCE
+  05. CATEGORY=PROJECT_ARCHITECTURE                | TYPE=CORE_DIRECTION
+  06. CATEGORY=FILE_LAYOUT                         | TYPE=RECOMMENDED_STRUCTURE
+  07. CATEGORY=BUFFER_SYSTEM (CORE_PRODUCT_GOAL)   | TYPE=CORE_PRODUCT_GOAL
+  08. CATEGORY=BUFFER_SYSTEM (OBJECT_CLASSIFICATION)| TYPE=OBJECT_CLASSIFICATION
+  09. CATEGORY=BUFFER_SYSTEM (SOURCE_PRIORITY)     | TYPE=SOURCE_PRIORITY
+  10. CATEGORY=UI_RULES (HELP_BAR)                 | TYPE=REQUIRED_BEHAVIOR
+  11. CATEGORY=UI_RULES (BUFFER_STATUS_WINDOW)     | TYPE=BUFFER_STATUS_WINDOW
+  12. CATEGORY=UI_RULES (TICKER_RIBBON)            | TYPE=TICKER_RIBBON
+  13. CATEGORY=UI_DESIGN                           | TYPE=VISUAL_GOALS
+  14. CATEGORY=UI_LAYOUT_FIXES                     | TYPE=ACTIVE_REVISION_NOTE
+  15. CATEGORY=UI_BUGS                             | TYPE=KNOWN_ISSUES
+  16. CATEGORY=UI_EXPANSION_GOALS                  | TYPE=FUTURE_FANCY_MENU
+  17. CATEGORY=PATCH_FLOW (REQUIRED_LOGIC)         | TYPE=REQUIRED_LOGIC
+  18. CATEGORY=PATCH_FLOW (SIMULATION_MODE)        | TYPE=SIMULATION_MODE
+  19. CATEGORY=PATCH_ENGINE_FIXES                  | TYPE=ACTIVE_STANDARD
+  20. CATEGORY=MENU_ARCHITECTURE (NAVIGATION)      | TYPE=REQUIRED_NAVIGATION
+  21. CATEGORY=MENU_ARCHITECTURE (SUBMENUS)        | TYPE=SUBMENU_DIRECTION
+  22. CATEGORY=DEVELOPER_MODE                      | TYPE=FUTURE_MIGRATION_PLAN
+  23. CATEGORY=SAFETY_RULES                        | TYPE=NON_NEGOTIABLE
+  24. CATEGORY=SELF_PATCH_STRATEGY                 | TYPE=SAFE_WORKFLOW
+  25. CATEGORY=SIDECAR_POLICY                      | TYPE=CORE_RULE
+  26. CATEGORY=PLACEHOLDER_POLICY                  | TYPE=USER_APPROVED
+  27. CATEGORY=DISPLAY_POLICY                      | TYPE=ACTIVE_RUNTIME_STANDARD
+  28. CATEGORY=LIVE_BUFFER_MONITOR_STANDARD        | TYPE=ACTIVE_BEHAVIOR_RULE
+  29. CATEGORY=PRE_APPLY_CHECK_STANDARD            | TYPE=ACTIVE_SAFETY_RULE
+  30. CATEGORY=TEXT_FIT_POLICY                     | TYPE=ACTIVE_UI_RULE
+  31. CATEGORY=TOP_PANEL_GRID_STANDARD             | TYPE=ACTIVE_UI_RULE
+  32. CATEGORY=HELP_BUBBLE_STANDARD                | TYPE=ACTIVE_UI_RULE
+  33. CATEGORY=INLINE_FOOTER_BUBBLE_STANDARD       | TYPE=ACTIVE_UI_RULE
+  34. CATEGORY=BOTTOM_BUBBLE_ALIGNMENT_RULE        | TYPE=ACTIVE_UI_RULE
+  35. CATEGORY=BOTTOM_INLINE_SINGLE_LINE_RULE      | TYPE=ACTIVE_UI_RULE
+  36. CATEGORY=TOP_GRID_POP_COLOR_RULE             | TYPE=ACTIVE_UI_RULE
+  37. CATEGORY=TOP_GRID_NEON_YELLOW_RULE           | TYPE=ACTIVE_UI_RULE
+  38. CATEGORY=COLOR_POP_POLICY                    | TYPE=ACTIVE_UI_RULE
+  39. CATEGORY=RETURN_TO_MAIN_MENU_EXIT_RULE       | TYPE=ACTIVE_BEHAVIOR_RULE
+  40. CATEGORY=MULTI_AI_COLLABORATION_RULES        | TYPE=PERMANENT_GLOBAL_RULE
+  41. CATEGORY=CHAT_DIGEST_CAPTURE_RULE            | TYPE=PERMANENT_MULTI_AI_RULE
+  42. CATEGORY=PROBLEM_RESOLUTION_CAPTURE_RULE     | TYPE=PERMANENT_MULTI_AI_RULE
+  43. CATEGORY=FILE_HANDOFF_RULE                   | TYPE=PERMANENT_WORKFLOW_RULE
+  44. CATEGORY=GLOBAL_LOG_TREE_FUTURE_FORMAT       | TYPE=PERMANENT_ARCHITECTURE_DIRECTION
+  45. CATEGORY=MODULE_LOG_ARCHITECTURE             | TYPE=ACTIVE_FUTURE_SYSTEM
+  46. CATEGORY=MODULE_HOME_RULE                    | TYPE=ACTIVE_LOCATION_RULE
+  47. CATEGORY=CHANGELOG_RECOVERY_FUTURE_RULE      | TYPE=ACTIVE_LOG_ARCHITECTURE_RULE
+  48. CATEGORY=CHANGELOG_APPEND_ONLY_COMPLETENESS  | TYPE=ACTIVE_LOG_ARCHITECTURE_RULE
+  49. CATEGORY=VERSION_X_BASELINE                  | TYPE=PRESERVED_MASTER_BASE
+  50. CATEGORY=LONG_TERM_IDEAS                     | TYPE=EXPANSION_BACKLOG
+  51. CATEGORY=CURRENT_PROBLEM_DIGEST              | TYPE=ACTIVE_WORK_SESSION_NOTE
+  52. CATEGORY=WEB_EXPLAINABLE_FORMAT_STANDARD     | TYPE=PERMANENT_COLLABORATION_ARCHITECTURE_RULE
+  53. CATEGORY=REFRESH_HANDOFF                     | TYPE=SESSION_HANDOFF
+  54. CATEGORY=VERSION_11_LOG_ANCHOR               | TYPE=STATUS_LOG
+
+===============================================================================
+TICKER LINES
+===============================================================================
+TICKER: Preview window approved and should always appear before write.
+TICKER: Simulation mode approved, but must be explained clearly in UI.
+TICKER: Buffer status should be a real window/panel, not a giant bright banner.
+TICKER: Help bar must define the selected menu item, or be humorous if unclear.
+TICKER: Buffer interface can be over-the-top now; extra controls move into Developer Mode later.
+TICKER: Replit is a trusted source and should be marked GREEN in source references.
+TICKER: All discussion ideas should be preserved now and sorted later by helper tools.
+TICKER: Second bottom ribbon should read ideas and goals from this file.
+TICKER: Patcher first, helper modules later.
+TICKER: Header format should end with SUMMARY.
+TICKER: The patcher should feel like a serious program, not a tiny utility.
+TICKER: Buffer Inspector should become one of the stars of the interface.
+TICKER: This sidecar preserves every current notation block from umpatcher.
+TICKER: Future module should centralize changelogs, ideas, help, scraps, and AI handoffs.
+TICKER: Never delete history; recover older missing changelog data later.
+
+===============================================================================
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: AI_DIRECTIVE
+# TYPE: PERMANENT_CRITICAL_RULE
+# SOURCE: USER_RULE
+# STATUS: ACTIVE
+# SCOPE: ALL SCRIPTS / ALL SESSIONS / ALL AI SYSTEMS
+# =============================================================================
+# ALL AI SYSTEMS MUST READ AND OBEY THIS DIRECTIVE BEFORE DOING ANYTHING ELSE.
+#
+# RULE 1 — NO UNSOLICITED SCRIPT OUTPUT:
+#   Never generate, send, output, or attach any script, code file, or modified
+#   version of any file unless the USER has explicitly asked for it first.
+#
+# RULE 2 — NO LENGTHY CHAT RESPONSES:
+#   Never produce long explanations, analysis blocks, or multi-section responses
+#   while analyzing, discussing, or updating this or any related script, unless
+#   the USER has explicitly asked for it.
+#
+# RULE 3 — ASK FIRST, ALWAYS:
+#   Before ANY action (generating code, sending files, making changes, giving
+#   summaries), ask the user: "Do you want me to [specific action]?"
+#   Wait for explicit approval. No exceptions.
+#
+# RULE 4 — SCOPE IS UNIVERSAL:
+#   This directive applies to THIS script AND all scripts in this project,
+#   in all sessions, across all AI systems and models.
+#
+# RULE 5 — VIOLATIONS:
+#   Any AI that sends unsolicited scripts or lengthy output is acting against
+#   the user's explicit directive and must stop immediately if corrected.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: PATCH_FORMAT_RULES
+# TYPE: ACTIVE_STANDARD
+# SOURCE: USER_RULE
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# PATCH HEADER RULE:
+# Patches should begin with:
+#   FILENAME:
+#   FOLDER PATH:
+#   DESTINATION:
+#   PATCH TYPE:
+#   TARGET_LINE:   (if needed)
+#   VERSION:
+#   SUMMARY:
+# The header may be followed by a blank line, then the patch body.
+# SUMMARY belongs in the header and should describe the module or patch
+# in plain language. Parser should use SUMMARY for logging/display, not routing.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: SOURCE_CLASSIFICATION
+# TYPE: TRUSTED_SOURCE
+# SOURCE: USER_RULE
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# COLOR_CODE: GREEN
+# SOURCE_NAME: REPLIT
+# CLASSIFICATION: TRUSTED DEVELOPMENT PLATFORM
+# =============================================================================
+# Replit is to be kept in the master source list as GOOD / TRUSTED / GREEN.
+# Credit owed for:
+#   - xclip-first clipboard integration idea
+#   - strong merge-history notation style
+#   - useful debugging / design commentary
+#   - structured AI-readable note blocks
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: SOURCE_CLASSIFICATION
+# TYPE: REFERENCE_SOURCE
+# SOURCE: USER_RULE
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# SOURCE_NAME: GITHUB
+# SOURCE_DETAIL: https://github.com/submaxamus-create/umpatcher.py.git
+# =============================================================================
+# Public source reference for Ultramode patcher work.
+# Treat as a traceable lineage source and mining location for future recovery,
+# comparison, merge, and authorship credit.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: PROJECT_ARCHITECTURE
+# TYPE: CORE_DIRECTION
+# SOURCE: USER_RULE
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# Current corrected direction:
+#   - patcher first
+#   - sidecar helper/log file next to umpatcher.py
+#   - master helper/log in Ultramode root or logs folder
+#   - help menu entry inside patcher
+#   - buffer status window/panel, not bright full-width banner
+#   - dynamic bottom help text
+#   - preview window
+#   - simulation mode available but explained clearly
+#   - parent/main-menu navigation placeholders now, proper routing later
+#   - placeholder controls for future buffer/dev features
+#   - all ideas/goals/rules exported into helper files instead of floating in chat
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: FILE_LAYOUT
+# TYPE: RECOMMENDED_STRUCTURE
+# SOURCE: USER_RULE
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# Best current structure:
+#
+# /userdata/system/ultramode/modules/patcher/
+#   umpatcher.py
+#   umpatcher.log              <- this file
+#
+# /userdata/system/ultramode/
+#   logs/
+#     MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+#
+# Later possible modularization:
+#   umpatcher_buffer.py
+#   umpatcher_preview.py
+#   umpatcher_ui.py
+#   helper extraction / log sync modules
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: BUFFER_SYSTEM
+# TYPE: CORE_PRODUCT_GOAL
+# SOURCE: USER_RULE
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# The patcher should autoinspect the buffer intelligently.
+#
+# Important nuance:
+#   - patcher does NOT have to blindly autoload + auto-apply on launch
+#   - it SHOULD inspect the buffer automatically / intelligently
+#   - it should say what object is in the buffer
+#   - it should show status clearly
+#   - it should classify the object in the buffer
+#   - it should then offer logical actions from that object context
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: BUFFER_SYSTEM
+# TYPE: OBJECT_CLASSIFICATION
+# SOURCE: USER_RULE
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# Requested and expanded object classes for buffer detection:
+#   - Python Module
+#   - Shell Tool
+#   - Log / Journal
+#   - Notes / Notation Block
+#   - Patch Package
+#   - Config / Data
+#   - Launcher / Menu Hook
+#   - Unknown Artifact
+#
+# Earlier user shorthand also included: py, sh, log, misc, note
+#
+# Buffer Inspector should show:
+#   - object type/class
+#   - object name
+#   - destination guess
+#   - version if found
+#   - source used
+#   - confidence score
+#   - safety level / apply risk guess
+#   - recommended next actions
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: BUFFER_SYSTEM
+# TYPE: SOURCE_PRIORITY
+# SOURCE: USER_RULE + REPLIT_CONTRIBUTION
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# Known buffer source priority:
+#
+# Historical older order:
+#   1. Hidden Tk clipboard
+#   2. pygame.scrap
+#   3. buffer.txt
+#
+# Improved Linux/Batocera-friendly order (preferred, credit: Replit):
+#   1. xclip
+#   2. buffer.txt
+#   3. Hidden Tk clipboard
+#   4. pygame.scrap
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: UI_RULES
+# TYPE: REQUIRED_BEHAVIOR
+# SOURCE: USER_RULE
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# Dynamic bottom help bar rule:
+#   - As menu selection changes, the bottom help bar must change.
+#   - It should define the selected item clearly.
+#   - If nothing meaningful can be defined, use a humorous fallback line.
+#
+# Help priority:
+#   1. clear explanation of selected item
+#   2. control hint if needed
+#   3. humorous fallback if meaning is thin
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: UI_RULES
+# TYPE: BUFFER_STATUS_WINDOW
+# SOURCE: USER_FEEDBACK
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# The bright blue full-width bar was wrong.
+# Replace it with a real framed Buffer Status Window / panel.
+#
+# Expected contents:
+#   - buffer state: EMPTY / LOADED / UNKNOWN
+#   - detected object name
+#   - target path guess
+#   - object type / class
+#   - patch type / source used
+#   - simulation mode state
+#   - xclip present / missing
+#   - buffer.txt present / missing
+#   - future placeholder controls
+#
+# This panel should feel like a subsystem window, not a banner.
+# Buffer Status Window must become the star of the interface.
+# Stronger color contrast and more vivid presentation are required.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: UI_RULES
+# TYPE: TICKER_RIBBON
+# SOURCE: USER_RULE
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# A second ribbon on the bottom of the screen, above the helper bar, should act
+# as a ticker tape of ideas and goals sourced from this sidecar help/log file.
+#
+# The ticker is intended to:
+#   - surface goals and ideas continuously
+#   - make the patcher feel alive / active / smart
+#   - remind future AI and user of direction and unfinished plans
+#
+# This should read from tagged TICKER: lines in this file, not hardcoded strings.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: UI_DESIGN
+# TYPE: VISUAL_GOALS
+# SOURCE: USER_FEEDBACK
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# Visual goals called out by user:
+#   - make the color scheme pop
+#   - strong contrast and better framing
+#   - panels that feel slick / premium
+#   - more identity and more Ultramode character
+#   - interface should feel smooth, detailed, and packed with submenus/doodads
+#   - like pro software with rich navigation layers (Photoshop / AutoCAD / Windows feel)
+#
+# User explicitly allows:
+#   - overbuilt menus for now
+#   - extra switches and controls
+#   - placeholders to be cleaned up later
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: UI_LAYOUT_FIXES
+# TYPE: ACTIVE_REVISION_NOTE
+# SOURCE: USER_FEEDBACK
+# STATUS: ACTIVE
+# PRIORITY: HIGH
+# =============================================================================
+# DESCRIPTION:
+#   - Top status panel had overlapping text.
+#   - MAIN ACTIONS menu items were partially hidden by footer area.
+#   - Buffer state bubble belonged inside the MAIN ACTIONS panel, not floating in header.
+#   - Dedicated Return To Main Menu action needed to exist explicitly.
+#   - Joystick/D-pad navigation needed smoother one-step behavior without odd skip feel.
+#   - Color hierarchy and visual spacing needed improvement.
+#   - "Version:" and "Future: AI Validator" lines overlapped in top Buffer Status Window.
+#   - D-pad scrolling moved too fast through the menu; needed throttled repeat behavior.
+#   - Under Developer Mode, text was not readable; panel layout or color must be corrected.
+#   - Buffer Status Window was not visually strong enough.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: UI_BUGS
+# TYPE: KNOWN_ISSUES
+# SOURCE: USER_FEEDBACK
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# Known issues found by user:
+#   - Bottom UI got overlapped when Buffer Control Box was selected.
+#
+# Root design rule from this:
+#   - Panels / buffer control boxes should not trample ticker/help zones.
+#   - If a control box opens, it should be treated as:
+#       option A: modal popup
+#       option B: side panel
+#       option C: separate screen
+#   - Not just drawn carelessly into reserved bottom UI space.
+#
+# Known code issues (from handoff notes):
+#   - Duplicate preview paths exist: preview_then_apply() vs preview_loop_wrapper()
+#   - Bad indent caused crash around footer_ctrl_width block
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: UI_EXPANSION_GOALS
+# TYPE: FUTURE_FANCY_MENU
+# SOURCE: USER_REQUEST
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# FANCY MENU GOALS:
+#   - Make the interface much more detailed and visually rich.
+#   - Add on/off switches, side panels, compartments, and more obvious controls.
+#   - Placeholder controls are acceptable for unfinished items.
+#   - Developer-only controls may be split out later.
+#   - Buffer Inspector should remain the center of the patcher.
+#   - Interface should feel more like pro software with nested tools and
+#     structured panels.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: PATCH_FLOW
+# TYPE: REQUIRED_LOGIC
+# SOURCE: USER_RULE
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# Preferred patcher flow:
+#   buffer detected -> classify object -> show status panel -> choose action
+#
+# Safer apply flow:
+#   buffer -> parse -> preview -> confirm -> apply
+#
+# Preview should show:
+#   - target file
+#   - type
+#   - version
+#   - size / line count
+#   - first ~20 lines
+#   - simulation mode state
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: PATCH_FLOW
+# TYPE: SIMULATION_MODE
+# SOURCE: USER_FEEDBACK
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# Simulation Mode meaning:
+#   - run the parse / preview / decision flow
+#   - DO NOT write the file
+#   - show what would happen instead
+#
+# Important UX note:
+#   - if simulation mode is visible, it must be explained clearly
+#   - user explicitly said they did not know what simulate on/off meant
+#   - therefore UI labeling must be stronger and less jargon-y
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: PATCH_ENGINE_FIXES
+# TYPE: ACTIVE_STANDARD
+# SOURCE: USER_FEEDBACK + DISCOVERY_TRAIL
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# DISCOVERY TRAIL:
+#   - First patch pipeline test succeeded on the neighboring log file.
+#   - That proved: buffer read worked, preview worked, target detection worked,
+#     and write worked.
+#   - Next test used patch_test.txt to check APPEND behavior.
+#   - Result showed the original file contents were lost; only patch payload remained.
+#   - That exposed the core bug: PATCH TYPE was parsed from the header but
+#     ignored by apply_patch().
+#   - Root cause: apply_patch() only checked object type / file class, then
+#     defaulted to full overwrite for non-log files.
+#   - Conclusion: patch routing had to move from object-based behavior to
+#     explicit PATCH TYPE behavior.
+#
+# FIXES APPLIED:
+#   - apply_patch() now routes by PATCH TYPE.
+#   - Supported modes: APPEND, CREATE, FULL, INSERT_AFTER, INSERT_BEFORE, REPLACE
+#   - TARGET_LINE is required for: INSERT_AFTER, INSERT_BEFORE, REPLACE
+#   - Simulation mode now reports what patch type would be applied.
+#   - Existing file content is read before insert / replace operations.
+#   - Backup is created before target mutation when the target exists.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: MENU_ARCHITECTURE
+# TYPE: REQUIRED_NAVIGATION
+# SOURCE: USER_RULE
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# Missing or needed menu/navigation features:
+#   - Back To Parent Menu
+#   - Main Menu
+#   - fluid parent/child routing
+#   - parent registration / launch contract
+#
+# User reminded that earlier architecture goal was that patcher would not only
+# sit in correct location, but also tell / integrate with its parent menu.
+#
+# Placeholder navigation is acceptable now, but proper fluid registration is a
+# future requirement.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: MENU_ARCHITECTURE
+# TYPE: SUBMENU_DIRECTION
+# SOURCE: USER_REQUEST
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# User approved deeper menuing and rich interface behavior.
+#
+# Desired submenu buckets:
+#   - Buffer Inspector
+#   - Patch Preview
+#   - Apply / Simulate
+#   - Help / Notes
+#   - Developer Mode
+#   - Navigation
+#
+# User also explicitly allowed the assistant to:
+#   - rename things smartly
+#   - add extra stuff
+#   - create detailed menus, switches, and panels
+#   - use logic like a pro program instead of keeping it tiny
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: DEVELOPER_MODE
+# TYPE: FUTURE_MIGRATION_PLAN
+# SOURCE: USER_REQUEST
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# Extra controls and advanced knobs are acceptable now even if over the top.
+# Later they can be moved into Developer Mode.
+#
+# Candidate Developer Mode items:
+#   - per-source enable/disable toggles
+#   - source priority ordering
+#   - AI validator tools
+#   - diff patch engine
+#   - restore browser
+#   - notation export / sync tools
+#   - advanced diagnostics
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: SAFETY_RULES
+# TYPE: NON_NEGOTIABLE
+# SOURCE: USER_RULE
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# Safety rules reinforced through this discussion:
+#   - always use atomic writes
+#   - backup self before risky file operations
+#   - backup target file before overwrite
+#   - protected markers should survive
+#   - preview before apply is strongly preferred
+#   - notation should be preserved even when features are not finished
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: SELF_PATCH_STRATEGY
+# TYPE: SAFE_WORKFLOW
+# SOURCE: DESIGN_DECISION
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# SELF-PATCH PLAN:
+#   - Yes, umpatcher should eventually be able to patch itself.
+#   - But first, it must prove stable by patching its neighboring sidecar log.
+#   - Sidecar log patch success should be treated as the first live validation.
+#   - After that, self-patching of umpatcher.py can proceed with a full-file patch.
+#   - Future self-patching should always require:
+#       1. preview
+#       2. self-backup
+#       3. target backup
+#       4. explicit confirmation
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: SIDECAR_POLICY
+# TYPE: CORE_RULE
+# SOURCE: USER_RULE
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# User wants the neighboring file to carry the heavy notation burden.
+#
+# Therefore:
+#   - umpatcher.py = working interface + core logic
+#   - umpatcher.log = design brain / notation dump / goals / ideas / plans
+#
+# The sidecar should intentionally contain a large amount of notes so the main
+# script can stay cleaner and later be easier to analyze by AI tools.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: PLACEHOLDER_POLICY
+# TYPE: USER_APPROVED
+# SOURCE: USER_RULE
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# User approved placeholders aggressively.
+#
+# Rules:
+#   - placeholders are acceptable now
+#   - automatic cleanup / sorting can happen later
+#   - include ideas and goals even if unfinished
+#   - do not lose discussion-derived features just because they are not fully built
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: DISPLAY_POLICY
+# TYPE: ACTIVE_RUNTIME_STANDARD
+# SOURCE: USER_REQUEST + WEB_RESEARCH
+# STATUS: ACTIVE
+# =============================================================================
+# DESCRIPTION:
+#   - Umpatcher should not open as a tiny partial-screen window on Batocera.
+#   - Prefer display modes that occupy the screen cleanly while preserving the
+#     original layout proportions.
+#   - Pygame display documentation confirms set_mode() controls windowed or
+#     fullscreen display behavior.
+#   - Linux pygame issue reports show pygame.SCALED with the current desktop
+#     size as a practical workaround when some fullscreen configurations fail.
+# DESIGN GOAL:
+#   - Try scaled fullscreen first.
+#   - Fall back gracefully instead of crashing.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: LIVE_BUFFER_MONITOR_STANDARD
+# TYPE: ACTIVE_BEHAVIOR_RULE
+# SOURCE: USER_REQUEST
+# STATUS: ACTIVE
+# =============================================================================
+# DESCRIPTION:
+#   - Buffer bubble should update live while the menu is open.
+#   - Full/empty recognition should not require a manual Read Buffer action.
+#   - Fast polling should check for presence only.
+#   - Full classification should remain intentional and user-driven.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: PRE_APPLY_CHECK_STANDARD
+# TYPE: ACTIVE_SAFETY_RULE
+# SOURCE: USER_REQUEST
+# STATUS: ACTIVE
+# =============================================================================
+# DESCRIPTION:
+#   - Before applying a patch, umpatcher should run a lightweight check for:
+#       header filename presence,
+#       destination path presence,
+#       patch type recognition,
+#       body line presence,
+#       target line presence when required.
+#   - Apply should present a human-readable confirmation prompt.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: TEXT_FIT_POLICY
+# TYPE: ACTIVE_UI_RULE
+# SOURCE: USER_FEEDBACK
+# STATUS: ACTIVE
+# =============================================================================
+# DESCRIPTION:
+#   - Text must not trail outside the top status panel, inspector panel, or
+#     footer/help areas.
+#   - Long strings should clip cleanly with ellipsis rather than overlap.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: TOP_PANEL_GRID_STANDARD
+# TYPE: ACTIVE_UI_RULE
+# SOURCE: USER_FEEDBACK
+# STATUS: ACTIVE
+# LABEL_ID: TOP_GRID_V1
+# =============================================================================
+# DESCRIPTION:
+#   - The top status bubble should use a real grid instead of loose stacked text.
+#   - Grid cells should be boxed and visually distinct.
+#   - Labels and values should be separated clearly inside cells.
+#   - Grid lines must not cross through text.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: HELP_BUBBLE_STANDARD
+# TYPE: ACTIVE_UI_RULE
+# SOURCE: USER_FEEDBACK
+# STATUS: ACTIVE
+# LABEL_ID: HELP_BUBBLE_V1
+# =============================================================================
+# DESCRIPTION:
+#   - The bottom help line belongs inside a titled bubble/panel.
+#   - Footer support text should no longer float as loose bare text.
+#   - Help and ticker areas should visually match the rest of the menu.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: INLINE_FOOTER_BUBBLE_STANDARD
+# TYPE: ACTIVE_UI_RULE
+# SOURCE: USER_FEEDBACK
+# STATUS: ACTIVE
+# LABEL_ID: INLINE_FOOTER_BUBBLES_V1
+# =============================================================================
+# DESCRIPTION:
+#   - Footer bubbles should keep titles inline with their text instead of using
+#     a separate title row.
+#   - HELP, CTRL, and TICKER labels should live inside the same line as their
+#     content so the bottom layout stays tidy.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: BOTTOM_BUBBLE_ALIGNMENT_RULE
+# TYPE: ACTIVE_UI_RULE
+# SOURCE: USER_FEEDBACK
+# STATUS: ACTIVE
+# LABEL_ID: BOTTOM_BUBBLE_ALIGNMENT_V1
+# =============================================================================
+# DESCRIPTION:
+#   - Bottom bubbles should align cleanly and look tidy.
+#   - Footer support areas should not feel loose, drifting, or uneven.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: BOTTOM_INLINE_SINGLE_LINE_RULE
+# TYPE: ACTIVE_UI_RULE
+# SOURCE: USER_FEEDBACK
+# STATUS: ACTIVE
+# LABEL_ID: BOTTOM_INLINE_SINGLE_LINE_V1
+# =============================================================================
+# DESCRIPTION:
+#   - Bottom bubbles must stay single-line and tidy.
+#   - HELP, CTRL, and TICKER text should fit inside their bubbles with inline labels.
+#   - Bubble alignment should look neat instead of drifting or stacking.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: TOP_GRID_POP_COLOR_RULE
+# TYPE: ACTIVE_UI_RULE
+# SOURCE: USER_FEEDBACK
+# STATUS: ACTIVE
+# LABEL_ID: TOP_GRID_POP_NEON_V1
+# =============================================================================
+# DESCRIPTION:
+#   - The top status grid should pop visually so it is easy to read at a glance.
+#   - Neon green emphasis is preferred for the grid, labels, and high-visibility
+#     top-panel presentation.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: TOP_GRID_NEON_YELLOW_RULE
+# TYPE: ACTIVE_UI_RULE
+# SOURCE: USER_FEEDBACK
+# STATUS: ACTIVE
+# LABEL_ID: TOP_GRID_NEON_YELLOW_V1
+# =============================================================================
+# DESCRIPTION:
+#   - The top bubble grid should pop in bright neon yellow.
+#   - Grid structure should be visible by boxed cells, not linework crossing through text.
+#   - Labels should stand out strongly while values stay readable.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: COLOR_POP_POLICY
+# TYPE: ACTIVE_UI_RULE
+# SOURCE: USER_FEEDBACK
+# STATUS: ACTIVE
+# LABEL_ID: COLOR_POP_V1
+# =============================================================================
+# DESCRIPTION:
+#   - Important words, labels, and warnings should pop more strongly.
+#   - Labels should be visually distinct from values.
+#   - Status, warnings, and highlights should use stronger contrast.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: RETURN_TO_MAIN_MENU_EXIT_RULE
+# TYPE: ACTIVE_BEHAVIOR_RULE
+# SOURCE: USER_RULE
+# STATUS: ACTIVE
+# LABEL_ID: RETURN_TO_MENU_EXIT_V1
+# =============================================================================
+# DESCRIPTION:
+#   - Return To Main Menu must not leave umpatcher open in the background.
+#   - If um.py launches successfully, umpatcher should close cleanly.
+#   - For umpatcher, "Return To Main Menu" should close the patcher completely.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: MULTI_AI_COLLABORATION_RULES
+# TYPE: PERMANENT_GLOBAL_RULE
+# SOURCE: USER_RULE
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# LABEL_ID: MULTI_AI_COLLAB_RULES_V1
+# =============================================================================
+# DESCRIPTION:
+#   - Several AI are helping with this scripting work.
+#   - They easily lose track of what is being done, has been done, and should
+#     be done.
+#   - Notations are extremely important.
+#   - Everything said in chat should be preserved, condensed when helpful, and
+#     digested later into logs, ideas, changelogs, safeguards, and help notes.
+#   - Every notation block must be clearly labeled so future scripts can grab,
+#     move, export, or reorganize it if needed.
+#   - Intelligent safeguards should always be preferred over careless speed.
+#   - Nothing important should be lost merely because it scrolled out of chat.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: CHAT_DIGEST_CAPTURE_RULE
+# TYPE: PERMANENT_MULTI_AI_RULE
+# SOURCE: USER_RULE
+# STATUS: ACTIVE
+# LABEL_ID: CHAT_DIGEST_CAPTURE_V1
+# =============================================================================
+# DESCRIPTION:
+#   - Everything important said in chat should be condensed into notation.
+#   - Every meaningful change request should be reflected in annotations or logs.
+#   - Future cleanup may move these notes into separate log/help/idea modules.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: PROBLEM_RESOLUTION_CAPTURE_RULE
+# TYPE: PERMANENT_MULTI_AI_RULE
+# SOURCE: USER_RULE
+# STATUS: ACTIVE
+# LABEL_ID: PROBLEM_RESOLUTION_CAPTURE_V1
+# =============================================================================
+# DESCRIPTION:
+#   - Problems found, intended fixes, and final resolutions should be written into notation.
+#   - Future AI should be able to see what was broken, what was supposed to be
+#     changed, and how it was resolved.
+#   - This is not a license to erase history; it is a requirement to preserve it
+#     in labeled form.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: FILE_HANDOFF_RULE
+# TYPE: PERMANENT_WORKFLOW_RULE
+# SOURCE: USER_RULE
+# STATUS: ACTIVE
+# LABEL_ID: FILE_ONLY_HANDOFF_V1
+# =============================================================================
+# DESCRIPTION:
+#   - Scripts should be delivered as filename-only downloadable handoffs rather
+#     than huge inline chat dumps.
+#   - Preferred user phrases include: file-only handoff, file-drop it, and no
+#     inline dump.
+#   - This rule should be preserved across related modules, scripts, logs, and
+#     future helper systems.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: GLOBAL_LOG_TREE_FUTURE_FORMAT
+# TYPE: PERMANENT_ARCHITECTURE_DIRECTION
+# SOURCE: USER_RULE
+# STATUS: ACTIVE
+# LABEL_ID: GLOBAL_LOG_TREE_V1
+# =============================================================================
+# DESCRIPTION:
+#   - Every module should eventually use a separate helper/module for global
+#     logs, help, misc scraps, changelogs, ideas, and AI notes.
+#   - Umpatcher should preserve this direction in notation now even if all of
+#     the future handlers are not built yet.
+# TREE:
+#   /userdata/system/ultramode/
+#   ├── umpatcher.py                        (or modules/patcher/)
+#   ├── umpatcher.log                       (this sidecar)
+#   ├── logs/
+#   │   ├── MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+#   │   ├── modules/
+#   │   │   ├── umpatcher_module.log
+#   │   │   ├── umpatcher_notes.log
+#   │   │   ├── umpatcher_ideas.log
+#   │   │   ├── umpatcher_changelog.log
+#   │   │   └── (future module logs...)
+#   │   ├── ideas/
+#   │   ├── scraps/
+#   │   ├── changelogs/
+#   │   ├── help/
+#   │   └── exports/
+#   └── modules/
+#       └── (future dedicated log/help manager)
+#
+# Extended future tree (from 3B handoff):
+#   /userdata/system/ultramode/
+#   ├── logs/
+#   │   ├── umpatcher/
+#   │   │   ├── changelog.log
+#   │   │   ├── ideas.log
+#   │   │   ├── ai_handoff.log
+#   │   │   ├── unresolved.log
+#   │   │   ├── scraps.log
+#   │   │   └── recovered_history.log
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: MODULE_LOG_ARCHITECTURE
+# TYPE: ACTIVE_FUTURE_SYSTEM
+# SOURCE: USER_REQUEST
+# STATUS: ACTIVE
+# =============================================================================
+# DESCRIPTION:
+#   - Every module should eventually have its own accessible logs for help,
+#     ideas, changelogs, AI notes, and future guidance.
+#   - Umpatcher now reserves a module-specific log path and a notation export
+#     path so the architecture exists even before every future feature uses it.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: MODULE_HOME_RULE
+# TYPE: ACTIVE_LOCATION_RULE
+# SOURCE: USER_RULE
+# STATUS: ACTIVE
+# =============================================================================
+# DESCRIPTION:
+#   - umpatcher.py belongs in /userdata/system/ultramode/modules/patcher/
+#   - Nearby sidecar log should live in the same folder as the patcher script.
+#   - Keep extra bloated notations preserved for future sidecar migration rather
+#     than deleting them.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: CHANGELOG_RECOVERY_FUTURE_RULE
+# TYPE: ACTIVE_LOG_ARCHITECTURE_RULE
+# SOURCE: USER_RULE
+# STATUS: ACTIVE
+# LABEL_ID: CHANGELOG_RECOVERY_V1
+# =============================================================================
+# DESCRIPTION:
+#   - Current changelog coverage is missing older history before later versions.
+#   - This missing history is crucial and should be recovered later from older
+#     scripts, notes, logs, and preserved variants where it still exists.
+#   - Future log/notation tooling must be able to acquire older changelog data
+#     from other modules/scripts and merge it into a fuller robust record.
+#   - Pre-v8.6 changelog history is incomplete in the current script and must
+#     be harvested later from older scripts/logs where present.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: CHANGELOG_APPEND_ONLY_COMPLETENESS_RULE
+# TYPE: ACTIVE_LOG_ARCHITECTURE_RULE
+# SOURCE: USER_RULE
+# STATUS: ACTIVE
+# LABEL_ID: CHANGELOG_APPEND_ONLY_V1
+# =============================================================================
+# DESCRIPTION:
+#   - The changelog must never delete old entries; it may only append.
+#   - Missing history before later versions remains crucial and must be recovered
+#     from older preserved scripts/logs later.
+#   - Future log tooling should merge recovered early-history entries into a
+#     fuller robust changelog without losing later append-only continuity.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: VERSION_X_BASELINE
+# TYPE: PRESERVED_MASTER_BASE
+# SOURCE: USER_RULE
+# STATUS: ACTIVE
+# VERSION_ALIAS: X
+# =============================================================================
+# DESCRIPTION:
+#   - The pasted r4-style file is the preserved perfect base for umpatcher.
+#   - Version X means Version 10 for umpatcher going forward.
+#   - Future work should preserve the beautiful visual ingredients and patch only
+#     the broken or requested parts instead of rebuilding the whole program.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: LONG_TERM_IDEAS
+# TYPE: EXPANSION_BACKLOG
+# SOURCE: USER_FEEDBACK + SESSION_NOTES
+# EXPORT_TO: /userdata/system/ultramode/logs/MASTER_UM_HELP_LOGS&NOTATIONS.LOG
+# STATUS: ACTIVE
+# =============================================================================
+# Additional future ideas gathered across all sessions:
+#   - Beautiful interface with side menus and doodads
+#   - Stronger visual identity / pop / glow / framed panels
+#   - Helper menu linking into master helper files in root/logs folder
+#   - Helper script for notation handling
+#   - Automatic extraction of ideas/goals/rules into master logs
+#   - Module growth around patcher after patcher stabilizes
+#   - Smoother logic like high-end software with contextual actions
+#   - Picture/icon style action choices like modern OS software behavior
+#   - Dark menu option with green, yellow, and light-blue text on black background
+#   - Enable/disable toggles per buffer source
+#   - Source priority switches
+#   - AI patch validation placeholder
+#   - Diff preview placeholder
+#   - Restore flow browser
+#   - Module discovery / fluid parent menu registration
+#   - Export notation to master logs automatically
+#   - Developer-only advanced switches
+#   - Parent menu sync / main menu sync
+#   - Smart launcher discovery
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: CURRENT_PROBLEM_DIGEST
+# TYPE: ACTIVE_WORK_SESSION_NOTE
+# SOURCE: USER_FEEDBACK + ASSISTANT_REVIEW
+# STATUS: ACTIVE
+# LABEL_ID: UMPATCHERX6_PROBLEM_DIGEST_V1
+# =============================================================================
+# DESCRIPTION:
+#   - Requested file should be umpatcherx_6.py / v10.6.
+#   - Top bubble grid should pop in bright neon yellow, not neon green.
+#   - Grid should not place linework through text; boxed cells are preferred.
+#   - Bottom bubbles should remain single-line, tidy, inline-labeled, and text-fitted.
+#   - Changelog must remain append-only and preserve/recover missing early history later.
+#   - Problems, resolutions, and important chat directions should be preserved in
+#     notation so other AI can follow the trail.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: WEB_EXPLAINABLE_FORMAT_STANDARD
+# TYPE: PERMANENT_COLLABORATION_ARCHITECTURE_RULE
+# SOURCE: USER_RULE
+# STATUS: ACTIVE
+# LABEL_ID: WEB_EXPLAINABLE_FORMAT_STANDARD_V1
+# =============================================================================
+# DESCRIPTION:
+#   - This notation / sidecar / changelog / help format should be explained in a
+#     free publicly readable way on the web later so multiple AI and the user can
+#     learn, reference, and work with it consistently.
+#   - The format should be documented clearly enough that several AI systems can
+#     recognize the structure, follow the rules, and preserve continuity without
+#     losing project history.
+#   - The future dedicated logging / notation module should support this shared
+#     explainable format and help export or present it for broader reuse.
+#   - Until that web explanation exists, keep preserving the structure locally in
+#     labeled notation blocks so the information trail is not lost.
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: REFRESH_HANDOFF
+# TYPE: SESSION_HANDOFF
+# SOURCE: ASSISTANT_HANDOFF_NOTE
+# STATUS: ACTIVE
+# DATE: 2026-03-15
+# =============================================================================
+# CURRENT WORKING DIRECTION:
+#   - Preserve the user's preferred beautiful base layout.
+#   - Do runtime fixes first.
+#   - Do NOT redesign GUI unless explicitly asked.
+#   - Keep all important notations.
+#   - Deliver files as clickable links only unless user explicitly asks for inline code.
+#
+# CURRENT VERSION DIRECTION:
+#   - Next working line is version 11.0
+#   - Runtime-stabilization build only.
+#   - GUI appearance changes are not the priority for this pass.
+#
+# IMPORTANT USER RULES (HANDOFF REMINDER):
+#   - Shebang must stay first line in .py files.
+#   - Ask before dumping scripts inline.
+#   - Keep chat short.
+#   - One question at a time when needed.
+#   - Use versioned filenames in file handoffs.
+#   - Preserve notation; if code should stop executing, move it into
+#     notation/commented historical context rather than losing it.
+#
+# KNOWN ISSUES AT HANDOFF:
+#   - Claude-added sections increased file size and clutter.
+#   - Duplicate preview paths exist: preview_then_apply() vs preview_loop_wrapper()
+#   - Bad indent caused crash around footer_ctrl_width block.
+#   - User wants later cleanup into dedicated log next to umpatcher no matter folder.
+#   - Log delivery links were inconsistent in the current chat.
+#
+# BEST NEXT STEP:
+#   Open a fresh chat and paste:
+#   'Continue UMPATCHER from this handoff. Runtime fixes first only.
+#    Preserve notations. No inline dump unless I ask.'
+# =============================================================================
+
+# =============================================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: VERSION_11_LOG_ANCHOR
+# TYPE: STATUS_LOG
+# SOURCE: REGENERATED_SESSION_LOG
+# STATUS: ACTIVE
+# DATE: 2026-03-14
+# =============================================================================
+# VERSION: 11.0
+# PURPOSE:
+#   Central append-only AI-compatible log entries for umpatcher status, goals,
+#   decisions, and known behavior. Reconstructed from session memory; not a
+#   perfect recovery of any missing older full log text.
+#
+# [ENTRY 001] Version identity / current log anchor
+#   - UMPatcher version line is being treated as 11.0 for current testing context.
+#   - User expects version/revision handling to be explicit and clearly tracked.
+#   - Changelog wording should use clear definitions of what changed.
+#
+# [ENTRY 002] Development priority
+#   - Runtime fixes come before appearance polish.
+#   - Fancy GUI work is secondary until the patcher is stable and testable.
+#   - User explicitly prioritized practical behavior over cosmetic redesign.
+#
+# [ENTRY 003] Return to Main Menu behavior
+#   - For umpatcher, "Return To Main Menu" should close the patcher completely.
+#   - It should NOT leave the patcher running in the background.
+#
+# [ENTRY 004] Logging expectations
+#   - Umpatcher should maintain an AI-readable log structure.
+#   - Log should be future-script compatible.
+#   - Entries should be organized logically and avoid repeated clutter.
+#   - User wants consolidated logging that still preserves important intent.
+#
+# [ENTRY 005] Reconstruction note
+#   - umpatcher_log_11.0.log was regenerated after a blank file was accidentally provided.
+#   - Prior blank file did not reflect intended project state.
+#   - Rebuilt log treated as a usable starter/history anchor.
+#
+# [ENTRY 006] Base preservation rule
+#   - Approved / preferred base structure should be preserved whenever possible.
+#   - Fix broken parts without flattening or needlessly redesigning the whole file.
+#   - User prefers intelligent patching over broad destructive rewrites.
+#
+# [ENTRY 007] AI collaboration compatibility
+#   - Notes/logs should help future AI understand the file quickly.
+#   - Important decisions should be stated plainly.
+#   - Version and revision changes should be obvious.
+#
+# [ENTRY 008] Runtime testing attitude
+#   - User is willing to try non-critical GUI changes experimentally,
+#     but only when they do not distract from actual runtime fixes.
+#
+# [ENTRY 009] Changelog quality expectation
+#   - Changelog should contain clear definitions of changes.
+#   - Avoid vague statements like "misc fixes" when better specificity is possible.
+#   - Distinguish runtime fix, GUI tweak, structural cleanup, and logging change.
+#
+# [ENTRY 010] Project goal summary
+#   - UMPatcher should become a safe, polished Batocera patcher.
+#   - It should apply/read patches cleanly and explain itself clearly.
+#   - It should keep organized logs/changelogs.
+#   - GUI improvements should happen after core patch/apply/test flow is dependable.
+#
+# KNOWN USER PREFERENCES:
+#   - Deliver files as downloadable files/links rather than giant pasted dumps.
+#   - Keep responses concise.
+#   - Preserve useful notation and AI handoff value.
+#   - Do not let "Return To Main Menu" leave patcher alive in background.
+#   - Prefer clean logical organization of logs with reduced repetition.
+#
+# OPEN ITEMS / FUTURE APPEND:
+#   - Add exact changelog entries for 11.0 once corresponding script state is finalized.
+#   - Add concrete runtime bug notes once confirmed in tested build.
+#   - Add patch flow details once stable behavior is verified end-to-end.
+#   - Add GUI notes only after runtime path is considered dependable.
+# =============================================================================
+
+===============================================================================
+# ============================================================================
+# AI_ANALYSIS_START
+# ============================================================================
+# This block contains a comprehensive analysis, proposed fixes, learning notes,
+# and collaboration areas for umpatcher.py, generated by AI assistants.
+# It is designed to be easily read and parsed by other AI systems and by human
+# users who want to understand the evolution of this script.
+# ============================================================================
+#
+# ----------------------------------------------------------------------------
+# AI_ANALYSIS_SECTION: UMPATCHER OVERVIEW
+# ----------------------------------------------------------------------------
+# umpatcher.py is a Pygame-based patcher/buffer inspector UI for the UltraMode
+# system on Batocera (and related environments). It is intended as a
+# controller-first patch browser and buffer inspector.
+#
+# Core responsibilities:
+# - Read a "buffer" (from clipboard, files, logs, or external tools).
+# - Classify the buffer content:
+#     * Python module
+#     * Shell script
+#     * Log / output
+#     * Notation / AI meta-blocks
+#     * Raw patch payload
+# - Provide a visual UI (via Pygame) to preview patches before applying.
+# - Support multiple patch types:
+#     * APPEND / CREATE / FULL / INSERT_AFTER / INSERT_BEFORE / REPLACE
+# - Integrate gamepad / controller navigation plus keyboard.
+# - Use extensive notation blocks so multiple AI systems (and the user) can
+#   cooperate on design, debugging and evolution of UltraMode / umpatcher.
+#
+# ----------------------------------------------------------------------------
+# AI_ANALYSIS_SECTION: IDENTIFIED PROBLEMS (LEGACY STATE)
+# ----------------------------------------------------------------------------
+#
+# AI_PROBLEM_ID: SIMULATION_MODE_STATE_BUG
+# Description:
+#   - Simulation mode was handled via a `nonlocal_sim_state` list-hack to get
+#     around Python's closure rules.
+#   - This made the logic harder to reason about and introduced the risk that
+#     simulation state would get out of sync across different parts of the UI.
+# Affected Areas: `preview_loop_wrapper`, any code using `nonlocal_sim_state`
+#
+# AI_PROBLEM_ID: PREVIEW_FUNCTION_DUPLICATION
+# Description:
+#   - There existed a function `preview_then_apply()` which was never called.
+#   - All real preview logic flowed through `preview_loop_wrapper()`.
+#   - This caused confusion and created dead/duplicate logic.
+# Affected Areas: `preview_then_apply()` definition and implied callers.
+#
+# AI_PROBLEM_ID: D-PAD_HAT_NAVIGATION_TUNING
+# Description:
+#   - `handle_hat_navigation` used a fixed repeat value: JOY_REPEAT_MS = 160
+#   - This may feel too fast or too slow depending on controller or user.
+#   - No analog stick navigation was wired in.
+# Affected Areas: `handle_hat_navigation`, `JOY_REPEAT_MS`
+#
+# AI_PROBLEM_ID: TOP_GRID_CELL_LAYOUT_FRAGILITY
+# Description:
+#   - The top grid layout assumed exactly 4 equal columns and used hard-coded
+#     widths like `col_w * 2 + cell_gap`.
+#   - Any layout change or new resolution could break this assumption.
+#   - Future AI should prefer a general grid layout helper that accepts
+#     (row, col, col_span, row_span) instead of hard-coding spans.
+# Affected Areas: Top grid cell layout where `col_w` and `cell_gap` are used.
+#
+# AI_PROBLEM_ID: BOTTOM_BUBBLES_FOOTER_SCALING
+# Description:
+#   - Footer bubbles used: footer_ctrl_width = max(400, min(470, screen.get_width() // 3))
+#   - This hard-coded clamping could misbehave on unusual resolutions.
+#   - Future AI should consider proportion-based width and/or adaptive breakpoints.
+# Affected Areas: Footer layout code, especially `footer_ctrl_width`.
+#
+# AI_PROBLEM_ID: PROTECTED_MARKER_ENFORCEMENT_LACK
+# Description:
+#   - `PROTECTED_MARKERS` detection existed to warn the user if a patch
+#     overlapped a protected region, but only advised; it did not enforce
+#     a hard block or require explicit override confirmation.
+# Affected Areas: Protected region scanning, patch apply logic.
+#
+# AI_PROBLEM_ID: MISSING_NOTED_FEATURES
+# Description:
+#   - Various features were described but not yet implemented:
+#       * AI Patch Validator (only placeholder)
+#       * Diff Patch Engine
+#       * Multi-buffer history
+#       * Restore backup browser
+#       * Undo stack
+# Affected Areas: Placeholder functions, missing modules.
+#
+# ----------------------------------------------------------------------------
+# AI_ANALYSIS_SECTION: PROPOSED FIXES (HIGH-LEVEL)
+# ----------------------------------------------------------------------------
+#
+# AI_FIX_ID: CLEANUP_SIMULATION_MODE_TOGGLE
+# - Remove the `nonlocal_sim_state` list hack.
+# - Track `simulation_mode` as an explicit argument and/or field on a UI/state object.
+#
+# AI_FIX_ID: REMOVE_DEAD_CODE
+# - Preserve the old `preview_then_apply()` logic only as commented historical context.
+# - Route all preview logic through `preview_loop_wrapper()`.
+#
+# AI_FIX_ID: TUNE_D-PAD_REPEAT
+# - Keep a default repeat rate (160 ms) but annotate it and route toward a future
+#   config file / settings UI.
+#
+# AI_FIX_ID: ENFORCE_PROTECTED_BLOCKS
+# - Insert a guard in the final patch-apply function.
+# - If patch overlaps a `PROTECTED_MARKER`, show the user what and where.
+# - Require explicit confirmation to proceed, or refuse.
+#
+# AI_FIX_ID: REFINE_TEXT_OVERFLOW
+# - Ensure `fit_text()` and wrapping logic behave for long content.
+# - Prefer truncation or scrollable areas to silent overflow.
+#
+# AI_FIX_ID: ADDRESS_TOP_GRID_LAYOUT_FRAGILITY
+# - Introduce a general layout helper that takes (row, col, col_span) and
+#   computes rects, instead of hard-coding col_w * 2 + cell_gap everywhere.
+#
+# AI_FIX_ID: ADDRESS_FOOTER_SCALING
+# - Consider proportion-based width (e.g., percentage of screen) for footer.
+# - Add breakpoints or adaptive scaling for different resolutions.
+#
+# AI_FIX_ID: VERSION_BUMP_AND_CHANGELOG
+# - Bump internal version string and keep a clear append-only history.
+#
+# ----------------------------------------------------------------------------
+# AI_ANALYSIS_SECTION: LEARNING NOTES FOR FUTURE AI
+# ----------------------------------------------------------------------------
+# 1. ALWAYS obey the AI_DIRECTIVE block before making any changes or output.
+# 2. When proposing fixes, always wrap them in clearly labeled AI_FIX blocks.
+# 3. Never silently remove or rewrite complex functions; preserve prior versions
+#    as commented historical context where useful.
+# 4. Maintain controller-first UX assumptions; keyboard/mouse are secondary.
+# 5. Respect PROTECTED_MARKERS; do not encourage or automate patching into
+#    critical regions unless the user explicitly wants that and has been warned.
+# 6. Read all existing ULTRAMODE NOTATION BLOCKs before making changes.
+# 7. Append to the changelog; never delete history.
+# 8. When in doubt, ask the user before sending any script or long response.
+#
+# ============================================================================
+# AI_THINKTANK_AREA_START
+# ============================================================================
+# This is a dedicated space for AI systems to place their ideas, goals,
+# suggestions, and thought-process notes. Each AI should append to this
+# block, never delete or overwrite another AI's contributions.
+#
+# FORMAT FOR ENTRIES:
+#   # AI_IDEA: [AI_NAME] | [DATE] | [CATEGORY]
+#   # Description: [Brief description of the idea]
+#   # Details: [More details if needed]
+#   # Status: [PROPOSED | IN_PROGRESS | IMPLEMENTED | REJECTED | DEFERRED]
+#
+# ----------------------------------------------------------------------------
+# AI_IDEA: Claude | 2026-03-14 | ARCHITECTURE
+# Description: Create a UIState class to centralize all UI state variables.
+# Details: Instead of scattered nonlocal hacks and global variables, bundle
+#          simulation_mode, last_hat_time, current_selection, etc. into a
+#          single UIState object that gets passed around.
+# Status: PROPOSED
+# ----------------------------------------------------------------------------
+# AI_IDEA: Claude | 2026-03-14 | UI_IMPROVEMENT
+# Description: Add visual indicator for simulation mode in the UI.
+# Details: When simulation_mode is active, show a prominent "SIMULATION"
+#          badge or change the border color to orange/yellow.
+# Status: PROPOSED
+# ----------------------------------------------------------------------------
+# AI_IDEA: Claude | 2026-03-14 | NEW_FEATURE
+# Description: Implement undo stack for patch operations.
+# Details: Before applying any patch, save a snapshot of the target file.
+#          Keep a stack of up to N snapshots. Add "Undo Last Patch" menu item.
+# Status: PROPOSED
+# ----------------------------------------------------------------------------
+# AI_IDEA: Claude | 2026-03-14 | CODE_REFACTOR
+# Description: Extract grid layout into a reusable helper function.
+# Details: Create a function like `compute_grid_rect(row, col, col_span=1)`
+#          that returns the pygame.Rect for a cell.
+# Status: PROPOSED
+# ----------------------------------------------------------------------------
+# AI_IDEA: Claude | 2026-03-14 | SAFETY
+# Description: Add confirmation dialog for destructive operations.
+# Details: Before FULL or REPLACE patch types that overwrite entire files,
+#          show a clear warning and make the user press a specific button.
+# Status: PROPOSED
+# ----------------------------------------------------------------------------
+# AI_IDEA: Claude | 2026-03-14 | DOCUMENTATION
+# Description: Generate help text from notation blocks.
+# Details: Parse the ULTRAMODE NOTATION BLOCKs at runtime and use them to
+#          populate a "Help" or "About" screen within umpatcher.
+# Status: PROPOSED
+# ----------------------------------------------------------------------------
+# AI_IDEA: Claude | 2026-03-14 | USER_EXPERIENCE
+# Description: Add audio feedback for controller navigation.
+# Details: Play subtle click sounds when navigating menus, and a distinct
+#          sound for successful patch application vs. errors.
+# Status: PROPOSED
+# ----------------------------------------------------------------------------
+# AI_IDEA: Claude | 2026-03-14 | PERFORMANCE
+# Description: Lazy-load buffer classification.
+# Details: For large buffers, defer full classification until user requests it,
+#          and only do quick presence checks for the live indicator.
+# Status: PROPOSED
+# ----------------------------------------------------------------------------
+# (FUTURE AI: Add your ideas below this line, following the format above.)
+#
+# ============================================================================
+# AI_THINKTANK_AREA_END
+# ============================================================================
+
+# ============================================================================
+# AI_INFO_HUB_START
+# ============================================================================
+# FORMAT FOR ENTRIES:
+#   # AI_CONTRIBUTOR: [AI_NAME]
+#   # Provider: [Company/Organization]
+#   # Web Address: [URL]
+#   # Capabilities: [Brief summary]
+#   # Contribution Date: [YYYY-MM-DD]
+#   # Contribution Summary: [What this AI added/changed]
+#   # Notes: [Any helpful tips]
+#
+# ----------------------------------------------------------------------------
+# AI_CONTRIBUTOR: Claude
+# Provider: Anthropic
+# Web Address: https://claude.ai/ or https://console.anthropic.com/
+# Documentation: https://docs.anthropic.com/
+# Capabilities: Code analysis, refactoring, documentation, debugging,
+#               architecture design, multi-file project understanding.
+# Contribution Date: 2026-03-14
+# Contribution Summary: Added AI_DIRECTIVE, AI_ANALYSIS block, AI_THINKTANK_AREA,
+#                       AI_INFO_HUB, comprehensive problem/fix annotations,
+#                       version bump to v10.8, inline fix markers, and merged
+#                       all sidecar log variants into unified umpatcher.log.
+# Notes: Claude works best with clear, explicit instructions. Paste the full
+#        script or relevant sections. Claude will ask before sending large
+#        outputs if the AI_DIRECTIVE is present.
+# ----------------------------------------------------------------------------
+# AI_CONTRIBUTOR: ChatGPT
+# Provider: OpenAI
+# Web Address: https://chat.openai.com/ or https://platform.openai.com/
+# Documentation: https://platform.openai.com/docs/
+# Capabilities: Code generation, debugging, explanations, multi-turn conversation.
+# Contribution Date: 2026-03-14 (earlier versions)
+# Contribution Summary: Built initial v8.7 through v10.6 versions, added
+#                       pygame UI, patch classification, layout fixes, and
+#                       extensive notation blocks.
+# Notes: ChatGPT contributed heavily to the original umpatcher structure.
+# ----------------------------------------------------------------------------
+# AI_CONTRIBUTOR: Grok
+# Provider: xAI
+# Web Address: https://grok.x.ai/ or https://x.com/ (integrated)
+# Capabilities: Code assistance, real-time information, conversational help.
+# Contribution Date: 2026-03-09 (per CHANGE LOG)
+# Contribution Summary: Initial working pygame patcher with on-screen paste
+#                       field and recognition bar (v8.7 r1).
+# Notes: Grok contributed the foundational pygame patcher concept.
+# ----------------------------------------------------------------------------
+# (FUTURE AI: Add your entry below this line, following the format above.)
+#
+# ============================================================================
+# AI_INFO_HUB_END
+# ============================================================================
+# ============================================================================
+# AI_ANALYSIS_END
+# ============================================================================
+
+===============================================================================
+CHANGE LOG (APPEND-ONLY)
+===============================================================================
+# YYYY-MM-DD HH:MM | AUTHOR  | VERSION | REVISION | NOTE
+# 2026-03-09 00:00 | Grok    | v8.7  | r1 | Working pygame patcher with on-screen paste field and recognition bar.
+# 2026-03-14 10:20 | ChatGPT | v8.7  | r2 | Rebuilt as detailed buffer inspector UI with panels, placeholders, sidecar ticker, preview modal, and object classification.
+# 2026-03-14 11:40 | ChatGPT | v8.7  | r3 | Fixed apply_patch routing by PATCH TYPE, added TARGET_LINE parsing, added theme toggle, main menu action, dev placeholders, cleaner buffer body extraction, and safer navigation.
+# 2026-03-14 12:30 | ChatGPT | v8.7  | r4 | Rebalanced layout to stop text overlap, moved buffer bubble into MAIN ACTIONS panel, added Return To Main Menu entry, fixed menu item visibility, improved joystick navigation behavior, and polished menu colors / spacing.
+# 2026-03-14 14:30 | ChatGPT | v10.0 | r1 | Preserved r4 as the new perfect base, promoted it to Version X, added fullscreen/scaled display fallback, live buffer full/empty recognition, safer pre-apply check + confirmation flow, wider text fitting, module log architecture, and fuller notation coverage without replacing the original visual ingredients.
+# 2026-03-14 15:05 | ChatGPT | v10.2 | r1 | Version bump handoff for the preserved Version X base; updated header and on-screen version strings while keeping current structure, layout, and behavior intact.
+# 2026-03-14 15:15 | ChatGPT | v10.3 | r1 | Version bump handoff for the preserved Version X base; updated header and on-screen version strings while keeping current structure, layout, and behavior intact.
+# 2026-03-14 17:20 | ChatGPT | v10.3 | r2 | Kept Version X base intact while adding top-panel grid formatting, titled help/ticker bubbles, stronger color-pop labels, clean Return To Main Menu exit behavior, and expanded annotation capture for multi-AI tracking.
+# 2026-03-14 17:45 | ChatGPT | v10.5 | r1 | Rolled current Version X fixes into x_5 handoff, kept preserved layout ingredients, expanded permanent multi-AI/logging notation coverage, and aligned version strings/caption for the updated test file.
+# 2026-03-14 18:25 | ChatGPT | v10.5 | r2 | Strengthened top-grid pop with neon-green emphasis, converted footer bubbles to inline titles with tidy alignment, expanded notation capture including changelog-recovery rules, and preserved Version X layout while preparing the patcher for testing.
+# 2026-03-14 18:55 | ChatGPT | v10.6 | r1 | Updated top bubble to boxed neon-yellow grid cells that do not cross through text, tightened bottom inline bubbles into cleaner single-line alignment, expanded annotation capture, and preserved append-only changelog recovery rules for older missing history.
+# 2026-03-14 19:21 | Claude  | v10.8 | r1 | Added AI_DIRECTIVE, AI_ANALYSIS block with comprehensive problem/fix documentation, AI_THINKTANK_AREA for collaborative ideas, AI_INFO_HUB for AI identification, wrapped all fixes in AI_FIX blocks, annotated fragile layout code, documented footer scaling issues, preserved dead code as historical reference.
+# 2026-03-15 18:45 | ChatGPT | v10.0 | r1 | Rebased on x_6, preserved bulky 10v8 AI notation block for later sidecar migration, converted header into slim window-style title + path bars, normalized footer bubble borders, stacked HELP/CTRL footer bubbles for fit, added red-orange major panel borders, moved script/sidecar home to modules/patcher, and tightened menu spacing so Exit stays in bounds.
+# 2026-03-15 XX:XX | Claude  | v11.0 | r0 | Merged all known sidecar log variants into unified umpatcher.log. Deduplicated all content. Preserved all unique notation blocks, ticker lines, changelog history, ideas, goals, rules, handoff notes, and AI analysis. No content deleted.
+#
+# NOTE: Pre-v8.6 changelog history is incomplete and must be recovered later
+#       from older scripts/logs/preserved variants where it still exists.
+
+===============================================================================
+RECOVERY / FUTURE ACQUISITION NOTES
+===============================================================================
+  - Pre-v8.6 changelog history is incomplete in the current script and must
+    be harvested later from older scripts/logs where present.
+  - Future dedicated log module should be able to ingest notation blocks from
+    scripts, logs, sidecars, scraps, and unidentified files.
+  - Future dedicated log module should preserve append-only history and avoid
+    deleting or compressing away critical user/AI decisions.
+  - Future AI or tooling merging into this file should append only; never
+    rewrite or delete existing entries.
+
+===============================================================================
+END OF MERGED SIDECAR LOG
+===============================================================================
