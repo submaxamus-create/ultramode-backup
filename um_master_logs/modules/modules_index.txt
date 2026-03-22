@@ -1,0 +1,19 @@
+===============================================================================
+ULTRAMODE MASTER LOG FILE
+===============================================================================
+TITLE:         Modules Index
+PATH:          /userdata/system/ultramode/um_master_logs/modules/modules_index.txt
+STATUS:        ACTIVE STARTER FILE
+RULE:          APPEND-ONLY. NEVER DELETE HISTORY. ONLY APPEND.
+CREATED_BY:    um_master_logs_bootstrap_v1.py
+CREATED_AT:    2026-03-22 12:24:06 PM
+===============================================================================
+PURPOSE:
+  - Future map of module summaries, mirrored rules, and cross-module notes.
+  - Acts as a placeholder anchor for later module-level harvesting.
+===============================================================================
+
+[MODULE_SUMMARY_PLAN]
+- Future module summaries may live in subfolders under modules/.
+- Use this file to map which modules have been harvested or summarized.
+
