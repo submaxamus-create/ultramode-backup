@@ -1,0 +1,127 @@
+UltraMode Deep Research Session Summary
+
+This document compiles the full design research and development discussion for the UltraMode modules. It is organized by module (GitHub Sync, UMPatcher, and general UI design) and presents all findings, user feedback, and guidelines. A focus throughout is on accessible, readable design: high-contrast color schemes, clear hierarchy, and well-grouped panels to aid user comprehension. All content and visual/layout decisions are annotated with design rules and references to established UX and accessibility principles.
+
+GitHub Sync Module
+Purpose & Context
+
+The GitHub Sync module is a controller-friendly GUI for syncing a folder tree to a GitHub repository. Its design must balance practicality (robust sync operations) with transparency and usability (clear UI, tutorials). The sidecar notation captures user intent, system architecture, and future ideas (e.g. sync history logs, .gitignore helper, preflight checks). Key context points: it should support Batocera (game system) with gamepad input, and explain git/GitHub concepts to the user. Auth, error messages, and navigation into the broader UltraMode launcher are all planned improvements.
+
+UI Evolution & Current Design
+
+User feedback drove successive UI revisions (v4 → v5 → v8). Common requests included a refined dark theme with bright accent colors, more spacing instead of full-screen fills, and a friendly, legible font (preferably a Comic-Sans–like font when available). The final direction uses a near-black background with high-contrast panels (white text on dark panels, cyan/magenta borders, and yellow highlights for emphasis) to establish a strong hierarchy. Action buttons (“RUN”) and status badges are colored to stand out. Panel containers are explicitly bordered so that related fields are grouped clearly. For example, status items at the top are arranged in a boxed grid, and the bottom help/ticker strip is kept black and clearly separated.
+
+The design guidelines emphasize visual hierarchy: headings and titles are brighter or larger than values, and selected rows have distinct highlights. This follows UX best practices (using scale, contrast, and grouping to guide the eye). Bright accent colors (cyan, magenta, lime, yellow) are used sparingly to draw attention to important elements, reflecting the recommendation to use color intentionally and reserve bright colors for key items. The font strategy prefers a Comic Sans MS–style font (with safe fallbacks like Trebuchet, Verdana, etc.) for a friendly feel, but ensures any font absence falls back gracefully to a readable system font.
+
+User feedback also highlighted layout issues that were fixed iteratively:
+
+Top-right overlap was resolved by reducing status columns from 3 to 2 and increasing header height (making the boxes fit naturally before truncating text).
+Footer collisions were fixed by reserving space below the action list and wrapping text in the status feed.
+The Help/Ticker bar was moved into a titled bubble to match the rest of the menu, rather than floating text.
+Current Issues & Priorities
+
+Several design and functionality issues are on the fix list:
+
+Window Controls / Chrome: The UI currently runs in fullscreen mode without OS chrome (minimize/max/close). The user may want either a windowed mode with native controls, or custom-drawn titlebar buttons (minimize, □ maximize, ✕ close).
+Clock/Date Display: There is no clock or date shown. Options include adding a top-right clock, a bottom taskbar strip, or a status widget.
+Top-Right Status Panel Overlap: Investigate any clipping or draw-order errors in the top-right grid. Ensure all status cells are contained and not obscured (e.g. by checking panel bounds and clip rectangles).
+Design Rules and Checklists
+
+Based on user directives and UI best practices, we extract the following rules:
+
+Readable Layout Over Full-Screen Fill: Do not make every panel stretch to screen edges. Provide margins and breathing room. In practice, the menu content is centered with extra space around the edges.
+High Contrast and Hierarchy: Maintain strong text/background contrast (white or bright text on dark panels) in line with WCAG (minimum 4.5:1). Avoid dull midtone contrasts (no gray-on-dark-gray text). Use scale (font size/weight) and color intentionally to denote hierarchy.
+Consistent Panel Grouping: Enclose related fields in visible containers (bubbles or bordered panels) so users can quickly parse sections. For example, the Source Folder field is given ample width within its own labeled box.
+Text Fit Policy: No text should overflow its container. Long strings must be clipped with an ellipsis if needed. Always compute available panel width for labels rather than hard-coding field sizes.
+Button Containment: Action buttons (“RUN”) must fit fully inside their capsules. Adjust padding or layout first before resorting to shrinking labels.
+
+Priority Fix Items: (to-do checklist)
+
+Fix top-right clipping (verify grid sizing and draw order).
+Decide/implement window chrome (native or custom) and add /✕ controls.
+Implement a clock/date display (top header strip or bottom bar).
+Refine color palette further: maintain dark charcoal base with tasteful accent colors, no neon overload.
+Increase UI padding and reduce oversized panels; leave adjustable margins for future tuning.
+References & Guidelines
+
+Design choices are grounded in established UI and accessibility guidelines. In particular:
+
+Visual Hierarchy: Use color, contrast, and size to guide attention.
+Color Contrast: Ensure text-to-background ratios meet WCAG AA (≥4.5:1); reserve vivid colors for emphasis.
+Gestalt Grouping: Place related controls within distinct bounding boxes or backgrounds.
+Menu Usability: Menus should be clearly visible, not hidden or full-screen on wide displays.
+Footers & Panels: Keep footer or status areas consistent and readable, and align all content to an implied grid for orderly layout.
+
+These references and user notes ensure the GitHub Sync UI will be readable, structured, and self-explanatory.
+
+UMPatcher Module
+Purpose & Context
+
+Umpatcher is a menu-driven interface for applying or generating buffer patches on files. It should function like a power-user tool: professional and feature-rich. The design notes capture detailed rules on patch flow, UI behavior, and safety. The sidecar log defines strict policies (e.g. append-only history, user-approved placeholders, multi-AI collaboration rules) and lists known code bugs and fixes.
+
+Visual Goals & UI
+
+The user requested a high-contrast, “slick” interface with rich details, akin to professional software (e.g. Photoshop/AutoCAD). Specifically:
+
+Color & Contrast: A bold palette (neon greens/yellows, strong borders) that “pops” at a glance. Important labels and warnings use vivid colors, in line with best practice to use color intentionally.
+Panels & Grouping: The UI is broken into clear panels (top status, main actions, buffer inspector, footer). Each panel has its own border and title caption, reinforcing grouping. For example, the top status window uses a grid of boxed cells with bright headers (neon yellow labels, green values).
+Font and Readability: All text must fit within its box; multi-line fields (like the patch preview or buffer status) wrap or clip with ellipsis if too long. The help text (“Help”, “CTRL”, “TICKER” labels) is now inside inline bubbles at the bottom for consistency.
+Detailed Controls: Extra controls (toggles, switches) are allowed and marked as placeholders for future refinement. A developer mode exists with advanced patching options (to be cleaned up later).
+Known Issues & Fixes
+
+Identified UI/layout issues include:
+
+Overlap Bugs: In testing, text overlapped in the top status panel, and the main actions list sometimes slid under the footer. These were fixed by adjusting layout math so that the action list always reserves space for the footer. In general, no panel should encroach on another’s reserved area.
+Navigation & Controls: The D-pad scrolling was too fast; this was throttled. A “Return to Main Menu” option is now present and correctly closes Umpatcher (it does not leave a hidden background process).
+Simulation Mode Clarity: The “Simulation Mode” toggle (dry-run) must be clearly labeled and explained. We ensure the status line explicitly says “(simulated)” when on, so users know no files were changed. Clear feedback prevents confusion about what “Simulation” does.
+Buffer Inspector: The live buffer status panel now updates in real-time (no manual refresh needed). Buffer fields (e.g. patch target info) are labeled clearly.
+Patch Flow and Safety
+
+A core workflow was specified: detect a buffer, parse it, preview the patch, then ask for confirmation before applying. The preview screen shows the target file, patch type, version, and the first ~20 patch lines. This matches the safety principle of always previewing changes before applying them. Indeed, WCAG-like safety rules are applied: before any patch, required fields are checked, a readable confirmation prompt is shown, and backups are made of the target file. A simulation mode flag simply runs the preview step without writing files.
+
+Design Rules and Guidelines
+
+From the sidecar rules (paraphrased into UI guidelines):
+
+Text Fit: No UI text should overflow its panel; long strings use ellipsis. This avoids the illegibility problems seen earlier.
+Grid Layout: The top status uses a true grid with boxed cells. Labels and values are separated (e.g. label above or next to value), and no grid line crosses text.
+Footer Bubbles: Help, control hints, and tickers are in a consistent bubble/panel at the bottom. They are single-line and aligned neatly. This improves tidiness and matches the style of the menu (framed bubbles).
+Highlighting: The active selection is clearly marked. For example, an active row uses a neon-green side border or background to stand out, and selected buttons glow with the accent color. Important labels (e.g. “Simulation Mode”, “Dry-Run”) are made prominent with bright text.
+Modal Behavior: If a buffer-control panel opens (e.g. inspecting patch contents), it should be modal or slide out, not drawn behind other UI. No panel should “trample” the ticker or help areas.
+Return/Exit: “Return to Main Menu” fully exits Umpatcher (it does not hide it). There is no ambiguous state left after exiting.
+Next Steps & Checklist
+Fix Overlaps: Ensure all panel boundaries are calculated from the same geometry origin (prevents clipping). Verify on Batocera display.
+Return/Back Function: Confirm the “Back” option always routes to the correct parent menu level.
+Refine Visuals: Apply any remaining theme polish (consistent use of accent colors, subtle shadows or glows if needed). Consider optional theme presets later (e.g. cyberpunk, terminal green).
+Enhance Preview: Potentially add a subpanel to preview changed files before a live push.
+Accessibility: Keep verifying contrast levels (e.g. neon-on-black), and consider testing with color-blind modes or brightness adjustments.
+References & Guidelines
+
+Key principles used:
+
+Grid Alignment & Consistency: Align elements to an invisible grid for clarity.
+Common Region Grouping: Use background shading or borders to form groups (e.g. header/footer vs. content).
+Legible Text: All UI text must be legible (no text smaller than 16px equivalent) and meet contrast minima.
+Clarity & Hierarchy: Use typography (size, weight) and color to differentiate headers from body text. For example, panel titles are bold and colored.
+Stable Navigation: Provide predictable menus; avoid hidden controls on large screens.
+
+These ensure UMPatcher’s UI is functional, discoverable, and accessible.
+
+UI Design / Thinktank Guidelines
+
+This section summarizes general UI/UX guidelines derived from the research, intended as reusable design rules across modules:
+
+Clear Visual Hierarchy: Organize elements so the most important ones stand out first. Use contrast (light vs. dark) and size differences to establish hierarchy. Limit type sizes (e.g. large, medium, small) to about three distinct levels for scanning ease.
+High Contrast Text: Follow WCAG – all normal text (and UI icons/text) should have a luminance contrast ≥4.5:1 against its background. Use bright text on dark surfaces or vice versa to maximize readability. Avoid gray-on-gray.
+Intentional Color Use: Apply a cohesive color palette where each color has meaning (e.g. primary accent, warning color). Don’t use more than 2–3 main colors to avoid visual clutter. Reserve brighter or warmer colors (red, yellow) for alerts or active states.
+Grouping via Containers: Enclose related controls in bounding boxes or panels. According to the Gestalt Common Region principle, users perceive enclosed items as a group. For example, put the header and footer bars in separate colored strips, and cluster form inputs in a titled panel. This clarifies relationships.
+Grid Alignment: Even if not explicitly shown, align elements along an implicit grid. This creates rhythm and predictability. Consistent padding and gutters between panels help scanning and prevent a “jumbled” layout.
+Readable Typography: Use legible fonts (sans-serif or clear modern faces) and ample font size. Pair fonts carefully; keep one family with weights for heading/body. Each panel header should differ from body text by size or weight to guide focus.
+Accessible Forms & Menus: Menus and form fields should be easily navigable. Do not hide menus under a hamburger icon when space permits. Always indicate the current selection or location. For forms, label everything clearly and avoid jargon.
+Feedback and States: Provide visual feedback for interactive elements (hover, focus, active). Selected items should have a noticeable highlight. For toggle or simulation modes, show an on/off label or color change to avoid confusion.
+Consistent Style: Apply a consistent style of borders, corner radii, and typography across all panels. Inconsistency (e.g. one panel with a border and another without) can confuse users about grouping.
+Don’t Cram or Overwhelm: Resist the urge to fill every pixel. Whitespace enhances comprehension. Large empty areas (like margins around panels) are valuable for separation. Avoid tiny fonts or overly small gutters.
+
+By adhering to these principles, the UI remains scan-friendly and accessible. Visual examples of UI flows or layout (e.g. annotated flowcharts or diagrams) can further clarify complex interactions, but the key is always to combine good design with user feedback and testing.
+
+References: Authoritative sources on UX and accessibility were consulted to guide design choices. For example, Nielsen Norman Group emphasizes clear visual hierarchy and purposeful color use; W3C/WCAG defines contrast minimums for text/background; and NN Group’s menu and layout guidelines advise against hiding navigation and against screen-covering menus. These references are integrated above where relevant. Each notation block in the sidecar is versioned so future AI or developers can trace these decisions and continue improvements systematically.
