@@ -1,0 +1,147 @@
+HAMMER ENGINE — 2026-04-08
+STATUS: ACTIVE
+PURPOSE: Define the first real HAMMER proposal engine.
+Hi Mom.
+
+WHAT THIS FILE IS
+- This is the engine spec for HAMMER.
+- It is not the GUI.
+- It is not the mover yet.
+- It is the logic box that reads data and emits safe proposals.
+
+FIRST VERSION TARGET
+Suggested script:
+- um_hammer_organizer.py
+
+Suggested location:
+- /userdata/system/ultramode/modules/tools/um_hammer/
+
+FIRST VERSION JOB
+- Read scanner/classifier outputs.
+- Build proposal records.
+- Do not move anything yet.
+- Write proposal files for Control Center to preview.
+
+INPUT FILES
+1. modules_incoming_inventory_latest.json
+2. modules_incoming_summary_latest.txt
+3. modules_incoming_actions_latest.txt
+4. categorized/index/MASTER_INDEX_2026-04-08.txt
+5. categorized/rules/rules_2026-04-08.txt
+6. categorized/goals/goals_2026-04-08.txt
+7. categorized/architecture/architecture_2026-04-08.txt
+8. categorized/action_layer/hammer_bridge_2026-04-08.txt
+
+OUTPUT FILES
+1. /userdata/system/ultramode/um_master_logs/reports/proposed_actions_latest.json
+2. /userdata/system/ultramode/um_master_logs/reports/proposed_actions_latest.txt
+3. /userdata/system/ultramode/um_master_logs/reports/archive_candidates_latest.txt
+4. /userdata/system/ultramode/um_master_logs/reports/review_candidates_latest.txt
+5. /userdata/system/ultramode/um_master_logs/reports/harvest_first_latest.txt
+6. /userdata/system/ultramode/um_master_logs/reports/hammer_runtime_log.txt
+
+PROPOSAL RECORD FORMAT
+Each proposal should include:
+- absolute_path
+- relative_path
+- family_group
+- inferred_class
+- reason_codes
+- duplicate_group_size
+- likely_canonical_match
+- sidecar_match
+- risk_level
+- confidence
+- action_type
+- explanation_plain_english
+- needs_harvest_first
+- protected_yes_no
+- source_report
+
+ACTION TYPES
+- ARCHIVE_CANDIDATE
+- REVIEW_REQUIRED
+- HARVEST_FIRST
+- PROTECT
+- INFO_ONLY
+
+REASON CODES
+Examples:
+- duplicate_hash_match
+- stale_backup_pattern
+- missing_header
+- missing_shebang
+- sidecar_mismatch
+- lost_intelligence_risk
+- canonical_live_match
+- mandatory_path
+- unknown_identity
+- incoming_queue_item
+
+RISK MODEL
+GREEN
+- safe archive proposal
+- clear duplicate backup
+- known canonical sibling exists
+
+ORANGE
+- harvest first
+- weak confidence
+- possible lost ideas
+- missing identity markers
+
+RED
+- protected live file
+- mandatory path
+- thinktank-rich unmatched file
+- unclear sidecar relationship
+
+BLUE
+- informational only
+- no action yet
+
+MINIMUM ENGINE DECISION RULES
+1. If file is in a protected or live path:
+   -> PROTECT
+2. If file is THINKTANK or SIDECAR and not clearly duplicated:
+   -> REVIEW_REQUIRED or HARVEST_FIRST
+3. If duplicate exists and canonical match is strong:
+   -> ARCHIVE_CANDIDATE
+4. If duplicate exists but content may hold unique wording/ideas:
+   -> HARVEST_FIRST
+5. If file identity is weak or header missing:
+   -> REVIEW_REQUIRED
+6. If item is only informational and not actionable yet:
+   -> INFO_ONLY
+
+PLAIN-ENGLISH EXPLANATION RULE
+Every proposal must include a sentence like:
+- This file looks like an old backup of a newer live script.
+- This file may contain unique ideas, so harvest text before archiving.
+- This file is protected because it appears to be the live canonical version.
+- This file needs manual review because its identity markers are incomplete.
+
+FIRST BUILD ORDER
+PHASE 1
+- Build proposal engine only
+- No live moves
+- Emit reports
+
+PHASE 2
+- Control Center reads proposal files
+- Show color, reason, explanation, related files
+
+PHASE 3
+- Add approve / reject actions
+- Backup-first move actions only after approval
+
+WHAT NOT TO DO
+- no delete
+- no silent move
+- no rewrite of source files
+- no touching original garbage unless explicitly directed
+- no assuming the newest file is always the best file
+
+FINAL RULE
+HAMMER must behave like a careful organizer, not a shredder.
+It must understand first, explain first, and only then propose action.
