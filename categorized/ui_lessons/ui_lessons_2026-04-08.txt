@@ -1,0 +1,12 @@
+UI LESSONS — EXTRACTED FROM 2026-04-08 SESSION
+
+- Bigger window improves usability immediately
+- Draggable dividers are critical for density control
+- Left panel should be minimal (lamp + name)
+- Details belong in bottom inspector
+- Only ONE navigation control set
+- Mouse + right-click required
+- Held-key repeat needed for navigation
+- Tabs > queue model
+- Always-scroll rule (no clipped content)
+- Plain-English explanations reduce confusion
