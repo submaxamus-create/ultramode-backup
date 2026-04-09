@@ -1,0 +1,12 @@
+MASTER RULES LOG
+DATE: 2026-04-09
+
+Hi Mom.
+
+CORE RULES
+- append only
+- preserve headers
+- preserve protected blocks
+- preserve Hi Mom line
+- no silent failure
+- extract before delete
