@@ -1,0 +1,46 @@
+ULTRAMODE GLOBAL RULES DIGEST
+Created: 2026-04-08
+Source: uploaded packets and handoff docs
+Status: active digest
+
+CORE WORKFLOW RULES
+- Scan first.
+- Classify first.
+- Explain first.
+- No silent failures.
+- Do not trust one donor version blindly.
+- Preserve sidecars, thinktank, and logs as intelligence.
+- Never delete first. Archive or stage first.
+- Read-only pass first for new scanners and organizers.
+- Script first, GUI second.
+
+HEADER / FILE RULES
+- Recognition headers stay near the top scan zone.
+- Required header meat: filename, folder path, destination, patch type, version, revision, date, time, summary, source file, Hi Mom.
+- Keep protected header zone and identifying wrappers in live code.
+- Move bulky history, brainstorm, and long thinktank material into sidecars.
+- Keep wrappers and identifying markers that other tools need for scanning and routing.
+- Prefer .txt sidecars for logs and thinktank packets.
+
+PATCHER / SAFETY RULES
+- Engine and sidecar must stay split.
+- Intake must classify before apply.
+- Loud error on broken routing or missing required markers.
+- Preview panes must scroll for large content.
+- Persistent error visibility is preferred over disappearing notices.
+- guaranteed_write style proof-after-write behavior is required for safety-critical writes.
+
+ORGANIZATION RULES
+- Thinktank is not clutter.
+- Sidecar is not clutter.
+- Old versions may contain lost ideas; harvest before burn or archive.
+- Duplicates should be grouped as families, not judged one-by-one.
+- Mandatory or holy-grail files should be protected from noisy duplicate handling.
+- Original garbage is staging for prior bad backup material; leave it alone after staging.
+
+AI COLLABORATION RULES
+- Preserve contributor chain.
+- Append-only by default unless explicit rewrite permission was given.
+- No unsolicited scripts or large dumps in chat.
+- One focused task at a time.
+- Output files, not rambling chat, when possible.
