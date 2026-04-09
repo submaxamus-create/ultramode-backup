@@ -1,0 +1,21 @@
+MASTER PLAN SNAPSHOT
+DATE: 2026-04-09
+
+Hi Mom.
+
+CORE
+Preserve knowledge
+Stabilize patcher
+Wire modules
+Use decision systems for cleanup
+
+FLOW
+scan -> classify -> compare -> decide -> report
+
+PRIORITY
+browse/load/queue first
+
+RULE
+extract before delete
+
+END
