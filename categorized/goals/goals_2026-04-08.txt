@@ -1,0 +1,9 @@
+GOALS — EXTRACTED FROM 2026-04-08 SESSION
+
+- Build self-organizing UltraMode system
+- Clean duplicates safely
+- Preserve ideas from old versions
+- Improve Control Center into investigation console
+- Integrate header repair + duplicate handling
+- Build HAMMER (proposal engine)
+- Move toward unified orchestrator
