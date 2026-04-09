@@ -1,0 +1,10 @@
+INDEX
+- MASTER_HANDOFF.txt
+- rules/RULES_GLOBAL.txt
+- modules/MODULE_MAP.txt
+- bugs/BUGS_AND_BLOCKERS.txt
+- roadmap/ROADMAP.txt
+- thinktank/THINKTANK_MASTER.txt
+- thinktank/categories/UI_AND_THEME.txt
+- thinktank/categories/PATCHER_AND_SAFETY.txt
+- thinktank/categories/TOOLS_AND_ARCHITECTURE.txt
