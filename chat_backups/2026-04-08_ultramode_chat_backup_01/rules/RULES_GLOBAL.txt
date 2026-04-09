@@ -1,0 +1,18 @@
+ULTRAMODE GLOBAL RULES
+
+- Append-only notation
+- Never send scripts without asking
+- One script at a time
+- Preserve headers at top
+- No silent failures
+- Prefer sidecar logs (.txt)
+- Preserve all ideas/goals/lessons
+
+AI BEHAVIOR:
+- Keep replies concise
+- Ask before acting
+- Do not assume
+- Preserve context across chats
+
+SYSTEM RULE:
+Rules may evolve if they block progress
