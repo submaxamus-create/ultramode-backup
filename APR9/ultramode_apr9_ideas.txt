@@ -1,0 +1,41 @@
+ULTRAMODE APR9 IDEAS
+====================
+Date: 2026-04-09
+
+12 script ideas to help the process:
+
+1. um_tool_validator.py
+   - verifies all tool paths, headers, syntax
+
+2. um_queue_analyzer.py
+   - deep scan of incoming/_review/_error with scoring
+
+3. um_report_indexer.py
+   - builds searchable index of all reports
+
+4. um_patch_preview_enhancer.py
+   - richer diff + metadata preview before apply
+
+5. um_header_linter.py
+   - strict header rule checker + fix suggestions
+
+6. um_dependency_mapper.py
+   - maps script relationships/import chains
+
+7. um_runtime_logger.py
+   - tracks tool runs, duration, failures globally
+
+8. um_file_health_score.py
+   - assigns confidence/risk score to every file
+
+9. um_duplicate_clusterer.py
+   - groups duplicates into families visually
+
+10. um_repair_router.py
+    - auto-routes broken files to correct tool/process
+
+11. um_master_index_builder.py
+    - builds global index of all scripts and metadata
+
+12. um_tool_launcher_safe.py
+    - standardized launch wrapper with safety and logging
