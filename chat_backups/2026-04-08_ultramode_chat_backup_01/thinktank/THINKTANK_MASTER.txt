@@ -1,0 +1,20 @@
+ULTRAMODE THINKTANK MASTER
+
+CORE IDEAS:
+- UltraMode = evolving ecosystem
+- Thinktank must be preserved and expanded
+- AI must append ideas, not replace
+
+CATEGORIES:
+- GUI evolution (lamps, bubbles, layout)
+- Patcher safety + intake rules
+- Toolchain (scanner, harvester, organizer)
+- Recovery systems
+
+FUTURE IDEAS:
+- Full system awareness (file relationships)
+- AI-readable logs across modules
+- Central rule authority
+
+RULE:
+Never lose ideas. Append-only.
