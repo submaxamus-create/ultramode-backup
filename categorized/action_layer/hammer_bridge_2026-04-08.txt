@@ -1,0 +1,97 @@
+HAMMER BRIDGE — 2026-04-08
+STATUS: ACTIVE
+PURPOSE: Bridge categorized notes into safe organizer behavior for future HAMMER work.
+Hi Mom.
+
+WHAT HAMMER IS
+- HAMMER is the action layer.
+- It is the 'hands' of the system.
+- It should never act blind.
+- It reads scanner/classifier output, proposes safe actions, and waits for approval.
+
+CORE LAW
+- Never delete first.
+- Harvest first.
+- Classify first.
+- Explain first.
+- Propose first.
+- Approval gate before move/archive.
+
+HAMMER INPUTS
+- categorized/index/MASTER_INDEX_2026-04-08.txt
+- categorized/rules/rules_2026-04-08.txt
+- categorized/goals/goals_2026-04-08.txt
+- categorized/architecture/architecture_2026-04-08.txt
+- categorized/bugs/bugs_2026-04-08.txt
+- modules_incoming_inventory_latest.json
+- modules_incoming_summary_latest.txt
+- modules_incoming_actions_latest.txt
+- future duplicate / drift / family reports
+
+HAMMER OUTPUTS
+- proposed_actions_latest.json
+- proposed_actions_latest.txt
+- archive_candidates_latest.txt
+- needs_manual_review_latest.txt
+- hammer_runtime_log.txt
+
+ACTION TYPES (SAFE FIRST)
+1. ARCHIVE_CANDIDATE
+   - old backup copy
+   - duplicate with confirmed canonical sibling
+   - stale generated report
+
+2. REVIEW_REQUIRED
+   - unknown identity
+   - missing header
+   - possible lost intelligence
+   - sidecar mismatch
+
+3. PROTECT
+   - holy grail / mandatory / live canonical file
+   - current live module
+   - user-designated protected target
+
+4. HARVEST_FIRST
+   - old version likely contains unique ideas or wording
+   - thinktank-rich donor file
+   - sidecar with unmatched intelligence
+
+APPROVAL MODEL
+- GREEN = safe archive proposal
+- ORANGE = review / harvest first
+- RED = do not touch
+- BLUE = informational / untested
+
+CONTROL CENTER CONNECTION
+- Control Center should read HAMMER proposals.
+- User selects one item or a batch.
+- System explains:
+  - why item is in proposal list
+  - what it is related to
+  - what would happen next
+- Then user approves or rejects.
+
+MINIMUM SAFE DECISION RULES
+- If file is THINKTANK or SIDECAR with useful content markers: do not auto-archive.
+- If duplicate exists but one copy may contain lost ideas: mark HARVEST_FIRST.
+- If file is in mandatory/live path: PROTECT.
+- If classification confidence is weak: REVIEW_REQUIRED.
+- If item came from prior bad backup root clutter and has clear duplicate/canonical match: ARCHIVE_CANDIDATE.
+
+WHAT HAMMER MUST NOT DO YET
+- no blind delete
+- no silent move
+- no rewrite of live code
+- no touching original garbage after staging unless user directs it
+
+NEXT BUILD STEPS
+1. Read categorized notes + gullet outputs.
+2. Build proposal engine only.
+3. Emit proposal files.
+4. Wire proposal viewer into Control Center.
+5. Add approval buttons later.
+
+SHORT SUMMARY
+HAMMER is not a shredder.
+HAMMER is a careful organizer that acts only after the machine understands the file.
