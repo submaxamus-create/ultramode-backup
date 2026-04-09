@@ -1,0 +1,31 @@
+ULTRAMODE GLOBAL GOALS
+Created: 2026-04-08
+
+PRIMARY GOAL
+- Build a self-organizing UltraMode machine.
+
+CORE CAPABILITIES TARGET
+- Scan files and understand identity (headers, structure, purpose).
+- Classify into meaningful types (module, tool, thinktank, sidecar, duplicate, unknown).
+- Detect relationships (duplicates, families, sidecars, dependencies).
+- Extract and preserve ideas, rules, and code from messy sources.
+- Separate code from text intelligence and bank them.
+- Propose safe organization actions (no blind moves).
+- Provide one unified GUI to inspect, approve, and manage everything.
+
+CLEANUP GOALS
+- Remove fat from old backups safely after harvesting ideas.
+- Identify canonical versions of scripts.
+- Reduce duplicate script clutter.
+- Preserve user and AI ideas across versions.
+
+USER EXPERIENCE GOALS
+- Controller-friendly UI.
+- Always-scrollable previews for large content.
+- Clear status indicators (lamps, color states).
+- Plain-English explanations of system decisions.
+
+LONG TERM
+- One system that learns from its own logs and thinktank.
+- Minimal manual organization needed.
+- Intelligent routing and self-healing behavior.
