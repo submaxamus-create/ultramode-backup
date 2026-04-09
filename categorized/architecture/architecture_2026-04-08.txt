@@ -1,0 +1,19 @@
+ARCHITECTURE — EXTRACTED FROM 2026-04-08 SESSION
+
+PIPELINE
+scan → classify → relate → propose → approve → move → learn
+
+SYSTEM PARTS
+- Brain: thinktank + logs
+- Eyes: scanners
+- Judge: header engine
+- Hands: (future) hammer
+- UI: control center
+
+DATA TYPES
+- VALID_PATCH
+- REVIEW
+- THINKTANK
+- SIDECAR
+- DUPLICATE
+- UNKNOWN
