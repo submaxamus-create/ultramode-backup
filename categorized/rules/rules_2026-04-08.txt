@@ -1,0 +1,22 @@
+RULES — EXTRACTED FROM 2026-04-08 SESSION
+
+GLOBAL RULES
+- No dumping large content without permission
+- Ask before sending scripts
+- Keep concise
+- Preserve intelligence (thinktank + sidecars)
+- Never delete before harvest
+
+REPO RULES
+- Pre-existing junk → original garbage
+- chat_backups untouched
+- Do not touch original garbage after staging
+
+SYSTEM RULES
+- Scan → classify → explain first
+- No silent failures
+- Do not trust single donor version
+
+UI RULES
+- Always scroll large content
+- Show plain-English explanation
