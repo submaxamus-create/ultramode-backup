@@ -1,0 +1,26 @@
+ULTRAMODE MASTER HANDOFF
+DATE: 2026-04-08
+
+CORE STATE:
+- Project is in heavy evolution with fragmented scripts and strong rule system
+- UMPatcher is central but unstable in parts (browser, patch handling)
+- Need structured scan → classify → organize pipeline
+
+PRIMARY DIRECTION:
+- Build scanner → harvester → organizer chain
+- Centralize rules + thinktank into structured system
+- Move toward modular, safe evolution system
+
+KEY SYSTEM IDEA:
+Discover → Classify → Compare → Decide → Present → Log → Learn → Improve
+
+NEXT MOVES:
+1. Scanner (full tree analysis)
+2. Harvester (extract + categorize)
+3. Organizer (merge/clean/label)
+4. UI control center
+
+NOTES:
+- Append-only notation critical
+- Never silent failure
+- Patcher safety rules must remain intact
