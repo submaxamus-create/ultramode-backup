@@ -1,0 +1,196 @@
+# ============================================================
+# FILENAME:      MASTER_PLAN.txt
+# FOLDER PATH:   /master_logs/index/
+# DESTINATION:   /master_logs/index/MASTER_PLAN.txt
+# PATCH TYPE:    CREATE
+# VERSION:       1.0
+# REVISION:      1
+# SUMMARY:       Master operating plan for Ultramode recovery, wiring, and evolution
+# ============================================================
+
+Hi Mom.
+
+# ============================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: PURPOSE
+# STATUS: ACTIVE
+# APPEND_ONLY: YES
+# ============================================================
+# This file is the stable working master plan.
+# It exists so future AI and the user can see the real direction quickly.
+# It should stay readable, patcher-safe, and useful.
+
+# ============================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: CORE_TRUTH
+# STATUS: ACTIVE
+# APPEND_ONLY: YES
+# ============================================================
+# The patch engine is not the main blocker.
+# The real blocker has been browse behavior, load behavior, queue behavior,
+# selected-file handoff truth, and module wiring consistency.
+# If browse/load/queue breaks, the whole project slows down again.
+
+# ============================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: LIVE_TARGET
+# STATUS: ACTIVE
+# APPEND_ONLY: YES
+# ============================================================
+# Current live patcher target:
+# /userdata/system/ultramode/modules/patcher/umpatcher.py
+
+# ============================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: MAIN_GOAL
+# STATUS: ACTIVE
+# APPEND_ONLY: YES
+# ============================================================
+# Build Ultramode into a self-organizing toolbox that can:
+#   - scan itself
+#   - understand itself
+#   - classify itself
+#   - compare similar files
+#   - preserve lost ideas
+#   - promote shared logic into modules
+#   - reduce duplicate sprawl safely
+#   - later support GitHub-synced remote updates
+
+# ============================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: PRIORITY_STACK
+# STATUS: ACTIVE
+# APPEND_ONLY: YES
+# ============================================================
+# TIER 1
+#   - browse works
+#   - selected file returns true path
+#   - load path receives true path
+#   - loader actually loads
+# TIER 2
+#   - queue shows correct files
+#   - preview works
+#   - long previews scroll
+# TIER 3
+#   - HAMMER
+#   - rule engine
+#   - decision engine
+#   - auto cleanup
+#   - GitHub sync
+
+# ============================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: BIG_PICTURE
+# STATUS: ACTIVE
+# APPEND_ONLY: YES
+# ============================================================
+# Ultramode is layered:
+#   layer 1 = um.py main launcher
+#   layer 2 = shared services
+#   layer 3 = umpatcher
+#   layer 4 = tools and modules
+#   layer 5 = intelligence layer
+#   layer 6 = future remote/web layer
+
+# ============================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: CURRENT_TRUTHS
+# STATUS: ACTIVE
+# APPEND_ONLY: YES
+# ============================================================
+# The scanner exists.
+# The duplicate finder exists.
+# Rule harvesting exists.
+# Idea extraction exists.
+# Directory maps exist.
+# The project already has enough information to stop guessing and start deciding.
+# The missing part is decision and wiring.
+
+# ============================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: CLEANUP_TRUTH
+# STATUS: ACTIVE
+# APPEND_ONLY: YES
+# ============================================================
+# Size does not decide value.
+# Date does not decide value.
+# Content decides value.
+# A small file may be the critical missing patch.
+# A large file may be an outdated rebuild.
+# An old file may hold lost user language or missing ideas.
+# Do not delete before extraction.
+
+# ============================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: GOLD_ZONES
+# STATUS: ACTIVE
+# APPEND_ONLY: YES
+# ============================================================
+# Treat these as idea reservoirs, not junk:
+#   - live patcher folder
+#   - backups
+#   - self backups
+#   - ! AI LOST MODULES
+#   - master logs
+#   - rule gatherer outputs
+#   - idea extractor outputs
+#   - deep research summaries
+#   - help and notation master files
+
+# ============================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: MODULE_WIRING_DIRECTION
+# STATUS: ACTIVE
+# APPEND_ONLY: YES
+# ============================================================
+# The project now needs stronger module wiring.
+# Useful modules should be moved into cleaner families.
+# Shared helpers should be reused instead of recreated.
+# Menu handling should become shared.
+# Registration should become automatic later.
+# um.py should read an index instead of endless manual wiring.
+
+# ============================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: SIDECAR_POLICY
+# STATUS: ACTIVE
+# APPEND_ONLY: YES
+# ============================================================
+# Heavy notation belongs in .txt sidecars and master logs.
+# Scripts keep shebang, header, protected regions, runtime logic, and important scan hooks.
+# Heavy thinktank, help, and history should increasingly live outside the script.
+
+# ============================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: HAMMER_DIRECTION
+# STATUS: ACTIVE
+# APPEND_ONLY: YES
+# ============================================================
+# HAMMER should observe first:
+#   scan
+#   inventory
+#   classify
+#   compare
+#   report
+# Later:
+#   organize
+#   promote
+#   assist cleanup
+
+# ============================================================
+# ULTRAMODE NOTATION BLOCK
+# CATEGORY: FINAL_SUMMARY
+# STATUS: ACTIVE
+# APPEND_ONLY: YES
+# ============================================================
+# Ultramode already has enough intelligence to stop guessing.
+# The next correct move is:
+#   preserve lost knowledge
+#   stabilize live patcher
+#   wire modules together
+#   let decision tools guide cleanup
+# Not brute-force rebuilds.
+# Not decoration-first.
+# Not random feature stacking.
+
+### EOL ###
