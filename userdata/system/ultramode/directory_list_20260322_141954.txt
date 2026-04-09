@@ -1,0 +1,16 @@
+DIRECTORY LIST REPORT
+================================================================================
+Scan root: /userdata/system/ultramode
+Generated: 2026-03-22 14:19:54
+================================================================================
+
+[DIR ] [MOD: 2026-03-22 14:19:54] /userdata/system/ultramode
+    [FILE] [MOD: 2026-03-22 09:37:15] [SIZE:    28.2 KB] [EXT: .pdf] /userdata/system/ultramode/Deep Research Backing Conversation for session None.pdf
+    [FILE] [MOD: 2026-03-21 17:34:29] [SIZE:    14.8 KB] [EXT: [no_ext]] /userdata/system/ultramode/UM DEEP RESEARCH SESSION SUMMARY
+    [FILE] [MOD: 2026-03-22 14:19:54] [SIZE:      0.0 B] [EXT: .txt] /userdata/system/ultramode/directory_list_20260322_141954.txt
+    [FILE] [MOD: 2026-03-15 17:12:25] [SIZE:     2.8 KB] [EXT: .py] /userdata/system/ultramode/directory_list_richer.py
+    [FILE] [MOD: 2026-03-22 00:06:04] [SIZE:     2.5 KB] [EXT: .sh] /userdata/system/ultramode/restore_taskbar.sh
+    [FILE] [MOD: 2026-03-19 00:45:43] [SIZE:    25.3 KB] [EXT: .py] /userdata/system/ultramode/um.py
+    [FILE] [MOD: 2026-03-22 12:20:38] [SIZE:    33.3 KB] [EXT: .py] /userdata/system/ultramode/um_master_logs_bootstrap_v1.py
+    [FILE] [MOD: UNKNOWN_TIME] [SIZE: UNKNOWN_SIZE] [EXT: .log] /userdata/system/ultramode/um_notation.log
+    [FILE] [MOD: 2026-03-21 19:38:25] [SIZE:     3.7 KB] [EXT: .py] /userdata/system/ultramode/um_notation.py
