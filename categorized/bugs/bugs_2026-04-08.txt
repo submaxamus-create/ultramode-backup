@@ -1,0 +1,25 @@
+BUGS / ISSUES — EXTRACTED FROM 2026-04-08 SESSION
+
+CONTROL CENTER
+- Left panel not scrolling correctly (early versions)
+- Mouse clicks not working initially
+- Duplicate nav buttons appeared
+- Bottom inspector clipping text
+- Center panel scroll missing or inconsistent
+
+INPUT
+- Held key did not auto-repeat initially
+- D-pad / key repeat timing issues
+
+LAYOUT
+- Window too small initially
+- Bubbles too large / wasting space
+- Misaligned text in nav buttons
+
+SYSTEM
+- Regression when merging reader logic
+- Confusion from queue-based model
+
+CONCLUSION
+- Most bugs came from UI regressions and partial merges
+- Stable base should be chosen before adding new features
