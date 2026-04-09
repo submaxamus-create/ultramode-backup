@@ -1,0 +1,114 @@
+04/02 — HANDOFF (RULE HARVESTER UI — TRANSPARENCY / NEON LAMP SYSTEM)
+
+## CORE IDEA (LOCK THIS)
+UI is NOT painted.
+UI is CUT OUT.
+
+Everything works like:
+metal panel -> holes -> neon/lamp behind -> color shows through
+
+## VISUAL RULES (MANDATORY)
+
+### 1. TEXT = TRUE HOLES
+- letters are alpha cut (0 opacity)
+- NO white text
+- NO glow baked in
+- neon comes from behind only
+
+### 2. BUTTON BODY
+- interior = transparent
+- only keep:
+  - outer frame
+  - optional inner frame
+- think: stamped steel panel
+
+### 3. OUTLINE SYSTEM (IMPORTANT)
+Each button can have:
+- outer frame (structure)
+- inner frame (light channel edge)
+
+[ metal frame ]
+   [ thin inner edge ] <- glow catch
+      (empty space)
+         TEXT CUTOUT
+
+### 4. GLOW SOURCE (NOT IN IMAGE)
+ALL color comes from script:
+- green = good
+- red = fault
+- blue = neutral
+- yellow/orange = warning
+- purple = special/dev
+
+UI files must allow light bleed, not generate light.
+
+## BUTTON DESIGN TYPES (TARGET SET)
+Create 9 variants:
+1. clean rectangle (thin)
+2. double frame (inner glow edge)
+3. angled corners
+4. hex style
+5. beveled cut edge
+6. stencil style (broken letter cuts)
+7. heavy industrial (thicker frame)
+8. ultra thin minimal
+9. segmented sci-fi frame
+
+ALL must:
+- use cutout text
+- use transparent interiors
+
+## TRANSPARENCY RULES
+### REQUIRED
+- PNG with real alpha
+- no fake dark fill
+- no baked lighting
+
+### AVOID
+- fog glass
+- gradients inside buttons
+- fake glow
+
+## LAMP SYSTEM (FOR CODE LATER)
+Behind UI:
+- soft radial glow per button
+- intensity controlled by state
+- slight flicker optional
+- ramp-up effect (tube warm-up)
+
+## FILE STRUCTURE IDEA
+/ui/
+  /frames/
+    main_panel.png
+
+  /buttons/
+    btn_clean.png
+    btn_double.png
+    btn_hex.png
+    ...
+
+  /masks/
+    text_cutouts/
+
+## RENDER STACK (IMPORTANT)
+Order:
+1. background
+2. neon/light layer
+3. UI overlay (holes reveal light)
+
+## COMMON FAILURE (DO NOT REPEAT)
+- text drawn instead of cut
+- button filled with gray/black
+- glow baked into asset
+- uneven alpha edges (must be crisp)
+
+## GOAL LOOK
+Dead metal panel.
+Lights only exist behind.
+UI reveals the light, never emits it.
+
+## NEXT STEP (DO NOT AUTO DO)
+Ask:
+"generate 9 button cutout set (A clean / B industrial / C hybrid)?"
+
+END HANDOFF
