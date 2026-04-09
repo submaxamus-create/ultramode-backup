@@ -1,0 +1,48 @@
+MASTER INDEX — 2026-04-08
+STATUS: ACTIVE
+PURPOSE: Entry point for categorized notes, rules, goals, ideas, architecture, scripts, UI lessons, and bugs.
+Hi Mom.
+
+CATEGORIES
+- categorized/rules/rules_2026-04-08.txt
+  Global workflow, repo, system, and UI rules.
+
+- categorized/goals/goals_2026-04-08.txt
+  Global goals and intended end-state.
+
+- categorized/ideas/ideas_2026-04-08.txt
+  Core ideas and guiding insights from the session.
+
+- categorized/architecture/architecture_2026-04-08.txt
+  System pipeline, parts, and data types.
+
+- categorized/scripts/scripts_2026-04-08.txt
+  Scripts created and their roles.
+
+- categorized/ui_lessons/ui_lessons_2026-04-08.txt
+  UI lessons learned from repeated revisions.
+
+- categorized/bugs/bugs_2026-04-08.txt
+  Bugs, regressions, and stability notes.
+
+HOW THEY CONNECT
+1. rules define what not to violate.
+2. goals define what the system is trying to become.
+3. ideas capture useful concepts worth preserving.
+4. architecture maps the machine and flow.
+5. scripts lists what was actually built.
+6. ui_lessons explains what made the interface better or worse.
+7. bugs records failure patterns and regressions.
+
+BEST READING ORDER FOR AI
+1. rules
+2. goals
+3. architecture
+4. ideas
+5. bugs
+6. ui_lessons
+7. scripts
+
+NEXT LAYER
+- Build action-layer notes that bridge these categories into safe organizer behavior.
+- Feed future HAMMER / Control Center work from this index.
