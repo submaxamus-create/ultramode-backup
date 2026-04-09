@@ -1,0 +1,24 @@
+SCRIPTS — EXTRACTED FROM 2026-04-08 SESSION
+
+CONTROL CENTER SERIES
+- um_control_center_v1_0_r2_2026-04-08_fixed.py
+- um_control_center_v1_0_r3_2026-04-08_dividers_scroll.py
+- um_control_center_v1_0_r4_2026-04-08_dense_list_inspector.py
+- um_control_center_v1_0_r5_2026-04-08_investigation_console.py
+- um_control_center_v1_0_r6_2026-04-08_nav_center_scroll.py
+- um_control_center_v1_0_r7_2026-04-08_reader_folded.py
+- um_control_center_v1_0_r8_2026-04-08_r6_reader_merge.py
+- um_control_center_v1_0_r9_2026-04-08_navfit_fix.py
+- um_control_center_v1_0_r10_2026-04-08_keyrepeat_more.py
+- um_control_center_v1_0_r11_2026-04-08_nav_cleanup.py
+- um_control_center_v2_0_r1_2026-04-08_big_leap.py
+- um_control_center_v2_0_r2_2026-04-08_full_tabs.py
+- um_control_center_v2_0_r3_2026-04-08_header_repair_wired.py
+- um_control_center_v2_0_r4_2026-04-08_duplicates_wired.py
+
+SCANNER
+- um_modules_incoming_gullet_v1_0_r1_2026-04-08.py
+
+NOTES
+- Main theme: evolve Control Center from mock dashboard into investigation / approval console.
+- Main scanner theme: read-only first, classify first, no blind moves.
