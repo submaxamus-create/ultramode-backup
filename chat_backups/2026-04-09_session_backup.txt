@@ -1,0 +1,113 @@
+SESSION BACKUP
+DATE: 2026-04-09
+SOURCE: ChatGPT session backup created from accessible session context
+STATUS: APPEND-ONLY STYLE SNAPSHOT
+
+Hi Mom.
+
+IMPORTANT LIMIT
+This backup preserves the major script, notation, architecture, and recovery content available in this session context.
+It is not a guaranteed byte-for-byte raw export of every single chat message.
+It is a structured session backup pack.
+
+CURRENT LIVE TARGET
+/userdata/system/ultramode/modules/patcher/umpatcher.py
+
+CORE SESSION TRUTHS
+- UMPatcher browse/load/queue behavior has been a primary blocker.
+- User reported UMPatcher got fixed today, but important thinktank context was copied over or lost.
+- User needs stronger module wiring.
+- User wanted a tidy patcher-safe master plan file.
+- User wants browse, queue, and loader truth preserved over decoration-first work.
+
+MAIN DIRECTIONS CAPTURED
+- patch engine itself is not the main problem
+- browse/load/queue/path handoff truth is the critical path
+- preserve lost knowledge before cleanup
+- use scanner, duplicate finder, idea extraction, and rule harvesting as intelligence inputs
+- build a decision engine for non-destructive classification and recommendation
+- wire modules together through shared helpers instead of spawning isolated logic
+- promote heavy notation into sidecars and master logs
+- keep headers in the recognition zone and preserve protected blocks and Hi Mom. lines where present
+
+PRIORITY STACK
+TIER 1
+- browse works
+- selected file returns true path
+- load path receives true path
+- loader actually loads
+
+TIER 2
+- queue shows correct files
+- preview works
+- long previews scroll
+
+TIER 3
+- hammer
+- rule engine
+- decision engine
+- auto cleanup
+- github sync
+
+LAYER CAKE SUMMARY
+- layer 1 = um.py main launcher
+- layer 2 = shared services and mandatory helpers
+- layer 3 = umpatcher main workhorse and intake engine
+- layer 4 = modules/tools family
+- layer 5 = intelligence layer: scanner, duplicate finder, rule harvester, plugin discovery, idea extraction, script-map logic
+- layer 6 = future remote/web/github sync layer
+
+CLEANUP RULES CAPTURED
+- do not delete before extraction
+- do not trust size alone
+- do not trust date alone
+- content decides value
+- small files may hold the missing patch
+- old files may hold lost user language or missing ideas
+
+GOLD ZONES CAPTURED
+- live patcher folder
+- backups and self backups
+- ! AI LOST MODULES
+- master logs
+- rule gatherer outputs
+- idea extractor outputs
+- deep research summaries
+- help and notation master files
+
+MODULE WIRING DIRECTION
+- use shared helpers instead of duplicate logic
+- move toward shared menu handling
+- move toward manifest/registration path
+- allow um.py to build menus from indexed module data later
+
+HAMMER DIRECTION
+- observer first
+- scan
+- inventory
+- classify
+- compare
+- report
+- organize later
+- cleanup later
+
+GITHUB DIRECTION
+- future source of truth can be GitHub
+- local Batocera runtime stays local
+- safe sync agent can pull/push changes later
+- supports remote edits from phone/browser and AI-assisted work later
+
+FILES AND REFERENCES MENTIONED IN SESSION
+- ,;,MASTER_PLAN.TXT requested as master plan target name
+- umpatcher_header_rules_2026-04-06.txt referenced for header and recognition-zone rules
+- ULTRAMODE_ARCHITECTURE.txt referenced for layer cake and modular design
+- umpatcher_thinktank_log_APPEND_2026-04-06_browser_recovery_priority.txt referenced for browse recovery priority
+- MASTER_UM_HELP_LOGS&NOTATIONS.LOG.txt referenced for sidecar/master-log policy
+- ULTRAMODE_AI_KNOWLEDGE_TRANSFER 2.0_log.txt referenced for permanent identity and brevity/script rules
+- AI_THINKTANK.txt referenced for shared-state and append-only AI collaboration direction
+- THE BIG GOAL.TXT referenced for GitHub-sync and remote-edit future direction
+- idea_extractor_report_20260405_131212.txt referenced for duplicate density and goldmine sources
+- directory_list_20260406_190551.txt referenced for project tree overview
+
+END OF SESSION BACKUP
+### EOL ###
