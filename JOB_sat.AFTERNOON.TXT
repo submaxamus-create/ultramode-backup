@@ -1,0 +1,199 @@
+[2026-04-10 17:58 ET]
+FILENAME: JOB_sat.AFTERNOON.TXT
+TARGET: /userdata/system/ultramode/
+STATUS: THINKTANK HANDOFF / APPEND ONLY
+Hi Mom.
+
+===============================================================================
+[CORE DIRECTIVE — NO CODE LEFT BEHIND]
+- Any script, idea, system concept, or meaningful coding tangent MUST become a file.
+- Chat is NOT storage. Files + logs are the truth layer.
+- All AI must convert thought → structure → file → system.
+===============================================================================
+
+===============================================================================
+[WHAT THIS CHAT ACHIEVED]
+===============================================================================
+- Consolidated Control Center into strongest build line (v2.1 r3)
+- Identified best donor: v2.0 r4 duplicates_wired
+- Harvested:
+  - inventory reader split
+  - nav system + tools
+  - key repeat + paging
+  - tab system (Modules / Duplicates / Drift / Unknown / Actions)
+- Injected SLOT SYSTEM (named layout zones, not raw coordinates)
+- Clarified architecture:
+  - Master Control = launcher
+  - Control Center = analyzer / classifier / repair direction
+- Connected scanner:
+  - um_librarian_scanner_classifier.py → librarian_inventory_latest.json
+  - THIS = truth feed for system + Claude handoff
+===============================================================================
+
+===============================================================================
+[LOCKED SYSTEM FLOW]
+===============================================================================
+DISCOVER → CLASSIFY → COMPARE → REPORT → DECIDE → DISPLAY → LOG → LEARN
+
+- Scanner produces truth
+- Control Center reads truth
+- Thinktank stores meaning
+- AI evolves system from logs
+===============================================================================
+
+===============================================================================
+[GUI VISION — FINAL DIRECTION]
+===============================================================================
+- FULL SCREEN FIRST MENU (NO HIDDEN INFO)
+- NO meaningless abbreviations
+- EVERYTHING visible and readable
+
+LAYOUT (TARGET):
+LEFT   = modules / file list / classification
+CENTER = live results / scan output / progress
+RIGHT  = rules / thinktank / AI guidance
+BOTTOM = inspector / explanation / WHY THIS EXISTS
+
+REQUIREMENTS:
+- no text overflow
+- no clipped UI
+- no hidden meaning
+- full scroll everywhere needed
+- visible help always on screen
+
+STYLE:
+- neon + warm radio / wood panel hybrid
+- animated feedback (progress, scan, activity)
+- “alive” feeling system
+===============================================================================
+
+===============================================================================
+[SDS — SMART DEV SMILEY (CRITICAL)]
+===============================================================================
+- Developer button + system emotional indicator
+
+BEHAVIOR:
+- blink = idle
+- wink = good / success
+- wide smile = stable system
+- squeezed eyes = error / stress
+- tongue out = random idle life
+- YUCK face = BAD / NO / BLOCK
+
+REQUIREMENTS:
+- always visible
+- tied to real system state
+- sits near status + error panel
+===============================================================================
+
+===============================================================================
+[LAMPS SYSTEM]
+===============================================================================
+- MUST use real translucent bulb assets
+- SEARCH LOCATIONS:
+  - /graphics
+  - /ultramode_graphics
+
+COLORS:
+- GREEN = good
+- ORANGE = warning
+- RED = error
+- BLUE = info
+
+GOAL:
+- soft glow (not flat color)
+- warm ramp-up like vacuum tubes
+- layered lighting behind UI
+===============================================================================
+
+===============================================================================
+[ERROR + REPORT WINDOW]
+===============================================================================
+- always visible or toggleable
+- shows:
+  - errors
+  - scan results
+  - actions taken
+  - reasoning (WHY)
+
+NO SILENT FAILURES
+===============================================================================
+
+===============================================================================
+[JOB SYSTEM — NEW RULE]
+===============================================================================
+- AI tasks = JOBS
+- jobs output to folders (not chat)
+
+FLOW:
+AI → job → output file → system reads result → UI displays → user approves
+
+PURPOSE:
+- clean folder structure
+- repeatable automation
+- no lost work
+===============================================================================
+
+===============================================================================
+[BASE44 DONOR TRUTH]
+===============================================================================
+- donor = layout + structure + ideas
+- NOT runtime engine
+
+REUSE:
+- dashboard shape
+- thinktank reader
+- lamp language
+- component breakdown
+
+DO NOT TRUST:
+- mock data
+- web-only logic
+===============================================================================
+
+===============================================================================
+[CLAUDE HANDOFF TARGET]
+===============================================================================
+INPUT:
+- librarian_inventory_latest.json
+
+FILTER:
+- modules/tools
+- incoming
+
+OUTPUT:
+- filename
+- folder
+- SUMMARY
+
+GOAL:
+- AI group analysis
+- system evolution from real data
+===============================================================================
+
+===============================================================================
+[USER RULES LOCKED]
+===============================================================================
+- NO CODE LEFT BEHIND
+- ALWAYS DATE + TIME EVERYTHING
+- NO LONG CHAT DUMPS WITHOUT ASKING
+- ONE STEP AT A TIME
+- PRESERVE IDEAS
+- DO NOT BREAK LAYOUT
+- DO NOT HIDE INFORMATION
+- DO NOT ASSUME — ASK
+===============================================================================
+
+===============================================================================
+[FINAL INTENT]
+===============================================================================
+- build a self-organizing system
+- UI that explains itself
+- logs that feed AI evolution
+- control center that feels alive
+- nothing lost, everything learned
+
+“the lights are warming, the system is waking”
+===============================================================================
+
+### EOL ###
