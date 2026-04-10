@@ -1,0 +1,107 @@
+[2026-04-10 17:39 ET]
+ULTRAMODE CHAT SUMMARY — CONTROL CENTER CONSOLIDATION
+
+SUMMARY:
+- User supplied many um_control_center variants and asked for consolidation, cleanup, deletion guidance, and a stronger single-file base.
+- Best old donor identified as um_control_center_v2_0_r4_2026-04-08_duplicates_wired(4).py because it had the fullest real Control Center feature set before rebuild.
+- Helper-only files (reader/live_wire) were identified as superseded once live loading was folded into later full builds.
+
+MAIN WORK COMPLETED:
+1) Built a cleaned single-file base:
+   - um_control_center_v2_1_r1_2026-04-10_balanced_single_build.py
+   - Goal: strongest merged base with helper clutter removed and wrapper-style structure improved.
+
+2) Harvested unique donor behavior into a new build:
+   - um_control_center_v2_1_r2_2026-04-10_harvested_build.py
+   - Major harvested donor value:
+     * from v1 r7 reader_folded: cleaner two-step inventory loading split
+       - load_inventory_payload / convert-style separation
+     * from v1 r6: main menu/tools interaction DNA, F9/F10 shortcut intent, center scroll/thumb mindset
+     * from v1 r10: held-key repeat and PageUp/PageDown/Home/End expectations
+     * from v1 r11: nav-fit / top-bar polish intent
+     * from v2 r2: tabs architecture, build_views style, plain-English why/action row shaping
+
+3) Injected slot system into the current Control Center:
+   - um_control_center_v2_1_r3_2026-04-10_slot_injected_build.py
+   - Slot system added as named layout zones under the working UI.
+   - Named zones injected:
+     * HEADER_BAR
+     * TABS_BAR
+     * LEFT_PANEL
+     * CENTER_PANEL
+     * RIGHT_PANEL
+     * BOTTOM_STATUS
+     * POPUP_LAYER
+     * LEFT_DIVIDER
+     * RIGHT_DIVIDER
+   - Old rect compatibility kept alive:
+     * top_rect
+     * tabs_rect
+     * left_rect
+     * center_rect
+     * right_rect
+     * footer_rect
+   - Purpose: reduce coordinate spaghetti, make resizing safer, and let future AI modify layout by slot name.
+
+ARCHITECTURE DECISIONS:
+- Control Center is the deep inspection / analysis / management shell.
+- Master Control is a launcher hub, not a replacement for Control Center.
+- Template slot file is only scaffolding; the working Control Center is the real built module.
+- Final stance: template idea was useful only as a layout concept donor, not as a direct replacement.
+
+SAFE DELETE GUIDANCE GIVEN DURING CHAT:
+- um_control_center_reader(4).py
+- um_control_center_live_wire(3).py
+- um_control_center_v1_0_r2_2026-04-08_fixed(1).py
+- um_control_center_v1_0_r3_2026-04-08_dividers_scroll(2).py
+- um_control_center_v1_0_r4_2026-04-08_dense_list_inspector(1).py
+- um_control_center_v1_0_r5_2026-04-08_investigation_console.py
+- um_control_center_v1_0_r6_2026-04-08_nav_center_scroll(1).py
+- um_control_center_v1_0_r7_2026-04-08_reader_folded(1).py
+- um_control_center_v1_0_r8_2026-04-08_r6_reader_merge(1).py
+- um_control_center_v1_0_r9_2026-04-08_navfit_fix(1).py
+- um_control_center_v1_0_r10_2026-04-08_keyrepeat_more(1).py
+- um_control_center_v1_0_r11_2026-04-08_nav_cleanup(1).py
+- um_control_center_v2_0_r1_2026-04-08_big_leap(2).py
+- um_control_center_v2_0_r2_2026-04-08_full_tabs(1).py
+- um_control_center_v2_0_r3_2026-04-08_header_repair_wired(1).py
+
+KEEP GUIDANCE GIVEN DURING CHAT:
+- Keep um_control_center_v2_0_r4_2026-04-08_duplicates_wired(4).py as old backup / donor ancestor.
+- Keep um_control_center_v2_1_r2_2026-04-10_harvested_build.py as rollback if desired.
+- Keep um_control_center_v2_1_r3_2026-04-10_slot_injected_build.py as best new build from this chat.
+- Keep the live runtime um_control_center.py until manually replaced and confirmed working.
+
+FILES DISCUSSED / IDENTIFIED:
+- um_control_center_reader.py
+- um_control_center_live_wire.py
+- um_control_center_v1_0_r2 fixed
+- um_control_center_v1_0_r3 dividers_scroll
+- um_control_center_v1_0_r4 dense_list_inspector
+- um_control_center_v1_0_r5 investigation_console
+- um_control_center_v1_0_r6 nav_center_scroll
+- um_control_center_v1_0_r7 reader_folded
+- um_control_center_v1_0_r8 reader_merge
+- um_control_center_v1_0_r9 navfit_fix
+- um_control_center_v1_0_r10 keyrepeat_more
+- um_control_center_v1_0_r11 nav_cleanup
+- um_control_center_v2_0_r1 big_leap
+- um_control_center_v2_0_r2 full_tabs
+- um_control_center_v2_0_r3 header_repair_wired
+- um_control_center_v2_0_r4 duplicates_wired
+- um_control_center_v2_1_r1 balanced_single_build
+- um_control_center_v2_1_r2 harvested_build
+- um_control_center_v2_1_r3 slot_injected_build
+- um_master_control.py (compared as a launcher hub, not as a control-center replacement)
+- um_control_template_v0_1_r1_2026-04-07_1000_template.py (used only as slot-layout concept donor)
+
+SHORT FINAL TAKE:
+- Best old donor: v2.0 r4 duplicates_wired
+- Best new result from this chat: v2.1 r3 slot_injected_build
+- Main gains: consolidation, harvesting, layout stabilization, delete-list cleanup, clearer separation between launcher hub vs analyzer UI.
+
+NOTES ON USER PREFERENCE IN THIS CHAT:
+- User requested very short replies, minimum chat, and no long answers.
+- User explicitly wanted comparison clarity between scripts and did not want the template confused with the stronger donor build.
+
+### EOL ###
