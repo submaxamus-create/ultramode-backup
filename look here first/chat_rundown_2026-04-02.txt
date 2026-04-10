@@ -1,0 +1,89 @@
+ULTRAMODE CHAT RUNDOWN
+Generated: 2026-04-02 16:12 local note
+
+Main themes in this chat:
+- Rule Harvester v3.2 r6 stable branch handoff was established as the original working baseline.
+- The visual direction was heavily refined toward a machine-like panel background with live UI text layered on top.
+- User repeatedly clarified the lighting model: no fake front glow, no pre-lit buttons, no decorative always-on light.
+- Correct lighting model became: background/static shell first, rear lamp engine second, live UI text third.
+- Lamp behavior direction evolved into rear-light-only, logic-driven, tube warm-up style glow.
+- A series of lamp engine prototype files were created and iterated from v1 r1 through later revisions.
+- Rule Harvester later received v14 series experimental files including lamp hook integration, UI polish, cutout mapping, usability shell, scan/results shell, and notated handoff.
+- User clarified that some renamed files such as '*full.py' were confusing and should not replace clear versioned naming.
+- User also clarified that r24 had not been handed back and that naming clarity matters for patcher workflows.
+- Menu tools work was requested so menus could expose real scripts from the UltraMode tree.
+- A script-catalog version of menu_tools.py was created in v2.6 r1, then reissued as a patcher-targeted v2.6 r2 because patcher ejected the earlier file.
+- User requested a biggest-text-file finder script to locate large notation and log files; a tool script was created for that.
+
+Important preserved rules:
+- Keep chat short.
+- Ask before sending files unless directly requested.
+- Save should never exit the tool.
+- Back / ESC should return softly rather than hard-kill subpanes.
+- Startup should begin on the main menu, not the tree.
+- Visible on-screen buttons are primary.
+- Keyboard + gamepad support are expected.
+- Append-only notation only.
+- Do not reintroduce fake front glow or random lit buttons.
+- Keep file naming obvious, traceable, and versioned.
+
+Lamp-system evolution summary:
+- rear-light only
+- all off by default
+- selected/logic-driven activation only
+- warm-up like tubes in an amp
+- future pulse/shimmer/blink modes considered
+- future config/profile system considered
+- future cutout mapping per asset considered
+- future sound-sync option mentioned in thinktank
+
+Files especially relevant to the lamp / rule-harvester line in this chat:
+- um_lamp_engine_v1_r1_2026-04-01.py
+- um_lamp_engine_v1_r2_2026-04-01.py
+- um_lamp_engine_v1_r3_2026-04-01.py
+- um_lamp_engine_v1_r4_tube_profiles_2026-04-01.py
+- um_lamp_engine_v1_r5_sections_2026-04-01.py
+- um_lamp_engine_v1_r6_groups_2026-04-01.py
+- um_lamp_engine_v1_r7_integration_ready_2026-04-01.py
+- um_lamp_engine_v1_r8_master_ready_2026-04-01.py
+- um_lamp_engine_v1_r9_ultramode_contract_2026-04-01.py
+- um_lamp_engine_v1_r10_notated_contract_2026-04-01.py
+- um_lamp_engine_v1_r11_ultra_sync_2026-04-01.py
+- um_lamp_engine_v1_r12_more_presets_2026-04-01.py
+- um_lamp_engine_v1_r13_thinktank_2026-04-01.py
+- um_lamp_engine_v1_r14_thinktank_expanded_2026-04-01.py
+- um_lamp_engine_v1_r15_master_thinktank_2026-04-01.py
+- um_lamp_engine_v1_r16_shapes_zones_2026-04-01.py
+- um_lamp_engine_v1_r17_behaviors_2026-04-01.py
+- um_lamp_engine_v1_r18_section_toggles_2026-04-01.py
+- um_lamp_engine_v1_r19_config_profiles_2026-04-01.py
+- um_rule_harvester_v14_r20_lamp_hook_integration_2026-04-01.py
+- um_rule_harvester_v14_r21_ui_polish_2026-04-01.py
+- um_rule_harvester_v14_r22_cutout_mapping_2026-04-01.py
+- um_rule_harvester_v14_r23_usability_stability_2026-04-01.py
+- um_rule_harvester_v14_r24_scan_results_2026-04-01.py
+- um_rule_harvester_v14_r25_notated_handoff_2026-04-02.py
+- um_rule_harvester_theme.py
+- um_rule_harvester_log.txt
+
+Menu/catalog related files from this chat:
+- menu_tools_v2_6_r1_2026-04-02_script_catalog.py
+- menu_tools_v2_6_r2_patcher_target_2026-04-02.py
+
+Utility related file from this chat:
+- um_biggest_txt_finder_v1_r1_2026-04-02.py
+
+Suggested organization target requested by user:
+- look here first/
+  - lamp files
+  - closely related rule harvester files
+  - this chat rundown
+- just the scripts/
+  - other scripts from this chat
+
+Open work still not complete:
+- real tree skip editor integration in the v14 rule harvester line
+- full apply/review safe patch pipeline
+- perfect lamp cutout mapping per art asset
+- stronger menu auto-discovery instead of hand-maintained script lists
+- optional GitHub backup folder conventions across the whole project
