@@ -1,0 +1,30 @@
+# ULTRAMODE SESSION CHAT SUMMARY
+# DATE: 2026-04-06
+# STATUS: MIXED / BROWSE-RECOVERY STILL BLOCKED
+# NOTE:
+# - This is a handoff summary of the chat/session work.
+# - It is NOT a raw full transcript export.
+# - Raw full conversation text was not directly available as a single source file.
+#
+# KEY POINTS
+# - Multiple attempts were made to restore/fix umpatcher browse, queue, load, and titlebar behavior.
+# - A mandatory helper module was created: um_tree_explorer_module.py
+# - Existing helper/browser pieces were identified as important:
+#   um_incoming_browser.py
+#   incoming_queue_cleaner.py
+#   um_browse_mode.py
+#   um_rule_harvester.py / r28 notationwrap version
+# - A rescue rebuild of umpatcher was rejected because it lost too much GUI and did not preserve the Rule Harvester shell.
+# - The preferred next direction was locked as:
+#   keep umpatcher v16.9 r39 as engine base
+#   steal/take over Rule Harvester r28 GUI shell
+#   create one browser window for Browse Files / Incoming Browser / Incoming Queue
+#   preserve previous-menu return
+#   keep preview and lamps for header quality / gui / terminal / trust class
+#   modularize via mandatory helpers or sidecars when wise
+#
+# LESSONS LOGGED
+# - Do not do giant monolithic rebuilds when the browse branch is the blocker.
+# - Do not trust compile success as user-visible success.
+# - Do not stack many unrelated rewires in one pass.
+# - Patch one live branch at a time and verify on screen.
