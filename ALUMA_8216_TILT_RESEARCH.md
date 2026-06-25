@@ -91,6 +91,52 @@ engages fully before towing.
 
 ---
 
+## 3a. Troubleshooting — "deck only tilts down halfway" (logged 2026-06-25)
+
+**Symptom observed on this unit:** With the two front latches released and the petcock
+opened, the empty deck tilts down only ~halfway and stalls. Standing on the very rear and
+jumping forces it the rest of the way to the ground.
+
+**Why this happens (the mechanism):** This is a *balanced gravity tilt* with a hydraulic
+dampener + gas spring. The whole hydraulic/gas unit is bought from **Force America**; Aluma
+has no manual or parts diagram for it.
+- The **two front latches** lock the deck level for travel.
+- The **petcock** is a bleed valve on the dampener cylinder: open = oil free to transfer
+  (deck can move), closed = hydraulically locked. It controls *whether/how fast* the deck
+  moves, **not how far**.
+- The **gas spring + the deck's forward‑of‑center balance** are what hold the bed up. Empty,
+  the deck wants to sit level; it's tuned to tilt **under load** and to help self‑raise.
+- Empty, the only thing tilting it down is the short rear overhang's weight, working against
+  the gas spring. It **stalls at the force‑balance point**; jumping on the tail adds enough
+  moment to push past it. Partly by design — it's meant to drop the rest of the way as a
+  load rolls on.
+
+**But this much resistance isn't normal.** Likely causes, in order:
+1. **Dry/rusty pivot pins (most likely — visible in the underside photo).** Stiction eats the
+   marginal empty tilting force. **Fix: clean and grease the pivot pins/bushings,** retry
+   empty. Often resolves it on its own.
+2. **Gas spring charge/condition.** After ~10 years it may bind or be mis‑charged. Some units
+   have a **Schrader air fitting on the hydraulic tube** to adjust the charge — *but lowering
+   it to drop easier can make the deck slam and fail to self‑return.* Only adjust to the
+   supplier's spec.
+3. **Petcock not fully open / old sludgy oil** restricting flow (slows rather than stops).
+4. **Mechanical catch** — debris between deck and frame, or a tweaked retaining rail at the
+   mid‑tilt position.
+
+**Safety:** A "stuck" tilt deck can break free suddenly. Do not stand under it or put hands
+at pinch points; don't load/unload until it cycles smoothly. The jump‑on‑the‑end trick is
+exactly how people get caught when it lets go.
+
+**Recommended order:** (1) clean/grease pivots → retry empty. (2) If still stuck, the gas
+unit needs service/recharge — call **Aluma 1‑866‑415‑3285 with the last 6 of VIN (160851)**
+and ask them to identify the **Force America** hydraulic/gas unit, then have a hydraulics
+shop service it.
+
+_Sources: Garage Journal "Hydraulic Cylinder Tilt Aluma Trailer" thread; OrangeTractorTalks
+"Tilt trailer malfunction"; Premium Supply "How To Recharge your Gravity Tilt System."_
+
+---
+
 ## 4. Pricing context (June 2026)
 
 | Configuration | Price |
